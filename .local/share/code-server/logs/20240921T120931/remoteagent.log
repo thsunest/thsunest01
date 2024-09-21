@@ -1,0 +1,22 @@
+2024-09-21 12:09:31.907 [info] 
+
+
+
+
+2024-09-21 12:09:31.983 [info] Extension host agent started.
+2024-09-21 12:09:31.996 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-09-21 12:09:34.338 [info] [127.0.0.1][8b841822][ManagementConnection] New connection established.
+2024-09-21 12:09:35.483 [info] [127.0.0.1][9206ec46][ExtensionHostConnection] New connection established.
+2024-09-21 12:09:35.519 [info] [127.0.0.1][9206ec46][ExtensionHostConnection] <21552> Launched Extension Host Process.
+2024-09-21 12:10:41.753 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 12:12:10.843 [info] Getting Manifest... ms-vscode.cpptools-themes
+2024-09-21 12:12:45.203 [info] Getting Manifest... ms-vscode.cmake-tools

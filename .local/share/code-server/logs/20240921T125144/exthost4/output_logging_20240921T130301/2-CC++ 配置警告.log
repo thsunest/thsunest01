@@ -1,0 +1,2 @@
+[9/21/2024, 1:03:04 PM] 对于 C 源文件，IntelliSenseMode 已根据编译器参数和查询 compilerPath 从“linux-gcc-x64”更改为“linux-gcc-arm64”:“/usr/bin/gcc”
+[9/21/2024, 1:03:04 PM] 对于 C++ 源文件，IntelliSenseMode 已根据编译器参数和查询 compilerPath 从“linux-gcc-x64”更改为“linux-gcc-arm64”:“/usr/bin/gcc”

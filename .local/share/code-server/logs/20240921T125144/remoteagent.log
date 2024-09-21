@@ -1,0 +1,48 @@
+2024-09-21 12:51:44.473 [info] 
+
+
+
+
+2024-09-21 12:51:44.617 [info] Extension host agent started.
+2024-09-21 12:51:44.642 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-09-21 12:51:49.159 [info] [127.0.0.1][a5f3731d][ManagementConnection] New connection established.
+2024-09-21 12:51:51.870 [info] [127.0.0.1][655a508e][ExtensionHostConnection] New connection established.
+2024-09-21 12:51:51.996 [info] [127.0.0.1][655a508e][ExtensionHostConnection] <9356> Launched Extension Host Process.
+2024-09-21 12:54:26.809 [info] [127.0.0.1][a5f3731d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 12:54:26.870 [info] [127.0.0.1][655a508e][ExtensionHostConnection] <9356> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 12:54:28.410 [info] [127.0.0.1][c3872189][ManagementConnection] New connection established.
+2024-09-21 12:54:28.645 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/keytar/lib/keytar.js
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/bootstrap-amd.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/util.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/cli.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/entry.js
+2024-09-21 12:54:30.334 [info] [127.0.0.1][ce132ca4][ExtensionHostConnection] New connection established.
+2024-09-21 12:54:30.369 [info] [127.0.0.1][ce132ca4][ExtensionHostConnection] <12233> Launched Extension Host Process.
+2024-09-21 13:00:40.492 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 13:01:29.132 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 13:01:37.719 [info] [127.0.0.1][c3872189][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 13:01:37.803 [info] [127.0.0.1][ce132ca4][ExtensionHostConnection] <12233> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 13:01:38.961 [info] [127.0.0.1][ef8c73f6][ManagementConnection] New connection established.
+2024-09-21 13:01:40.340 [info] [127.0.0.1][7aac28d7][ExtensionHostConnection] New connection established.
+2024-09-21 13:01:40.387 [info] [127.0.0.1][7aac28d7][ExtensionHostConnection] <15405> Launched Extension Host Process.
+2024-09-21 13:02:51.875 [info] [127.0.0.1][ef8c73f6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 13:02:51.879 [info] [127.0.0.1][7aac28d7][ExtensionHostConnection] <15405> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 13:02:53.163 [info] [127.0.0.1][4b444402][ManagementConnection] New connection established.
+2024-09-21 13:02:54.666 [info] [127.0.0.1][2b0fb46e][ExtensionHostConnection] New connection established.
+2024-09-21 13:02:54.709 [info] [127.0.0.1][2b0fb46e][ExtensionHostConnection] <15650> Launched Extension Host Process.
+2024-09-21 13:05:32.889 [info] [127.0.0.1][4b444402][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 13:05:33.103 [info] [127.0.0.1][2b0fb46e][ExtensionHostConnection] <15650> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 13:05:34.188 [info] [127.0.0.1][9b9f5053][ManagementConnection] New connection established.
+2024-09-21 13:05:35.623 [info] [127.0.0.1][d76b3f23][ExtensionHostConnection] New connection established.
+2024-09-21 13:05:35.669 [info] [127.0.0.1][d76b3f23][ExtensionHostConnection] <19208> Launched Extension Host Process.

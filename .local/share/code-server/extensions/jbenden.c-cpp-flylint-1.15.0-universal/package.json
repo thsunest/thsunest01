@@ -1,0 +1,1015 @@
+{
+	"name": "c-cpp-flylint",
+	"displayName": "C/C++ Advanced Lint",
+	"description": "An advanced, modern, static analysis extension for C/C++ that supports a number of back-end analyzer programs.",
+	"author": {
+		"name": "Joseph Benden",
+		"email": "joe@benden.us",
+		"url": "http://benden.us/"
+	},
+	"publisher": "jbenden",
+	"version": "1.15.0",
+	"license": "MIT",
+	"icon": "C-Cpp-FlyLint_icon.png",
+	"galleryBanner": {
+		"color": "#303f9f",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jbenden/vscode-c-cpp-flylint.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jbenden/vscode-c-cpp-flylint/issues",
+		"email": "joe@benden.us"
+	},
+	"homepage": "https://github.com/jbenden/vscode-c-cpp-flylint/blob/main/README.md",
+	"main": "./client/out/extension",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Linters"
+	],
+	"keywords": [
+		"c",
+		"c++",
+		"cppcheck",
+		"flexelint",
+		"clang",
+		"lint",
+		"linter"
+	],
+	"scripts": {
+		"vscode:prepublish": "npm run webpack",
+		"webpack": "npm run clean && webpack --mode production --config ./client/webpack.config.js && webpack --mode production --config ./server/webpack.config.js",
+		"webpack:dev": "npm run clean && webpack --mode none --config ./client/webpack.config.js && webpack --mode none --config ./server/webpack.config.js",
+		"compile": "npm run compile:server && npm run compile:client && npm run compile:specs",
+		"compile:client": "tsc -b ./client/tsconfig.json",
+		"compile:server": "tsc -b ./server/tsconfig.json",
+		"compile:specs": "tsc -b ./specs/tsconfig.json",
+		"watch": "tsc -b -w",
+		"lint": "npm run lint:client && npm run lint:server && npm run lint:specs",
+		"lint:client": "eslint --config ./client/.eslintrc.json ./client/src/*.ts",
+		"lint:server": "eslint --config ./server/.eslintrc.json ./server/src/**/*.ts",
+		"lint:specs": "eslint --config ./specs/.eslintrc.json ./specs/**/*.ts",
+		"clean": "rimraf client/out && rimraf server/out && rimraf specs/out",
+		"spec": "npm run compile && node specs/out/specs/runSpecs.js",
+		"test": "npm run clean && npm run spec",
+		"postinstall": "cd client && npm install && cd ../server && npm install && cd .."
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"verbose": true,
+		"collectCoverage": true,
+		"testEnvironment": "vscode",
+		"testMatch": [
+			"**/*.spec.ts"
+		],
+		"testPathIgnorePatterns": [
+			"out",
+			"sample",
+			"dist",
+			".vscode-test",
+			"ex1"
+		]
+	},
+	"devDependencies": {
+		"@jest/test-result": "^26.6.2",
+		"@types/jest": "^27.0.0",
+		"@types/lodash": "^4.14.168",
+		"@types/mock-fs": "^4.13.0",
+		"@types/node": "^13.13.40",
+		"@types/tmp": "^0.2.0",
+		"@types/vscode": "^1.52.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.1",
+		"@typescript-eslint/parser": "^4.9.1",
+		"@vscode/test-electron": "^1.6.2",
+		"eslint": "^7.32.0",
+		"jest": "^27.3.1",
+		"jest-cli": "^27.3.1",
+		"jest-environment-vscode": "^1.0.0",
+		"merge-options": "^3.0.4",
+		"mock-fs": "^4.13.0",
+		"rimraf": "^3.0.2",
+		"source-map-support": "^0.5.16",
+		"ts-jest": "^27.0.7",
+		"ts-loader": "^9.4.1",
+		"typescript": "^4.1.2",
+		"vscode-test": "^1.5.0",
+		"webpack": "^5.76.0",
+		"webpack-cli": "^4.2.0"
+	},
+	"dependencies": {
+		"cross-spawn": "^7.0.3",
+		"fast-glob": "^3.2.5",
+		"lodash": "^4.17.21",
+		"slash": "^3.0.0",
+		"tmp": "^0.2.1",
+		"unixify": "^1.0.0",
+		"var-expansion": "^0.1.0",
+		"vscode-languageclient": "^7.0.0",
+		"vscode-languageserver": "^7.0.0",
+		"vscode-uri": "^3.0.2",
+		"which": "^2.0.2"
+	},
+	"activationEvents": [
+		"onCommand:c-cpp-flylint.analyzeActiveDocument",
+		"onCommand:c-cpp-flylint.analyzeWorkspace",
+		"onLanguage:c",
+		"onLanguage:cpp"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "c-cpp-flylint.analyzeActiveDocument",
+				"title": "C/C++ Flylint: Analyze the active document"
+			},
+			{
+				"command": "c-cpp-flylint.analyzeWorkspace",
+				"title": "C/C++ Flylint: Analyze all documents opened in the workspace"
+			},
+			{
+				"command": "c-cpp-flylint.workspace.resetState",
+				"title": "C/C++ Flylint: Reset Workspace State",
+				"description": "Reset keys in workspace state to undefined."
+			},
+			{
+				"command": "c-cpp-flylint.workspace.isTrusted.toggle",
+				"title": "C/C++ Flylint: Toggle Workspace Trust Flag",
+				"description": "Toggle the workspace trust flag. Workspace settings that determine tool locations are disabled by default in untrusted workspaces."
+			}
+		],
+		"configuration": [
+			{
+				"type": "object",
+				"title": "Common",
+				"properties": {
+					"c-cpp-flylint.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable all linting"
+					},
+					"c-cpp-flylint.debug": {
+						"order": 1,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable verbose debug logging"
+					},
+					"c-cpp-flylint.run": {
+						"order": 2,
+						"type": "string",
+						"enum": [
+							"onSave",
+							"onType",
+							"onBuild"
+						],
+						"default": "onSave",
+						"description": "Run the linter upon typing (onType), upon a build task (onBuild), or upon file save (onSave)."
+					},
+					"c-cpp-flylint.ignoreParseErrors": {
+						"order": 3,
+						"type": "boolean",
+						"default": false,
+						"description": "Ignore when the extension can't parse a line of the linter."
+					},
+					"c-cpp-flylint.excludeFromWorkspacePaths": {
+						"order": 4,
+						"type": "array",
+						"default": [],
+						"description": "A list of paths within the workspace for which no analyses/diagnostics will be displayed."
+					},
+					"c-cpp-flylint.language": {
+						"order": 5,
+						"type": "string",
+						"default": "c++",
+						"enum": [
+							"c",
+							"c++"
+						],
+						"description": "Force to check all files as the given language. Cascades to all analyzers unless overridden in one or more analyzers."
+					},
+					"c-cpp-flylint.standard": {
+						"order": 6,
+						"type": "array",
+						"default": [
+							"c11",
+							"c++11"
+						],
+						"description": "The language standards to check against. Cascades to all analyzers unless overridden in one or more analyzers."
+					},
+					"c-cpp-flylint.defines": {
+						"order": 7,
+						"type": "array",
+						"default": [],
+						"description": "Preprocessor symbols to define. Cascades to all analyzers unless overridden in one or more analyzers. If not specified it uses \"C_Cpp.default.defines\" or \"defines\" from c_cpp_properties.json"
+					},
+					"c-cpp-flylint.undefines": {
+						"order": 8,
+						"type": "array",
+						"default": [],
+						"description": "Preprocessor symbols to undefine. Cascades to all analyzers unless overridden in one or more analyzers."
+					},
+					"c-cpp-flylint.includePaths": {
+						"order": 9,
+						"type": "array",
+						"default": [],
+						"description": "Paths to search for include files. They may be relative or absolute. Cascades to all analyzers unless overridden in one or more analyzers. If not specified it uses \"C_Cpp.default.includePath\" or \"includePath\" from c_cpp_properties.json"
+					},
+					"c-cpp-flylint.queryUrlBase": {
+						"order": 10,
+						"type": "string",
+						"format": "uri",
+						"markdownDescription": "This option allows you to chose your preferred search engine for diagnostic code lookup. See also `#c-cpp-flylint.webQueryMatchSet#` to configure the keywords of the diagnostic code which will make it searchable on the web.",
+						"default": "https://www.google.com/search?q="
+					},
+					"c-cpp-flylint.webQueryMatchSet": {
+						"order": 11,
+						"type": "array",
+						"default": [
+							"misra-"
+						],
+						"markdownDescription": "The diagnostic code match set for which a web lookup will be proposed. Web search engine can be customized through `#c-cpp-flylint.queryUrlBase#`."
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "Clang",
+				"properties": {
+					"c-cpp-flylint.clang.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the Clang linter"
+					},
+					"c-cpp-flylint.clang.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using Clang",
+						"default": "clang"
+					},
+					"c-cpp-flylint.clang.configFile": {
+						"order": 2,
+						"type": "string",
+						"description": "A .clang_complete file to use/fallback to if no config file is found in the current project",
+						"default": ".clang_complete"
+					},
+					"c-cpp-flylint.clang.includePaths": {
+						"order": 3,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Paths to search for include files. They may be relative or absolute. If not specified it falls back to \"c-cpp-flylint.includePaths\""
+					},
+					"c-cpp-flylint.clang.standard": {
+						"order": 4,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "The language standards to check against. For example, one or more of: posix, c89, c99, c11, c17, c18, c++03, c++11, c++14, c++17, c++20."
+					},
+					"c-cpp-flylint.clang.defines": {
+						"order": 5,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Preprocessor symbols to define. If not specified it falls back to \"c-cpp-flylint.defines\""
+					},
+					"c-cpp-flylint.clang.undefines": {
+						"order": 6,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Preprocessor symbols to undefine."
+					},
+					"c-cpp-flylint.clang.language": {
+						"order": 7,
+						"type": [
+							"string",
+							"null"
+						],
+						"default": null,
+						"description": "Force Clang to check all files as the given language."
+					},
+					"c-cpp-flylint.clang.extraArgs": {
+						"order": 8,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Extra verbatim command-line arguments to include on the Clang command-line invocation."
+					},
+					"c-cpp-flylint.clang.warnings": {
+						"order": 9,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": [
+							"all",
+							"extra"
+						],
+						"description": "Warnings to include in the analysis. Default is everything possible."
+					},
+					"c-cpp-flylint.clang.includes": {
+						"order": 10,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "An array of files to directly include with every processed file. Operates via utilizing Clang's -include parameter."
+					},
+					"c-cpp-flylint.clang.standardLibs": {
+						"order": 11,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "The standard libraries to utilize. Operates via utilizing Clang's -stdlib parameter. Some macOS and BSD systems need to use a special library for C++11 support."
+					},
+					"c-cpp-flylint.clang.pedantic": {
+						"order": 12,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the -pedantic command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.pedanticErrors": {
+						"order": 13,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the -pedantic-errors command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.msExtensions": {
+						"order": 14,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the -fms-extensions command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.noExceptions": {
+						"order": 15,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the -fno-exceptions command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.noRtti": {
+						"order": 16,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the -fno-rtti command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.blocks": {
+						"order": 17,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the -fblocks command-line argument to Clang."
+					},
+					"c-cpp-flylint.clang.severityLevels": {
+						"order": 18,
+						"type": "object",
+						"description": "Maps the severity levels of Clang to VSCode severity levels (Error, Warning, Information, Hint). Setting to 'None' will not show the severity type at all.",
+						"default": {
+							"fatal": "Error",
+							"error": "Error",
+							"warning": "Warning",
+							"note": "Information"
+						},
+						"properties": {
+							"fatal": {
+								"description": "Used when very major issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"error": {
+								"description": "Used when major issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"warning": {
+								"description": "Suggestions about defensive programming to prevent potential issues.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"note": {
+								"description": "Suggestions about (possibly) minor issues.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "Cppcheck",
+				"properties": {
+					"c-cpp-flylint.cppcheck.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the CppCheck linter"
+					},
+					"c-cpp-flylint.cppcheck.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using CppCheck",
+						"default": "cppcheck"
+					},
+					"c-cpp-flylint.cppcheck.extraArgs": {
+						"order": 2,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Extra verbatim command-line arguments to include on the cppcheck command-line invocation."
+					},
+					"c-cpp-flylint.cppcheck.configFile": {
+						"order": 3,
+						"type": "string",
+						"description": "A .clang_complete file to use/fallback to if no config file is found in the current project",
+						"default": ".clang_complete"
+					},
+					"c-cpp-flylint.cppcheck.includePaths": {
+						"order": 4,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Paths to search for include files. They may be relative or absolute. If not specified it falls back to \"c-cpp-flylint.includePaths\""
+					},
+					"c-cpp-flylint.cppcheck.platform": {
+						"order": 5,
+						"type": "string",
+						"enum": [
+							"avr8",
+							"unix32",
+							"unix64",
+							"win32A",
+							"win32W",
+							"win64",
+							"native"
+						],
+						"default": "native",
+						"description": "The platform used for types and sizes."
+					},
+					"c-cpp-flylint.cppcheck.standard": {
+						"order": 6,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "The language standards to check against. Can be one or more of: posix, c89, c99, c11, c17, c18, c++03, c++11, c++14, c++17, c++20."
+					},
+					"c-cpp-flylint.cppcheck.defines": {
+						"order": 7,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Preprocessor symbols to define. If not specified it falls back to \"c-cpp-flylint.defines\""
+					},
+					"c-cpp-flylint.cppcheck.undefines": {
+						"order": 8,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Preprocessor symbols to undefine."
+					},
+					"c-cpp-flylint.cppcheck.suppressions": {
+						"order": 9,
+						"type": "array",
+						"default": [],
+						"description": "Warnings to suppress. Refer to the CppCheck documentation for what to supply here."
+					},
+					"c-cpp-flylint.cppcheck.addons": {
+						"order": 10,
+						"type": "array",
+						"default": [],
+						"description": "Addons to use with cppcheck. For example, misra, cert, etc. Refer to the CppCheck documentation for what to supply here."
+					},
+					"c-cpp-flylint.cppcheck.verbose": {
+						"order": 11,
+						"type": "boolean",
+						"default": false,
+						"description": "Whether to enable verbose output from CppCheck."
+					},
+					"c-cpp-flylint.cppcheck.language": {
+						"order": 12,
+						"type": [
+							"string",
+							"null"
+						],
+						"default": null,
+						"description": "Force CppCheck to check all files as the given language."
+					},
+					"c-cpp-flylint.cppcheck.inconclusive": {
+						"order": 13,
+						"type": "boolean",
+						"default": false,
+						"description": "Allow reporting even though analysis is inconclusive. May lead to false positives."
+					},
+					"c-cpp-flylint.cppcheck.force": {
+						"order": 14,
+						"type": "boolean",
+						"default": false,
+						"description": "Controls whether CppCheck enumerates all possible configurations."
+					},
+					"c-cpp-flylint.cppcheck.severityLevels": {
+						"order": 15,
+						"type": "object",
+						"description": "Maps the severity levels of CppCheck to VSCode severity levels (Error, Warning, Information, Hint). Setting to 'None' will not show the severity type at all.",
+						"default": {
+							"error": "Error",
+							"warning": "Warning",
+							"style": "Information",
+							"performance": "Information",
+							"portability": "Information",
+							"information": "Information"
+						},
+						"properties": {
+							"error": {
+								"description": "Used when major issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"warning": {
+								"description": "Suggestions about defensive programming to prevent potential issues.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"style": {
+								"description": "Stylistic issues related to code cleanup such as unused functions, redundant code, constness, etc.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"performance": {
+								"description": "Suggestions for making the code faster. These suggestions only and may not increase execution speed.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"portability": {
+								"description": "Warnings about 64-bit and compiler portability.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"information": {
+								"description": "Minor issues that do not fit into other categories.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "Flexelint",
+				"properties": {
+					"c-cpp-flylint.flexelint.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the Flexelint linter"
+					},
+					"c-cpp-flylint.flexelint.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using Flexelint",
+						"default": "flexelint"
+					},
+					"c-cpp-flylint.flexelint.configFile": {
+						"order": 2,
+						"type": "string",
+						"description": "A .flexelint.rc file to use/fallback to if no config file is found in the current project",
+						"default": ".flexelint.lnt"
+					},
+					"c-cpp-flylint.flexelint.headerArgs": {
+						"order": 3,
+						"type": "array",
+						"description": "A list of arguments passed to Flexelint when scanning header source files",
+						"default": [
+							"-e749",
+							"-e750",
+							"-e751",
+							"-e752",
+							"-e753",
+							"-e754",
+							"-e1526",
+							"-e1714"
+						]
+					},
+					"c-cpp-flylint.flexelint.severityLevels": {
+						"order": 4,
+						"type": "object",
+						"description": "Maps the severity levels of Flexelint to VSCode severity levels (Error, Warning, Information, Hint). Setting to 'None' will not show the severity type at all.",
+						"default": {
+							"Error": "Error",
+							"Warning": "Warning",
+							"Info": "Information",
+							"Note": "Hint",
+							"Supplimental": "Hint"
+						},
+						"properties": {
+							"Error": {
+								"description": "Used when major issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"Warning": {
+								"description": "Suggestions about defensive programming to prevent potential issues.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"Info": {
+								"description": "Suggestions for producing better code.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"Note": {
+								"description": "Suggestions for producing better code.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							}
+						},
+						"Supplimental": {
+							"description": "Suggestions for producing better code.",
+							"type": "string",
+							"default": "Hint",
+							"enum": [
+								"Error",
+								"Warning",
+								"Hint",
+								"Information",
+								"None"
+							]
+						}
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "PC-lint Plus",
+				"properties": {
+					"c-cpp-flylint.pclintplus.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": false,
+						"description": "Enable or disable the PC-lint Plus linter"
+					},
+					"c-cpp-flylint.pclintplus.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using PC-lint Plus",
+						"default": "pclp"
+					},
+					"c-cpp-flylint.pclintplus.configFile": {
+						"order": 2,
+						"type": "string",
+						"description": "A PC-lint Plus file to use/fallback to if no config file is found in the current project",
+						"default": ".pclint.lnt"
+					},
+					"c-cpp-flylint.pclintplus.headerArgs": {
+						"order": 3,
+						"type": "array",
+						"description": "A list of arguments passed to PC-lint Plus when scanning header source files",
+						"default": []
+					},
+					"c-cpp-flylint.pclintplus.severityLevels": {
+						"order": 4,
+						"type": "object",
+						"description": "Maps the severity levels of PC-lint Plus to VSCode severity levels (Error, Warning, Information, Hint). Setting to 'None' will not show the severity type at all.",
+						"default": {
+							"error": "Error",
+							"warning": "Warning",
+							"info": "Information",
+							"note": "Hint",
+							"supplimental": "Hint"
+						},
+						"properties": {
+							"error": {
+								"description": "Used when major issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"warning": {
+								"description": "Suggestions about defensive programming to prevent potential issues.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"info": {
+								"description": "Suggestions for producing better code.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"note": {
+								"description": "Suggestions for producing better code.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"supplemental": {
+								"description": "Suggestions for producing better code.",
+								"type": "string",
+								"default": "Hint",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "Flawfinder",
+				"properties": {
+					"c-cpp-flylint.flawfinder.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the FlawFinder linter"
+					},
+					"c-cpp-flylint.flawfinder.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using FlawFinder",
+						"default": "flawfinder"
+					},
+					"c-cpp-flylint.flawfinder.severityLevels": {
+						"order": 2,
+						"type": "object",
+						"description": "Maps the severity levels of CppCheck to VSCode severity levels (Error, Warning, Information, Hint). Setting to 'None' will not show the severity type at all.",
+						"default": {
+							"0": "Information",
+							"1": "Warning",
+							"2": "Warning",
+							"3": "Warning",
+							"4": "Warning",
+							"5": "Error"
+						},
+						"properties": {
+							"0": {
+								"description": "Used when lv 0 issues are found.",
+								"type": "string",
+								"default": "Information",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"1": {
+								"description": "Used when lv 1 issues are found.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"2": {
+								"description": "Used when lv 2 issues are found.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"3": {
+								"description": "Used when lv 3 issues are found.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"4": {
+								"description": "Used when lv 4 issues are found.",
+								"type": "string",
+								"default": "Warning",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							},
+							"5": {
+								"description": "Used when lv 5 issues are found.",
+								"type": "string",
+								"default": "Error",
+								"enum": [
+									"Error",
+									"Warning",
+									"Hint",
+									"Information",
+									"None"
+								]
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "object",
+				"title": "Lizard",
+				"properties": {
+					"c-cpp-flylint.lizard.enable": {
+						"order": 0,
+						"type": "boolean",
+						"default": true,
+						"description": "Enable or disable the lizard linter"
+					},
+					"c-cpp-flylint.lizard.executable": {
+						"order": 1,
+						"type": "string",
+						"description": "This option allows you to override the executable called when using lizard",
+						"default": "lizard"
+					},
+					"c-cpp-flylint.lizard.extraArgs": {
+						"order": 2,
+						"type": [
+							"array",
+							"null"
+						],
+						"default": null,
+						"description": "Extra verbatim command-line arguments to include on the lizard command-line invocation."
+					}
+				}
+			}
+		]
+	},
+	"__metadata": {
+		"id": "398cca50-8c14-40d0-98b5-7b362a661b18",
+		"publisherId": "2bd4a182-6706-4748-bd50-267415a6c40f",
+		"publisherDisplayName": "jbenden",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1726906002842,
+		"preRelease": false
+	}
+}

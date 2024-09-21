@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"uri": "vscode-remote://127.0.0.1:10000/root"
+		},
+		{
+			"name": "sdcard",
+			"uri": "vscode-remote://127.0.0.1:10000/sdcard"
+		}
+	],
+	"remoteAuthority": "127.0.0.1:10000",
+	"settings": {}
+}

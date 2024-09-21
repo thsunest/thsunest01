@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.editor.enablePreview": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+}

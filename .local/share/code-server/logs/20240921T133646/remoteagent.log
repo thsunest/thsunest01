@@ -1,0 +1,28 @@
+2024-09-21 13:36:46.425 [info] 
+
+
+
+
+2024-09-21 13:36:46.509 [info] Extension host agent started.
+2024-09-21 13:36:46.525 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-09-21 13:36:48.991 [info] [127.0.0.1][bad9a468][ManagementConnection] New connection established.
+2024-09-21 13:36:50.287 [info] [127.0.0.1][7fe55f23][ExtensionHostConnection] New connection established.
+2024-09-21 13:36:50.430 [info] [127.0.0.1][7fe55f23][ExtensionHostConnection] <16321> Launched Extension Host Process.
+2024-09-21 13:37:23.024 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 13:41:29.326 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 13:51:49.693 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 14:05:39.961 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 14:08:04.917 [info] [127.0.0.1][bad9a468][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 14:08:04.954 [info] [127.0.0.1][7fe55f23][ExtensionHostConnection] <16321> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 14:08:06.333 [info] [127.0.0.1][25da0552][ManagementConnection] New connection established.
+2024-09-21 14:08:07.984 [info] [127.0.0.1][2398859c][ExtensionHostConnection] New connection established.
+2024-09-21 14:08:08.066 [info] [127.0.0.1][2398859c][ExtensionHostConnection] <21592> Launched Extension Host Process.

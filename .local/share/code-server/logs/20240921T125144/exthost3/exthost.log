@@ -1,0 +1,18 @@
+2024-09-21 13:01:46.287 [info] Extension host with pid 15405 started
+2024-09-21 13:01:46.347 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-262dff09/vscode.lock': Lock acquired.
+2024-09-21 13:01:46.411 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-09-21 13:01:47.510 [error] No bundle location found for extension vscode.git-base
+2024-09-21 13:01:47.534 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-21 13:01:50.708 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 13:01:50.710 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 13:01:50.711 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 13:01:50.713 [info] Eager extensions activated
+2024-09-21 13:02:05.683 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 13:02:05.683 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 13:02:05.684 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 13:02:16.460 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-09-21 13:02:16.483 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 13:02:16.483 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 13:02:51.833 [info] Extension host terminating: received terminate message from renderer
+2024-09-21 13:02:51.834 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-262dff09/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-21 13:02:51.860 [info] Extension host with pid 15405 exiting with code 0

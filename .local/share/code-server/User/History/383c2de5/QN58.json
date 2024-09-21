@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.editor.enablePreview": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false,
+    "C_Cpp.errorSquiggles": "enabled"
+}

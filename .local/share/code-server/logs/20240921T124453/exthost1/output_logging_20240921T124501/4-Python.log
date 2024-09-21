@@ -1,0 +1,22 @@
+Experiment 'pythonRecommendTensorboardExt' is active
+Experiment 'pythonTerminalEnvVarActivation' is active
+Experiment 'pythonTestAdapter' is active
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+> python -c "import sys;print(sys.executable)"
+[ERROR 2024-8-21 12:49:23.742]: [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at ChildProcess.exithandler (node:child_process:397:12)
+	at ChildProcess.emit (node:events:390:28)
+	at maybeClose (node:internal/child_process:1064:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:390:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+[ERROR 2024-8-21 12:49:23.994]: Unable to start Jedi language server as a valid interpreter is not selected

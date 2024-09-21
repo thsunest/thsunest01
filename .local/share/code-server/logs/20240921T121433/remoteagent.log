@@ -1,0 +1,32 @@
+2024-09-21 12:14:33.850 [info] 
+
+
+
+
+2024-09-21 12:14:33.894 [info] Extension host agent started.
+2024-09-21 12:14:33.903 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-09-21 12:14:36.164 [info] [127.0.0.1][ac65a222][ManagementConnection] New connection established.
+2024-09-21 12:14:37.223 [info] [127.0.0.1][edd2abdb][ExtensionHostConnection] New connection established.
+2024-09-21 12:14:37.300 [info] [127.0.0.1][edd2abdb][ExtensionHostConnection] <22634> Launched Extension Host Process.
+2024-09-21 12:17:22.386 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 12:17:24.248 [error] Failed to install extension. franneck94.c-cpp-runner
+2024-09-21 12:17:24.253 [error] Error: read ECONNABORTED
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
+2024-09-21 12:17:31.954 [info] Getting Manifest... franneck94.c-cpp-runner
+2024-09-21 12:17:34.676 [info] Installing extension: franneck94.c-cpp-runner
+2024-09-21 12:17:36.498 [info] Getting Manifest... vadimcn.vscode-lldb
+2024-09-21 12:17:57.190 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 12:17:58.652 [info] Extracted extension to /root/.local/share/code-server/extensions/.f18ba217-a562-411f-8ed7-3f097f995e87: franneck94.c-cpp-runner
+2024-09-21 12:17:58.671 [info] Renamed to /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+2024-09-21 12:17:58.680 [info] Extracting completed. franneck94.c-cpp-runner
+2024-09-21 12:17:58.694 [info] Extension installed successfully: franneck94.c-cpp-runner
+2024-09-21 12:18:49.797 [warning] No ptyHost heartbeat after 6 seconds

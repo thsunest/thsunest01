@@ -1,0 +1,24 @@
+2024-09-21 12:20:25.929 [info] 
+
+
+
+
+2024-09-21 12:20:25.999 [info] Extension host agent started.
+2024-09-21 12:20:26.013 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-09-21 12:20:28.324 [info] [127.0.0.1][7a2f8887][ManagementConnection] New connection established.
+2024-09-21 12:20:30.467 [info] [127.0.0.1][e308a712][ExtensionHostConnection] New connection established.
+2024-09-21 12:20:30.506 [info] [127.0.0.1][e308a712][ExtensionHostConnection] <26449> Launched Extension Host Process.
+2024-09-21 12:23:53.118 [info] [127.0.0.1][7a2f8887][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 12:23:53.231 [info] [127.0.0.1][e308a712][ExtensionHostConnection] <26449> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 12:23:54.563 [info] [127.0.0.1][22449286][ManagementConnection] New connection established.
+2024-09-21 12:23:56.163 [info] [127.0.0.1][1d438c80][ExtensionHostConnection] New connection established.
+2024-09-21 12:23:56.195 [info] [127.0.0.1][1d438c80][ExtensionHostConnection] <26746> Launched Extension Host Process.
