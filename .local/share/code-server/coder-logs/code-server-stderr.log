@@ -6288,3 +6288,4 @@ SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses 
 [13:41:29] No ptyHost heartbeat after 6 seconds
 [13:51:49] No ptyHost heartbeat after 6 seconds
 [14:05:39] No ptyHost heartbeat after 6 seconds
+File not found: /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
