@@ -1,0 +1,14 @@
+2024-09-22 03:40:07.408 [info] Extension host with pid 23105 started
+2024-09-22 03:40:07.421 [error] Error: EEXIST: file already exists, open '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock'
+2024-09-22 03:40:07.457 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-22 03:40:07.496 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': The pid 8686 appears to be gone.
+2024-09-22 03:40:07.497 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Deleting a stale lock.
+2024-09-22 03:40:07.526 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Lock acquired.
+2024-09-22 03:40:07.572 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-22 03:40:08.860 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-22 03:40:08.861 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-22 03:40:09.427 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 03:40:09.428 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 03:40:09.429 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 03:40:09.429 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 03:40:09.430 [info] Eager extensions activated

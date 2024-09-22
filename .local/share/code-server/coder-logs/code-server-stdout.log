@@ -1,0 +1,150 @@
+[2024-09-22T03:25:38.248Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T03:25:38.250Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T03:25:38.303Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T03:25:38.303Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T03:25:38.303Z] info    - Authentication is disabled 
+[2024-09-22T03:25:38.303Z] info    - Not serving HTTPS 
+[03:25:39] 
+
+
+
+
+[03:25:39] Extension host agent started.
+[03:25:42] [127.0.0.1][41038436][ManagementConnection] New connection established.
+[03:25:43] [127.0.0.1][cb284385][ExtensionHostConnection] New connection established.
+[03:25:43] [127.0.0.1][cb284385][ExtensionHostConnection] <31164> Launched Extension Host Process.
+[03:26:02] [127.0.0.1][41038436][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:26:02] [127.0.0.1][cb284385][ExtensionHostConnection] <31164> Extension Host Process exited with code: 0, signal: null.
+[03:26:03] [127.0.0.1][5e92d280][ManagementConnection] New connection established.
+[03:26:04] [127.0.0.1][a752bddc][ExtensionHostConnection] New connection established.
+[03:26:04] [127.0.0.1][a752bddc][ExtensionHostConnection] <31348> Launched Extension Host Process.
+[03:27:09] Getting Manifest... akamud.vscode-theme-onedark
+[03:28:32] [127.0.0.1][5e92d280][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:28:32] [127.0.0.1][a752bddc][ExtensionHostConnection] <31348> Extension Host Process exited with code: 0, signal: null.
+[03:28:33] [127.0.0.1][a3e66491][ManagementConnection] New connection established.
+[03:28:34] [127.0.0.1][3fa9f9a2][ExtensionHostConnection] New connection established.
+[03:28:34] [127.0.0.1][3fa9f9a2][ExtensionHostConnection] <32391> Launched Extension Host Process.
+[03:28:36] Installing extension: akamud.vscode-theme-onedark
+[03:29:18] [127.0.0.1][a3e66491][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:29:18] [127.0.0.1][3fa9f9a2][ExtensionHostConnection] <32391> Extension Host Process exited with code: 0, signal: null.
+[03:29:19] [127.0.0.1][8fc93952][ManagementConnection] New connection established.
+[03:29:20] [127.0.0.1][806f10ed][ExtensionHostConnection] New connection established.
+[03:29:20] [127.0.0.1][806f10ed][ExtensionHostConnection] <8686> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 3957 chars and 1 size events
+[03:29:58] Extracted extension to /root/.local/share/code-server/extensions/.35b73d03-16b2-479c-ac21-b9bd0532588f: akamud.vscode-theme-onedark
+[03:29:58] Renamed to /root/.local/share/code-server/extensions/akamud.vscode-theme-onedark-2.3.0-universal
+[03:29:58] Extracting completed. akamud.vscode-theme-onedark
+[03:29:58] Extension installed successfully: akamud.vscode-theme-onedark
+[03:30:28] Getting Manifest... formulahendry.code-runner
+[03:32:18] Installing extension: formulahendry.code-runner
+[03:32:27] Extracted extension to /root/.local/share/code-server/extensions/.4f0e489b-7218-4de8-8571-8f7534409aea: formulahendry.code-runner
+[03:32:27] Renamed to /root/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal
+[03:32:27] Extracting completed. formulahendry.code-runner
+[03:32:27] Extension installed successfully: formulahendry.code-runner
+[2024-09-22T03:40:00.807Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T03:40:00.810Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T03:40:00.858Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T03:40:00.859Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T03:40:00.859Z] info    - Authentication is disabled 
+[2024-09-22T03:40:00.859Z] info    - Not serving HTTPS 
+[03:40:02] 
+
+
+
+
+[03:40:02] Extension host agent started.
+[03:40:04] [127.0.0.1][2904544f][ManagementConnection] New connection established.
+[03:40:05] [127.0.0.1][9d3c39ed][ExtensionHostConnection] New connection established.
+[03:40:05] [127.0.0.1][9d3c39ed][ExtensionHostConnection] <23105> Launched Extension Host Process.
+[2024-09-22T03:47:37.222Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T03:47:37.223Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T03:47:37.254Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T03:47:37.255Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T03:47:37.255Z] info    - Authentication is disabled 
+[2024-09-22T03:47:37.255Z] info    - Not serving HTTPS 
+[03:47:38] 
+
+
+
+
+[03:47:38] Extension host agent started.
+[03:47:40] [127.0.0.1][fb1f2d76][ManagementConnection] New connection established.
+[03:47:41] [127.0.0.1][90247e57][ExtensionHostConnection] New connection established.
+[03:47:41] [127.0.0.1][90247e57][ExtensionHostConnection] <25801> Launched Extension Host Process.
+[06:04:49] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[06:04:49] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[06:04:50] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[06:04:51] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+[06:04:53] Extensions is already requested to install ms-ceintl.vscode-language-pack-zh-hans
+[06:04:53] Extensions is already requested to install ms-ceintl.vscode-language-pack-zh-hans
+[06:04:58] Extracted extension to /root/.local/share/code-server/extensions/.9bb6f195-8294-44c7-a6ad-923e8b0b7298: ms-ceintl.vscode-language-pack-zh-hans
+[06:04:58] Renamed to /root/.local/share/code-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.73.0-universal
+[06:04:58] Extracting completed. ms-ceintl.vscode-language-pack-zh-hans
+[06:04:58] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+[06:04:59] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+[06:05:01] [127.0.0.1][fb1f2d76][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:05:01] [127.0.0.1][90247e57][ExtensionHostConnection] <25801> Extension Host Process exited with code: 0, signal: null.
+[06:05:03] [127.0.0.1][5eadd052][ManagementConnection] New connection established.
+[06:05:04] [127.0.0.1][2d48c3c3][ExtensionHostConnection] New connection established.
+[06:05:04] [127.0.0.1][2d48c3c3][ExtensionHostConnection] <32107> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 1093 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 271 chars and 1 size events
+[06:36:10] [127.0.0.1][449844f0][ManagementConnection] New connection established.
+[06:36:16] [127.0.0.1][1530d84e][ExtensionHostConnection] New connection established.
+[06:36:16] [127.0.0.1][1530d84e][ExtensionHostConnection] <13654> Launched Extension Host Process.
+[06:47:33] Installing extension: ms-vscode.cpptools
+[06:47:50] Extracted extension to /root/.local/share/code-server/extensions/.8e8a05cb-b49d-4a0d-9f07-d4e083cd6fbb: ms-vscode.cpptools
+[06:47:50] Renamed to /root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4
+[06:47:50] Extracting completed. ms-vscode.cpptools
+[06:47:50] Extension installed successfully: ms-vscode.cpptools
+[06:48:50] Getting Manifest... vadimcn.vscode-lldb
+[06:48:54] Installing extension: vadimcn.vscode-lldb
+[06:49:05] Extracted extension to /root/.local/share/code-server/extensions/.bb621468-09ff-40ec-af95-c6010848c1ff: vadimcn.vscode-lldb
+[06:49:05] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[06:49:05] Extracting completed. vadimcn.vscode-lldb
+[06:49:05] Extension installed successfully: vadimcn.vscode-lldb
+[06:59:11] [127.0.0.1][449844f0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2024-09-22T07:01:03.702Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T07:01:03.705Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T07:01:03.752Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T07:01:03.752Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T07:01:03.753Z] info    - Authentication is disabled 
+[2024-09-22T07:01:03.753Z] info    - Not serving HTTPS 
+[07:01:04] 
+
+
+
+
+[07:01:04] Extension host agent started.
+[07:01:07] [127.0.0.1][d6d84afe][ManagementConnection] New connection established.
+[07:01:09] [127.0.0.1][87c0269c][ExtensionHostConnection] New connection established.
+[07:01:09] [127.0.0.1][87c0269c][ExtensionHostConnection] <21502> Launched Extension Host Process.
+[07:01:16] [127.0.0.1][d6d84afe][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:01:16] [127.0.0.1][87c0269c][ExtensionHostConnection] <21502> Extension Host Process exited with code: 0, signal: null.
+[07:01:18] [127.0.0.1][e0a14d06][ManagementConnection] New connection established.
+[07:01:19] [127.0.0.1][e73eda93][ExtensionHostConnection] New connection established.
+[07:01:19] [127.0.0.1][e73eda93][ExtensionHostConnection] <21574> Launched Extension Host Process.
+[07:09:50] Uninstalling extension: vadimcn.vscode-lldb@1.10.0
+[07:09:50] Successfully uninstalled extension: vadimcn.vscode-lldb@1.10.0
+[07:09:52] [127.0.0.1][e0a14d06][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:09:52] [127.0.0.1][e73eda93][ExtensionHostConnection] <21574> Extension Host Process exited with code: 0, signal: null.
+[07:09:53] [127.0.0.1][a9807ba1][ManagementConnection] New connection established.
+[07:09:55] [127.0.0.1][5db3fe73][ExtensionHostConnection] New connection established.
+[07:09:55] [127.0.0.1][5db3fe73][ExtensionHostConnection] <24704> Launched Extension Host Process.
+[07:10:13] Uninstalling extension: ms-vscode.cpptools@1.22.4
+[07:10:14] Extensions is already requested to uninstall ms-vscode.cpptools
+[07:10:15] Extensions is already requested to uninstall ms-vscode.cpptools
+[07:10:15] Successfully uninstalled extension: ms-vscode.cpptools@1.22.4
+[07:10:16] Uninstalling extension: ms-vscode.cpptools@1.22.4
+[07:10:17] [127.0.0.1][5db3fe73][ExtensionHostConnection] <24704> Extension Host Process exited with code: 0, signal: null.
+[07:10:17] Extensions is already requested to uninstall ms-vscode.cpptools
+[07:10:18] [127.0.0.1][a9807ba1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:10:18] [127.0.0.1][bc772f51][ManagementConnection] New connection established.
+[07:10:20] [127.0.0.1][01cd00cb][ExtensionHostConnection] New connection established.
+[07:10:20] [127.0.0.1][01cd00cb][ExtensionHostConnection] <24873> Launched Extension Host Process.

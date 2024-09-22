@@ -1,0 +1,67 @@
+2024-09-22 03:40:10.382 [info] Validating found git in: git
+2024-09-22 03:40:10.382 [info] Using git 2.34.1 from git
+2024-09-22 03:40:10.383 [info] > git rev-parse --show-toplevel [245ms]
+2024-09-22 03:40:10.383 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.383 [info] > git rev-parse --show-toplevel [14ms]
+2024-09-22 03:40:10.383 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.383 [info] > git rev-parse --show-toplevel [18ms]
+2024-09-22 03:40:10.383 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.383 [info] > git rev-parse --show-toplevel [39ms]
+2024-09-22 03:40:10.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.384 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-22 03:40:10.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.847 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-22 03:40:10.847 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:40:10.905 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-22 03:40:10.905 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 03:47:09.743 [info] > git init [40ms]
+2024-09-22 03:47:09.746 [info] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+2024-09-22 03:47:10.365 [info] > git rev-parse --show-toplevel [20ms]
+2024-09-22 03:47:10.396 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-09-22 03:47:10.430 [info] Log level: Info
+2024-09-22 03:47:10.430 [info] Open repository: /root
+2024-09-22 03:47:10.508 [info] > git remote --verbose [47ms]
+2024-09-22 03:47:10.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [63ms]
+2024-09-22 03:47:10.540 [info] > git config --get commit.template [35ms]
+2024-09-22 03:47:10.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2024-09-22 03:47:10.602 [info] > git status -z -uall [124ms]
+2024-09-22 03:47:10.695 [info] > git remote --verbose [30ms]
+2024-09-22 03:47:10.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2024-09-22 03:47:10.715 [info] > git config --get commit.template [20ms]
+2024-09-22 03:47:10.800 [info] > git status -z -uall [123ms]
+2024-09-22 03:47:10.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [92ms]
+2024-09-22 03:47:11.394 [info] > git show --textconv :.ssh/id_rsa.pub [26ms]
+2024-09-22 03:47:11.399 [info] > git ls-files --stage -- /root/.ssh/id_rsa.pub [15ms]
+2024-09-22 03:47:11.854 [info] > git check-ignore -v -z --stdin [26ms]
+2024-09-22 03:47:13.335 [info] > git remote --verbose [30ms]
+2024-09-22 03:47:13.340 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [47ms]
+2024-09-22 03:47:13.356 [info] > git config --get commit.template [22ms]
+2024-09-22 03:47:13.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-09-22 03:47:13.415 [info] > git status -z -uall [96ms]
+2024-09-22 03:47:14.448 [info] > git check-ignore -v -z --stdin [19ms]
+2024-09-22 03:47:18.478 [info] > git remote --verbose [23ms]
+2024-09-22 03:47:18.479 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2024-09-22 03:47:18.513 [info] > git config --get commit.template [36ms]
+2024-09-22 03:47:18.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-09-22 03:47:18.551 [info] > git status -z -uall [87ms]
+2024-09-22 03:47:20.887 [info] > git check-ignore -v -z --stdin [32ms]
+2024-09-22 03:47:23.608 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2024-09-22 03:47:23.610 [info] > git remote --verbose [28ms]
+2024-09-22 03:47:23.634 [info] > git config --get commit.template [27ms]
+2024-09-22 03:47:23.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2024-09-22 03:47:23.703 [info] > git status -z -uall [107ms]
+2024-09-22 03:47:24.042 [info] > git check-ignore -v -z --stdin [24ms]
+2024-09-22 03:47:28.775 [info] > git remote --verbose [29ms]
+2024-09-22 03:47:28.776 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2024-09-22 03:47:28.791 [info] > git config --get commit.template [19ms]
+2024-09-22 03:47:28.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-09-22 03:47:28.846 [info] > git status -z -uall [87ms]

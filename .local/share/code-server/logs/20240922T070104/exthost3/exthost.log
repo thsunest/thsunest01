@@ -1,0 +1,36 @@
+2024-09-22 07:09:59.427 [info] Extension host with pid 24704 started
+2024-09-22 07:09:59.498 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Lock acquired.
+2024-09-22 07:09:59.554 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-22 07:10:00.588 [error] No bundle location found for extension vscode.git-base
+2024-09-22 07:10:02.891 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-22 07:10:02.892 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-22 07:10:03.160 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-09-22 07:10:04.452 [error] Activating extension ms-vscode.cpptools failed due to an error:
+2024-09-22 07:10:04.452 [error] TypeError: this._appender.logEvent is not a function
+	at E.logEvent (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:38992)
+	at E.logUsage (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:39093)
+	at TelemetryReporter.internalSendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:28581:34)
+	at TelemetryReporter.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:28592:14)
+	at ExperimentationTelemetry.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:91126:27)
+	at ExperimentationTelemetry.postEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:91145:14)
+	at ExperimentationService.PostEventToTelemetry (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:68910:24)
+	at ExperimentationService.getTreatmentVariable (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:68877:14)
+	at Object.isExperimentEnabled (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:91177:47)
+	at async Object.activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:81062:38)
+	at async activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4/dist/src/main.js:114261:9)
+	at async w._activate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2024-09-22 07:10:06.771 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 07:10:06.772 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 07:10:06.772 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 07:10:06.772 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 07:10:06.773 [info] Eager extensions activated
+2024-09-22 07:10:08.467 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1680
+2024-09-22 07:10:09.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1680
+2024-09-22 07:10:10.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5520
+2024-09-22 07:10:13.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5520
+2024-09-22 07:10:15.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1680
+2024-09-22 07:10:16.993 [info] Extension host terminating: received terminate message from renderer
+2024-09-22 07:10:16.994 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-22 07:10:17.007 [info] Extension host with pid 24704 exiting with code 0
