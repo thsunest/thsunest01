@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<iostream>
+using namespace std;
 #define Maxsize 50
 typedef struct{
     char data[Maxsize];
-    int top;
+    int top; 
 }SqStack;
 
 void InitStack(SqStack &S){
@@ -60,10 +62,13 @@ bool bracketCheck(char str[]){
 }
 
 int main(){
-//    int flag;
-//    char str[] = "{{{}}}";
+    int flag;
+    char str[] = "{{{}}}";
 
-//    flag = bracketCheck(str);
+    flag = bracketCheck(str);
+    cout << flag << endl;
+
+
 //   printf("%d",flag);
     //printf("%d",bracketCheck(str,))
     //printf("%d",bracketCheck("{{{}}}",6))

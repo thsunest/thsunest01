@@ -1,6 +1,0 @@
-
-  bind-addr: 0.0.0.0:10000
-  auth: none
-  password: none
-  cert: false
-  

@@ -11,6 +11,7 @@ bool StrAssign(SString &S,int x,char s){
         S.ch[x] = s;
         S.length++;
         return true;
+        
     }
     else 
         return false; //溢出      
@@ -19,6 +20,7 @@ bool PrintStr(SString &S){
     for (int i = 0;i <= S.length;i++){
         char x = S.ch[i];
         printf("%s",x);
+        
     }
     if (S.length == 0)
         return false;

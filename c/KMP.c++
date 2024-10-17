@@ -16,6 +16,7 @@ void printStr(SString S){
 bool insertStr(SString &S,int index,char value){
     for(int j = S.length + 1;j >= index;j--){
         S.ch[j] = S.ch[j - 1]; 
+        
     }
     
     S.ch[index] = value;

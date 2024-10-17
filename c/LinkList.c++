@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<iostream>
+using namespace std;
 //定义一个单链表
 typedef struct LNode{
     int data;
@@ -132,7 +134,7 @@ LinkList List_RearInsert(LinkList &L){
 
 }
 void ListPrint(LinkList L){
-    LNode *p = L;
+    LNode *p = L->next;
     while(p != NULL){
         printf("%d->",p->data);
         p = p->next;
@@ -178,6 +180,7 @@ void MergeList(LinkList &La,LinkList &Lb,LinkList &Lc){
         }
 
 }
+//取有序链表A和B的交集
 void Intersection(LinkList &La,LinkList &Lb,LinkList &Lc){
     LNode *pa = La->next;
     LNode *pb = Lb->next;
@@ -252,6 +255,7 @@ void Difference(LinkList &La,LinkList &Lb,int &len){
     }
     len = Length(La);
 }
+//删除有序链表中的最小值
 LinkList Del_Min(LinkList &L){
     LNode *pre = L;
     LNode *p = L->next;
@@ -270,6 +274,7 @@ LinkList Del_Min(LinkList &L){
         free(minp);
         return L;
 }
+//删除有序链表中的最大值
 LinkList Del_Max(LinkList &L){
     LNode *pre = L;
     LNode *p = L->next;
@@ -287,6 +292,7 @@ LinkList Del_Max(LinkList &L){
     free(maxp);
     return L;
 }
+//删除链表中与指定值相等的结点
 LinkList Del_X(LinkList &L,int x){
     LNode *p = L->next;
     LNode *pre = L;
@@ -294,7 +300,7 @@ LinkList Del_X(LinkList &L,int x){
     while(p != NULL){
         if(p->data == x){
             q = p;
-            pre->next = p->next;
+            pre->next = p;
             p = p->next;
             free (q);
         }
@@ -305,6 +311,7 @@ LinkList Del_X(LinkList &L,int x){
     }
     return L;
 }
+//删除链表中
 LinkList Del_From(LinkList &L,int a,int b){
     LNode *p = L->next;
     LNode *pre = L;
@@ -407,33 +414,96 @@ void DeleSame(LinkList &L){
 }
 //寻找倒数第K个结点
 int Search_k(LinkList L,int k){
-    
-    while();
-
+    LNode *p = L->next;
+    LNode *q  = p;
+    int i = 0;
+    while(p != NULL){
+        if(i < k){
+            i++;
+        }
+        else{
+            q = q->next;
+        }
+        p = p->next;
+    }
+    if(i == k){
+        cout << q->data << endl;
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
+LinkList CreateCycleList(LinkList A){
+    LNode *node1 = (LNode *)malloc(sizeof(LNode));
+    LNode *node2 = (LNode *)malloc(sizeof(LNode));
+    LNode *node3 = (LNode *)malloc(sizeof(LNode));
+    LNode *node4 = (LNode *)malloc(sizeof(LNode));
+    LNode *node5 = (LNode *)malloc(sizeof(LNode));
+    node1->data = 1;
+    node2->data = 2;
+    node3->data = 3;
+    node4->data = 4;
+    node5->data = 5;
+    node1->next = node2;
+    node2->next = node3;
+    node3->next = node4;
+    node4->next = node5;
+    node5->next = NULL;
+    return node1;
+}
+//判断单链表是否有环，Floyid快慢指针判圈法
+int hasCycle(LinkList L){
+    if(L->next == NULL){
+        return 0;
+        
+    }
+    LNode *fast = L->next;
+    LNode *slow = L;
+    while(fast != slow){
+        if(fast == NULL ||slow == NULL){
+            return 0;
+        }
+        fast = fast->next->next;
+        slow = slow->next;
+        
+    }
+    return 1;
+}
+void DeleteNode(LinkList &L,int x){
+    LNode *p = L->next;
+    LNode *q;
+    LNode *pre = L;    
+    while(p != NULL){
+        if(p->data == x){
+            q = p;
+            p = p->next;
+            pre->next = p;
+            free(q);    
+        }
+        else{
+            pre = p;
+            p = p->next;
+        }
+    }
 }
 
 int main(){
-    //ListInsert(L,1,6);
-    //LinkPrint(L);
-    //int value;
-    //ListDel(L,2,value);
-    //printf("\n-------------\n");
-    //LinkPrint(L);
-    //List_HeadInsert(S);
-    //LinkList S = List_RearInsert(S);
-    //LinkPrint(S);
     LinkList A = List_RearInsert(A);
-    //LinkList B = List_RearInsert(B);
-    //LinkList C = HeadInitLinkList(C);
+    LinkList B = List_RearInsert(B);
+    LinkList C = HeadInitLinkList(C);
 
     //MergeList(A,B,C);
     //ListPrint(C);    
     ListPrint(A);    
+    ListPrint(B);    
     //ListPrint(B);
     printf("------------------------------\n");
+    //DeleteNode(A,3);
 
     //MergeList(A,B,C);
-    //Intersection(A,B,C);
+    Intersection(A,B,C);
+    ListPrint(C);
     //int len = 0;
     //Difference(A,B,len);
     //Del_Min(A);
@@ -443,8 +513,15 @@ int main(){
     //LinkList B = Reverse(A);
     //ListPrint(B); 
     //LinkList B = DisCreat(A);
-    DeleSame(A);
-    ListPrint(A);
+    //Search_k(A,3);
+    //DeleSame(A);
+    //LinkList Cycle;
+    //Cycle = CreateCycleList(Cycle);
+    //bool flag;
+    //flag = hasCycle(Cycle);
+    //cout << flag << endl;
+
+    //ListPrint(A);
     //ListPrint(B);
     //int max = FindMax(A);
     //int min = FindMin(A);
