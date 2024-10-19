@@ -27,5 +27,7 @@ int main(){
     for(int i = 0;i < high;i++){
         printf("%d,",Test[i]);
     }
+    printf("\n");
+    
     return 0;
 }

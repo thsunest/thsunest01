@@ -32,7 +32,7 @@ void HeapSort(int A[],int len){
         HeadAdjust(A,1,i-1);
     }
 }
-
+ 
 int main(){
     int Test[] = {12,45,243,734,62,462,1};
     int len = sizeof(Test) / sizeof(Test[0]);

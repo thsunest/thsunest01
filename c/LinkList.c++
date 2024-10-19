@@ -14,7 +14,7 @@ typedef struct Lnode *LinkList; LNode *L 等价于 Linklist L;
 //初始化一个带头节点的单链表
 LinkList HeadInitLinkList(LinkList &L){
     L = (LNode *)malloc(sizeof(LNode));
-    if (L == NULL)    //内存不足
+    if (L == NULL)    //内存不足sdca
         return NULL;
     L ->next = NULL;
     return L;
