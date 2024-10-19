@@ -1,0 +1,47 @@
+2024-10-03 05:56:41.269 [info] Extension host with pid 29063 started
+2024-10-03 05:56:41.281 [error] Error: EEXIST: file already exists, open '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock'
+2024-10-03 05:56:41.321 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-03 05:56:41.330 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': The pid 27323 appears to be gone.
+2024-10-03 05:56:41.330 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Deleting a stale lock.
+2024-10-03 05:56:41.343 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Lock acquired.
+2024-10-03 05:56:41.683 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-10-03 05:56:41.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-03 05:56:43.434 [error] No bundle location found for extension vscode.git-base
+2024-10-03 05:56:43.467 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-03 05:56:43.467 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-03 05:56:44.196 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:56:44.197 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:56:44.197 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:56:44.198 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:56:44.415 [error] Activating extension ms-vscode.cpptools failed due to an error:
+2024-10-03 05:56:44.415 [error] TypeError: this._appender.logEvent is not a function
+	at E.logEvent (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:38992)
+	at E.logUsage (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:39093)
+	at TelemetryReporter.internalSendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28581:34)
+	at TelemetryReporter.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28592:14)
+	at ExperimentationTelemetry.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91124:27)
+	at ExperimentationTelemetry.postEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91143:14)
+	at ExperimentationService.PostEventToTelemetry (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68910:24)
+	at ExperimentationService.getTreatmentVariable (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68877:14)
+	at Object.isExperimentEnabled (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91175:47)
+	at async Object.activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:81062:38)
+	at async activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:114259:9)
+	at async w._activate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2024-10-03 05:56:44.651 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 05:56:46.191 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:56:46.192 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:56:46.192 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:56:46.193 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:56:46.193 [info] Eager extensions activated
+2024-10-03 05:56:48.871 [error] Activating extension vscode.npm failed due to an error:
+2024-10-03 05:56:48.871 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 05:56:49.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5548
+2024-10-03 05:56:51.651 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5548
+2024-10-03 06:14:02.485 [info] Extension host terminating: received terminate message from renderer
+2024-10-03 06:14:02.487 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-03 06:14:02.528 [info] Extension host with pid 29063 exiting with code 0

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/wzy/sycl_workspace/build-cuda-2022-09-debug/include/**",
+                "/home/wzy/sycl_workspace/build-cuda-2022-09-debug/include/sycl/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/wzy/sycl_workspace/build-cuda-2022-09-debug/bin/clang++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

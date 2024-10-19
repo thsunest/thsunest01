@@ -1,0 +1,33 @@
+2024-10-03 05:27:45.902 [info] 
+
+
+
+
+2024-10-03 05:27:45.953 [info] Extension host agent started.
+2024-10-03 05:27:45.972 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-10-03 05:27:46.660 [info] Deleted from disk franneck94.c-cpp-runner /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+2024-10-03 05:27:48.170 [info] [127.0.0.1][cbb082a4][ManagementConnection] New connection established.
+2024-10-03 05:27:49.446 [info] [127.0.0.1][35ed82f4][ExtensionHostConnection] New connection established.
+2024-10-03 05:27:49.508 [info] [127.0.0.1][35ed82f4][ExtensionHostConnection] <16599> Launched Extension Host Process.
+2024-10-03 05:28:43.747 [info] Getting Manifest... redhat.java
+2024-10-03 05:28:47.171 [info] Installing extension: redhat.java
+2024-10-03 05:29:51.699 [error] Error while installing the extension: redhat.java
+2024-10-03 05:29:51.708 [error] Failed to install extension. redhat.java
+2024-10-03 05:29:51.710 [error] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059)
+2024-10-03 05:29:53.478 [error] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059)
+2024-10-03 05:30:09.585 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:35:21.143 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:39:30.413 [warning] No ptyHost heartbeat after 6 seconds

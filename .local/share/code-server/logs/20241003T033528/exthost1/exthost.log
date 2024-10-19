@@ -1,0 +1,120 @@
+2024-10-03 03:35:34.707 [info] Extension host with pid 25590 started
+2024-10-03 03:35:34.720 [error] Error: EEXIST: file already exists, open '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock'
+2024-10-03 03:35:34.745 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-03 03:35:34.749 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': The pid 3286 appears to be gone.
+2024-10-03 03:35:34.749 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Deleting a stale lock.
+2024-10-03 03:35:34.761 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Lock acquired.
+2024-10-03 03:35:34.992 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-10-03 03:35:34.994 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-03 03:35:36.368 [error] No bundle location found for extension vscode.git-base
+2024-10-03 03:35:36.391 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-03 03:35:36.392 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-03 03:35:37.503 [error] No bundle location found for extension vscode.git
+2024-10-03 03:35:37.503 [error] No bundle location found for extension vscode.github
+2024-10-03 03:35:38.985 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 03:35:38.986 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 03:35:38.986 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 03:35:38.987 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 03:35:39.142 [error] Activating extension ms-vscode.cpptools failed due to an error:
+2024-10-03 03:35:39.143 [error] TypeError: this._appender.logEvent is not a function
+	at E.logEvent (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:38992)
+	at E.logUsage (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:39093)
+	at TelemetryReporter.internalSendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28581:34)
+	at TelemetryReporter.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28592:14)
+	at ExperimentationTelemetry.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91124:27)
+	at ExperimentationTelemetry.postEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91143:14)
+	at ExperimentationService.PostEventToTelemetry (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68910:24)
+	at ExperimentationService.getTreatmentVariable (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68877:14)
+	at Object.isExperimentEnabled (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91175:47)
+	at async Object.activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:81062:38)
+	at async activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:114259:9)
+	at async w._activate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2024-10-03 03:35:39.143 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 03:35:39.144 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 03:35:39.145 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 03:35:39.145 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 03:35:39.145 [info] Eager extensions activated
+2024-10-03 03:35:39.358 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 03:35:39.871 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2024-10-03 03:35:40.575 [error] No bundle location found for extension vscode.configuration-editing
+2024-10-03 03:35:40.575 [error] No bundle location found for extension vscode.extension-editing
+2024-10-03 03:35:40.575 [error] No bundle location found for extension vscode.json-language-features
+2024-10-03 03:35:40.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:35:42.369 [error] No bundle location found for extension vscode.debug-auto-launch
+2024-10-03 03:35:42.369 [error] No bundle location found for extension vscode.emmet
+2024-10-03 03:35:42.369 [error] No bundle location found for extension vscode.merge-conflict
+2024-10-03 03:35:42.369 [error] No bundle location found for extension vscode.npm
+2024-10-03 03:35:43.433 [error] No bundle location found for extension vscode.typescript-language-features
+2024-10-03 03:35:44.794 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:35:47.703 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2024-10-03 03:40:38.459 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:40:57.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:41:04.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:41:11.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:41:19.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:41:53.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:00.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:09.818 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:16.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:38.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:44.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:42:52.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:43:18.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:43:27.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:43:38.482 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:43:45.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:44:01.460 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-10-03 03:44:02.475 [error] No bundle location found for extension vscode.debug-server-ready
+2024-10-03 03:44:08.545 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:44:56.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:45:03.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:45:57.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:46:04.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:46:11.551 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:46:20.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:46:32.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:46:39.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:49:01.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:49:08.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5532
+2024-10-03 03:49:11.504 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2024-10-03 03:49:11.504 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2024-10-03 03:49:11.504 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2024-10-03 03:49:12.523 [error] No bundle location found for extension vscode.grunt
+2024-10-03 03:49:12.523 [error] No bundle location found for extension vscode.gulp
+2024-10-03 03:49:12.523 [error] No bundle location found for extension vscode.jake
+2024-10-03 03:49:13.814 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:13.817 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:18.626 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:18.627 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:27.568 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:27.568 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:41.289 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 03:49:41.289 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528

@@ -1,0 +1,19 @@
+2024-10-03 03:50:09.864 [info] 
+
+
+
+
+2024-10-03 03:50:09.937 [info] Extension host agent started.
+2024-10-03 03:50:09.953 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-10-03 03:50:12.255 [info] [127.0.0.1][a4460294][ManagementConnection] New connection established.
+2024-10-03 03:50:13.394 [info] [127.0.0.1][2b0d2e7f][ExtensionHostConnection] New connection established.
+2024-10-03 03:50:13.414 [info] [127.0.0.1][2b0d2e7f][ExtensionHostConnection] <30502> Launched Extension Host Process.

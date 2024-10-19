@@ -1,7 +1,0 @@
-2024-09-22 07:01:12.704 [info] Extension host with pid 21502 started
-2024-09-22 07:01:12.799 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-09-22 07:01:13.904 [error] No bundle location found for extension vscode.git-base
-2024-09-22 07:01:13.932 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-09-22 07:01:13.932 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-09-22 07:01:16.700 [info] Extension host terminating: received terminate message from renderer
-2024-09-22 07:01:16.702 [info] Extension host with pid 21502 exiting with code 0

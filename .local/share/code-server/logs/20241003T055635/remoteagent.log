@@ -1,0 +1,42 @@
+2024-10-03 05:56:35.307 [info] 
+
+
+
+
+2024-10-03 05:56:35.375 [info] Extension host agent started.
+2024-10-03 05:56:35.391 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-10-03 05:56:37.892 [info] [127.0.0.1][60b34432][ManagementConnection] New connection established.
+2024-10-03 05:56:39.084 [info] [127.0.0.1][8a4585b6][ExtensionHostConnection] New connection established.
+2024-10-03 05:56:39.146 [info] [127.0.0.1][8a4585b6][ExtensionHostConnection] <29063> Launched Extension Host Process.
+2024-10-03 06:14:02.493 [info] [127.0.0.1][60b34432][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 06:14:02.582 [info] [127.0.0.1][8a4585b6][ExtensionHostConnection] <29063> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 06:14:04.177 [info] [127.0.0.1][8a237de3][ManagementConnection] New connection established.
+2024-10-03 06:14:05.510 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:05.510 [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+2024-10-03 06:14:05.686 [info] [127.0.0.1][706a38cf][ExtensionHostConnection] New connection established.
+2024-10-03 06:14:05.861 [info] [127.0.0.1][706a38cf][ExtensionHostConnection] <4756> Launched Extension Host Process.
+2024-10-03 06:14:06.091 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:06.092 [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+2024-10-03 06:14:06.469 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:06.470 [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+2024-10-03 06:14:06.730 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:06.730 [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+2024-10-03 06:14:07.030 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:07.031 [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+2024-10-03 06:14:07.204 [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+2024-10-03 06:14:07.205 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+2024-10-03 06:15:25.189 [info] [127.0.0.1][8a237de3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 06:15:26.384 [info] [127.0.0.1][da9523cf][ManagementConnection] New connection established.
+2024-10-03 06:15:27.466 [info] [127.0.0.1][5a0b5533][ExtensionHostConnection] New connection established.
+2024-10-03 06:15:27.508 [info] [127.0.0.1][5a0b5533][ExtensionHostConnection] <5260> Launched Extension Host Process.
+2024-10-03 06:15:30.755 [info] [127.0.0.1][706a38cf][ExtensionHostConnection] <4756> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 06:50:30.181 [warning] No ptyHost heartbeat after 6 seconds

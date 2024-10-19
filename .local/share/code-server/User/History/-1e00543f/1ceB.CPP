@@ -1,0 +1,20 @@
+#include"LinkList.h"
+void Intersection (LinkList A,LinkList B,LinkList &C){
+    LNode *p = A->next;
+    LNode *q = B->next;
+    while(p){
+        while(q){
+            if(p->data == q->data){
+                C->next = q;
+                q = q->next;
+            }
+            else{
+                q = q->next;
+            }
+        }
+        p = p->next;
+    }
+}
+int main(){
+    return 0;
+}

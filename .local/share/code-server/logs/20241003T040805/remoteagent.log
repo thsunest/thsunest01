@@ -1,0 +1,43 @@
+2024-10-03 04:08:06.013 [info] 
+
+
+
+
+2024-10-03 04:08:06.075 [info] Extension host agent started.
+2024-10-03 04:08:06.090 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-10-03 04:08:08.812 [info] [127.0.0.1][80d6efda][ManagementConnection] New connection established.
+2024-10-03 04:08:10.090 [info] [127.0.0.1][070a58f5][ExtensionHostConnection] New connection established.
+2024-10-03 04:08:10.113 [info] [127.0.0.1][070a58f5][ExtensionHostConnection] <8671> Launched Extension Host Process.
+2024-10-03 04:12:21.168 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:15:06.520 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:16:39.906 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:16:49.119 [info] Uninstalling extension: franneck94.c-cpp-runner@4.3.1
+2024-10-03 05:16:49.234 [info] Successfully uninstalled extension: franneck94.c-cpp-runner@4.3.1
+2024-10-03 05:18:38.337 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/keytar/lib/keytar.js
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/bootstrap-amd.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/util.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/cli.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/entry.js
+2024-10-03 05:20:24.171 [info] [127.0.0.1][80d6efda][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 05:20:24.254 [info] [127.0.0.1][070a58f5][ExtensionHostConnection] <8671> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 05:20:25.819 [info] [127.0.0.1][4ab85396][ManagementConnection] New connection established.
+2024-10-03 05:20:26.953 [info] [127.0.0.1][c87a5867][ExtensionHostConnection] New connection established.
+2024-10-03 05:20:26.973 [info] [127.0.0.1][c87a5867][ExtensionHostConnection] <14545> Launched Extension Host Process.
+2024-10-03 05:21:19.456 [info] [127.0.0.1][4ab85396][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 05:21:19.553 [info] [127.0.0.1][c87a5867][ExtensionHostConnection] <14545> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 05:21:20.644 [info] [127.0.0.1][fe830c07][ManagementConnection] New connection established.
+2024-10-03 05:21:21.642 [info] [127.0.0.1][d203545a][ExtensionHostConnection] New connection established.
+2024-10-03 05:21:21.659 [info] [127.0.0.1][d203545a][ExtensionHostConnection] <14922> Launched Extension Host Process.
+2024-10-03 05:27:31.162 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 05:27:38.800 [info] Getting Manifest... redhat.java

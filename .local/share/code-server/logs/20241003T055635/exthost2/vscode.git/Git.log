@@ -1,0 +1,29 @@
+2024-10-03 06:14:16.079 [info] 正在验证在以下位置中找到的 git: git
+2024-10-03 06:14:16.079 [info] 将使用位于 git 的 Git 2.34.1
+2024-10-03 06:14:16.080 [info] > git rev-parse --show-toplevel [55ms]
+2024-10-03 06:14:16.080 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-03 06:15:08.627 [info] > git rev-parse --show-toplevel [39ms]
+2024-10-03 06:15:08.679 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2024-10-03 06:15:08.708 [info] Log level: Info
+2024-10-03 06:15:08.708 [info] Open repository: /root
+2024-10-03 06:15:09.023 [info] > git remote --verbose [282ms]
+2024-10-03 06:15:09.025 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [302ms]
+2024-10-03 06:15:09.098 [info] > git config --get commit.template [320ms]
+2024-10-03 06:15:09.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/su refs/remotes/su [15ms]
+2024-10-03 06:15:09.399 [info] > git show --textconv :.gitconfig [37ms]
+2024-10-03 06:15:09.411 [info] > git ls-files --stage -- /root/.gitconfig [23ms]
+2024-10-03 06:15:09.660 [info] > git check-ignore -v -z --stdin [16ms]
+2024-10-03 06:15:12.551 [info] > git status -z -uall [3791ms]
+2024-10-03 06:15:13.157 [info] > git remote --verbose [499ms]
+2024-10-03 06:15:13.158 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [516ms]
+2024-10-03 06:15:13.183 [info] > git config --get commit.template [29ms]
+2024-10-03 06:15:13.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/su refs/remotes/su [52ms]
+2024-10-03 06:15:15.472 [info] > git status -z -uall [2799ms]
+2024-10-03 06:15:17.422 [info] > git remote --verbose [80ms]
+2024-10-03 06:15:17.423 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [115ms]
+2024-10-03 06:15:17.566 [info] > git config --get commit.template [153ms]
+2024-10-03 06:15:17.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/su refs/remotes/su [34ms]
+2024-10-03 06:15:20.061 [info] > git status -z -uall [2695ms]
+2024-10-03 06:15:25.215 [info] > git remote --verbose [56ms]
+2024-10-03 06:15:25.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [92ms]

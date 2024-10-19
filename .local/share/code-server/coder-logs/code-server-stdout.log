@@ -148,3 +148,1130 @@
 [07:10:18] [127.0.0.1][bc772f51][ManagementConnection] New connection established.
 [07:10:20] [127.0.0.1][01cd00cb][ExtensionHostConnection] New connection established.
 [07:10:20] [127.0.0.1][01cd00cb][ExtensionHostConnection] <24873> Launched Extension Host Process.
+[07:23:46] Getting Manifest... vadimcn.vscode-lldb
+[07:23:49] Installing extension: vadimcn.vscode-lldb
+[07:23:51] Extracted extension to /root/.local/share/code-server/extensions/.f0dcea9b-a55d-4910-aecd-bb176b975279: vadimcn.vscode-lldb
+[07:23:51] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[07:23:51] Extracting completed. vadimcn.vscode-lldb
+[07:23:51] Extension installed successfully: vadimcn.vscode-lldb
+[07:37:21] Getting Manifest... twxs.cmake
+[07:37:24] Installing extension: twxs.cmake
+[07:39:57] [127.0.0.1][1910ecb3][ManagementConnection] New connection established.
+[07:39:58] [127.0.0.1][726d8f2e][ExtensionHostConnection] New connection established.
+[07:39:58] [127.0.0.1][726d8f2e][ExtensionHostConnection] <6323> Launched Extension Host Process.
+[07:41:26] Installing extension: twxs.cmake
+[07:41:30] Extracted extension to /root/.local/share/code-server/extensions/.2ea8d367-db22-42af-b230-e2aca906ddc1: twxs.cmake
+[07:41:30] Renamed to /root/.local/share/code-server/extensions/twxs.cmake-0.0.17
+[07:41:30] Extracting completed. twxs.cmake
+[07:41:30] Extension installed successfully: twxs.cmake
+[07:41:31] Detected extension removed from another source vadimcn.vscode-lldb
+[07:48:22] [127.0.0.1][bc772f51][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:48:22] [127.0.0.1][01cd00cb][ExtensionHostConnection] <24873> Extension Host Process exited with code: 0, signal: null.
+[07:48:24] [127.0.0.1][578508b6][ManagementConnection] New connection established.
+[07:48:25] [127.0.0.1][9cf05197][ExtensionHostConnection] New connection established.
+[07:48:25] [127.0.0.1][9cf05197][ExtensionHostConnection] <10080> Launched Extension Host Process.
+[07:55:44] [127.0.0.1][578508b6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:55:44] [127.0.0.1][9cf05197][ExtensionHostConnection] <10080> Extension Host Process exited with code: 0, signal: null.
+[07:55:45] [127.0.0.1][9d785fff][ManagementConnection] New connection established.
+[07:55:47] [127.0.0.1][6b26c478][ExtensionHostConnection] New connection established.
+[07:55:47] [127.0.0.1][6b26c478][ExtensionHostConnection] <12953> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "5": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "5"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "18": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "19": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "18"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "19"
+[IPC Library: Pty Host]  INFO Persistent process "5": Replaying 5083 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 302 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 304 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "18": Replaying 39 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "19": Replaying 6270 chars and 1 size events
+[07:56:45] Getting Manifest... vadimcn.vscode-lldb
+[07:56:49] Installing extension: vadimcn.vscode-lldb
+[07:56:51] Extracted extension to /root/.local/share/code-server/extensions/.3d71710b-a5af-4759-8d9c-3517f5d372b7: vadimcn.vscode-lldb
+[07:56:51] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[07:56:51] Extracting completed. vadimcn.vscode-lldb
+[07:56:51] Extension installed successfully: vadimcn.vscode-lldb
+[08:00:29] [127.0.0.1][9d785fff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:00:30] [127.0.0.1][6b26c478][ExtensionHostConnection] <12953> Extension Host Process exited with code: 0, signal: null.
+[08:00:31] [127.0.0.1][27c37992][ManagementConnection] New connection established.
+[08:00:33] [127.0.0.1][9ac8b705][ExtensionHostConnection] New connection established.
+[08:00:33] [127.0.0.1][9ac8b705][ExtensionHostConnection] <14227> Launched Extension Host Process.
+[2024-09-22T08:01:37.528Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T08:01:37.530Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T08:01:37.575Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T08:01:37.575Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T08:01:37.575Z] info    - Authentication is disabled 
+[2024-09-22T08:01:37.575Z] info    - Not serving HTTPS 
+[08:01:38] 
+
+
+
+
+[08:01:38] Extension host agent started.
+[08:01:39] Deleted from disk ms-vscode.cpptools /root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4
+[08:01:39] Deleted from disk vadimcn.vscode-lldb /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[08:01:40] [127.0.0.1][82225d87][ManagementConnection] New connection established.
+[08:01:41] [127.0.0.1][fe5c1d9a][ExtensionHostConnection] New connection established.
+[08:01:41] [127.0.0.1][fe5c1d9a][ExtensionHostConnection] <14770> Launched Extension Host Process.
+[2024-09-22T11:55:50.411Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-22T11:55:50.413Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-22T11:55:50.459Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-22T11:55:50.459Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-22T11:55:50.460Z] info    - Authentication is disabled 
+[2024-09-22T11:55:50.460Z] info    - Not serving HTTPS 
+[11:55:51] 
+
+
+
+
+[11:55:51] Extension host agent started.
+[11:55:54] [127.0.0.1][ea0a6d43][ManagementConnection] New connection established.
+[11:55:55] [127.0.0.1][c5987553][ExtensionHostConnection] New connection established.
+[11:55:55] [127.0.0.1][c5987553][ExtensionHostConnection] <22522> Launched Extension Host Process.
+[12:00:52] Installing extension: ms-vscode.cpptools
+[12:01:04] Extracted extension to /root/.local/share/code-server/extensions/.cc4a96af-09dd-42ed-82ef-76f397a5946f: ms-vscode.cpptools
+[12:01:04] Renamed to /root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4
+[12:01:04] Extracting completed. ms-vscode.cpptools
+[12:01:04] Extension installed successfully: ms-vscode.cpptools
+[12:01:25] [127.0.0.1][ea0a6d43][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:01:25] [127.0.0.1][c5987553][ExtensionHostConnection] <22522> Extension Host Process exited with code: 0, signal: null.
+[12:01:26] [127.0.0.1][b0e0a1d9][ManagementConnection] New connection established.
+[12:01:27] [127.0.0.1][0d85e737][ExtensionHostConnection] New connection established.
+[12:01:27] [127.0.0.1][0d85e737][ExtensionHostConnection] <23273> Launched Extension Host Process.
+[12:03:48] [127.0.0.1][b0e0a1d9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:03:49] [127.0.0.1][0d85e737][ExtensionHostConnection] <23273> Extension Host Process exited with code: 0, signal: null.
+[12:03:50] [127.0.0.1][60774877][ManagementConnection] New connection established.
+[12:03:51] [127.0.0.1][04c53ca3][ExtensionHostConnection] New connection established.
+[12:03:51] [127.0.0.1][04c53ca3][ExtensionHostConnection] <23838> Launched Extension Host Process.
+[2024-09-23T03:14:06.429Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-23T03:14:06.431Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-23T03:14:06.484Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-23T03:14:06.485Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-23T03:14:06.485Z] info    - Authentication is disabled 
+[2024-09-23T03:14:06.485Z] info    - Not serving HTTPS 
+[03:14:07] 
+
+
+
+
+[03:14:07] Extension host agent started.
+[03:14:09] [127.0.0.1][49efe32b][ManagementConnection] New connection established.
+[03:14:10] [127.0.0.1][24fd7af3][ExtensionHostConnection] New connection established.
+[03:14:10] [127.0.0.1][24fd7af3][ExtensionHostConnection] <16068> Launched Extension Host Process.
+[2024-09-23T03:39:23.686Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-23T03:39:23.689Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-23T03:39:23.738Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-23T03:39:23.738Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-23T03:39:23.738Z] info    - Authentication is disabled 
+[2024-09-23T03:39:23.739Z] info    - Not serving HTTPS 
+[03:39:24] 
+
+
+
+
+[03:39:24] Extension host agent started.
+[03:39:27] [127.0.0.1][618dabd3][ManagementConnection] New connection established.
+[03:39:28] [127.0.0.1][631b61d8][ExtensionHostConnection] New connection established.
+[03:39:28] [127.0.0.1][631b61d8][ExtensionHostConnection] <27648> Launched Extension Host Process.
+[00:45:16] [127.0.0.1][618dabd3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[00:46:15] [127.0.0.1][618dabd3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[00:46:15] [127.0.0.1][a39cc27f][ManagementConnection] New connection established.
+[00:46:15] [127.0.0.1][765245be][ManagementConnection] New connection established.
+[IPC Library: Pty Host]  WARN Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host
+[00:46:21] [127.0.0.1][1ce070d3][ExtensionHostConnection] New connection established.
+[00:46:21] [127.0.0.1][1ce070d3][ExtensionHostConnection] <12173> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host
+[00:46:25] [127.0.0.1][51d67ed2][ExtensionHostConnection] New connection established.
+[00:46:25] [127.0.0.1][51d67ed2][ExtensionHostConnection] <13452> Launched Extension Host Process.
+[2024-09-24T02:11:14.148Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-24T02:11:14.150Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-24T02:11:14.206Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-24T02:11:14.207Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-24T02:11:14.207Z] info    - Authentication is disabled 
+[2024-09-24T02:11:14.207Z] info    - Not serving HTTPS 
+[02:11:15] 
+
+
+
+
+[02:11:15] Extension host agent started.
+[02:11:17] [127.0.0.1][ae07758e][ManagementConnection] New connection established.
+[02:11:18] [127.0.0.1][2672ae23][ExtensionHostConnection] New connection established.
+[02:11:18] [127.0.0.1][2672ae23][ExtensionHostConnection] <1774> Launched Extension Host Process.
+[02:15:24] [127.0.0.1][ae07758e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:15:24] [127.0.0.1][2672ae23][ExtensionHostConnection] <1774> Extension Host Process exited with code: 0, signal: null.
+[02:15:26] [127.0.0.1][f65c6390][ManagementConnection] New connection established.
+[02:15:27] [127.0.0.1][a01bdea7][ExtensionHostConnection] New connection established.
+[02:15:27] [127.0.0.1][a01bdea7][ExtensionHostConnection] <3984> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 676 chars and 1 size events
+[2024-09-25T01:16:18.858Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-25T01:16:18.860Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-25T01:16:18.886Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-25T01:16:18.886Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-25T01:16:18.886Z] info    - Authentication is disabled 
+[2024-09-25T01:16:18.886Z] info    - Not serving HTTPS 
+[01:16:20] 
+
+
+
+
+[01:16:20] Extension host agent started.
+[01:16:23] [127.0.0.1][8cf5c28a][ManagementConnection] New connection established.
+[01:16:24] [127.0.0.1][00371929][ExtensionHostConnection] New connection established.
+[01:16:24] [127.0.0.1][00371929][ExtensionHostConnection] <26357> Launched Extension Host Process.
+[01:30:28] [127.0.0.1][f9377e04][ManagementConnection] New connection established.
+[01:30:28] [127.0.0.1][ad5bae37][ManagementConnection] New connection established.
+[01:30:31] [127.0.0.1][2a85dabd][ExtensionHostConnection] New connection established.
+[01:30:31] [127.0.0.1][2a85dabd][ExtensionHostConnection] <1767> Launched Extension Host Process.
+[01:30:31] [127.0.0.1][1e62caa6][ExtensionHostConnection] New connection established.
+[01:30:31] [127.0.0.1][1e62caa6][ExtensionHostConnection] <1780> Launched Extension Host Process.
+[2024-09-25T01:34:07.930Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-25T01:34:07.932Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-25T01:34:07.981Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-25T01:34:07.982Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-25T01:34:07.982Z] info    - Authentication is disabled 
+[2024-09-25T01:34:07.982Z] info    - Not serving HTTPS 
+[01:34:08] 
+
+
+
+
+[01:34:08] Extension host agent started.
+[01:34:11] [127.0.0.1][d61e785b][ManagementConnection] New connection established.
+[01:34:13] [127.0.0.1][1989756b][ExtensionHostConnection] New connection established.
+[01:34:13] [127.0.0.1][1989756b][ExtensionHostConnection] <5536> Launched Extension Host Process.
+[01:36:38] Getting Manifest... vadimcn.vscode-lldb
+[01:36:54] Installing extension: vadimcn.vscode-lldb
+[01:36:55] Extracted extension to /root/.local/share/code-server/extensions/.477bd780-1ac5-4ef8-8081-a22826aacdeb: vadimcn.vscode-lldb
+[01:36:55] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[01:36:55] Extracting completed. vadimcn.vscode-lldb
+[01:36:55] Extension installed successfully: vadimcn.vscode-lldb
+[01:38:35] [127.0.0.1][d61e785b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:38:35] [127.0.0.1][1989756b][ExtensionHostConnection] <5536> Extension Host Process exited with code: 0, signal: null.
+[01:38:37] [127.0.0.1][999515d6][ManagementConnection] New connection established.
+[01:38:38] [127.0.0.1][013ebc92][ExtensionHostConnection] New connection established.
+[01:38:38] [127.0.0.1][013ebc92][ExtensionHostConnection] <8118> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 37 chars and 1 size events
+[2024-09-25T01:40:36.529Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-25T01:40:36.531Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-25T01:40:36.574Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-25T01:40:36.574Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-25T01:40:36.575Z] info    - Authentication is disabled 
+[2024-09-25T01:40:36.575Z] info    - Not serving HTTPS 
+[01:40:37] 
+
+
+
+
+[01:40:37] Extension host agent started.
+[01:40:39] [127.0.0.1][ad5e4e37][ManagementConnection] New connection established.
+[01:40:41] [127.0.0.1][db83823d][ExtensionHostConnection] New connection established.
+[01:40:41] [127.0.0.1][db83823d][ExtensionHostConnection] <9114> Launched Extension Host Process.
+[01:47:30] [127.0.0.1][ad5e4e37][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:47:30] [127.0.0.1][db83823d][ExtensionHostConnection] <9114> Extension Host Process exited with code: 0, signal: null.
+[01:47:31] [127.0.0.1][e06deb61][ManagementConnection] New connection established.
+[01:47:32] [127.0.0.1][1c9e1234][ExtensionHostConnection] New connection established.
+[01:47:32] [127.0.0.1][1c9e1234][ExtensionHostConnection] <9854> Launched Extension Host Process.
+[01:48:06] [127.0.0.1][e06deb61][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:48:06] [127.0.0.1][1c9e1234][ExtensionHostConnection] <9854> Extension Host Process exited with code: 0, signal: null.
+[01:48:07] [127.0.0.1][0913d72f][ManagementConnection] New connection established.
+[01:48:09] [127.0.0.1][061cfbd4][ExtensionHostConnection] New connection established.
+[01:48:09] [127.0.0.1][061cfbd4][ExtensionHostConnection] <10064> Launched Extension Host Process.
+[2024-09-25T02:14:23.723Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-25T02:14:23.725Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-25T02:14:23.780Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-25T02:14:23.780Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-25T02:14:23.781Z] info    - Authentication is disabled 
+[2024-09-25T02:14:23.781Z] info    - Not serving HTTPS 
+[02:14:24] 
+
+
+
+
+[02:14:24] Extension host agent started.
+[02:14:27] [127.0.0.1][e01db884][ManagementConnection] New connection established.
+[02:14:28] [127.0.0.1][6a117016][ExtensionHostConnection] New connection established.
+[02:14:28] [127.0.0.1][6a117016][ExtensionHostConnection] <21577> Launched Extension Host Process.
+[2024-09-26T07:10:03.234Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:10:03.235Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:10:03.270Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:10:03.270Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:10:03.270Z] info    - Authentication is disabled 
+[2024-09-26T07:10:03.270Z] info    - Not serving HTTPS 
+[07:10:04] 
+
+
+
+
+[07:10:04] Extension host agent started.
+[07:10:06] [127.0.0.1][e764e4f1][ManagementConnection] New connection established.
+[07:10:07] [127.0.0.1][d50aa510][ExtensionHostConnection] New connection established.
+[07:10:07] [127.0.0.1][d50aa510][ExtensionHostConnection] <10263> Launched Extension Host Process.
+[2024-09-26T07:22:29.518Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:22:29.519Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:22:29.549Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:22:29.549Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:22:29.549Z] info    - Authentication is disabled 
+[2024-09-26T07:22:29.549Z] info    - Not serving HTTPS 
+[07:22:30] 
+
+
+
+
+[07:22:30] Extension host agent started.
+[2024-09-26T07:24:13.859Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:24:13.860Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:24:13.901Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:24:13.901Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:24:13.901Z] info    - Authentication is disabled 
+[2024-09-26T07:24:13.901Z] info    - Not serving HTTPS 
+[07:24:14] 
+
+
+
+
+[07:24:14] Extension host agent started.
+[07:24:16] [127.0.0.1][e39bbe29][ManagementConnection] New connection established.
+[07:24:17] [127.0.0.1][12acb59e][ExtensionHostConnection] New connection established.
+[07:24:17] [127.0.0.1][12acb59e][ExtensionHostConnection] <18338> Launched Extension Host Process.
+[07:25:20] Installing extension: ms-vscode.cmake-tools
+[2024-09-26T07:27:39.290Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:27:39.292Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:27:39.337Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:27:39.337Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:27:39.337Z] info    - Authentication is disabled 
+[2024-09-26T07:27:39.337Z] info    - Not serving HTTPS 
+[07:27:40] 
+
+
+
+
+[07:27:40] Extension host agent started.
+[07:27:42] [127.0.0.1][d6e68770][ManagementConnection] New connection established.
+[07:27:43] [127.0.0.1][4ef0a657][ExtensionHostConnection] New connection established.
+[07:27:43] [127.0.0.1][4ef0a657][ExtensionHostConnection] <19672> Launched Extension Host Process.
+[07:28:12] Installing extension: ms-vscode.cmake-tools
+[07:30:22] Getting Manifest... ms-vscode.cmake-tools
+[2024-09-26T07:31:33.494Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:31:33.496Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:31:33.535Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:31:33.535Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:31:33.535Z] info    - Authentication is disabled 
+[2024-09-26T07:31:33.535Z] info    - Not serving HTTPS 
+[07:31:34] 
+
+
+
+
+[07:31:34] Extension host agent started.
+[07:31:36] [127.0.0.1][a4c207e6][ManagementConnection] New connection established.
+[07:31:37] [127.0.0.1][4ad18420][ExtensionHostConnection] New connection established.
+[07:31:37] [127.0.0.1][4ad18420][ExtensionHostConnection] <21119> Launched Extension Host Process.
+[07:31:59] Getting Manifest... ms-vscode.cmake-tools
+[07:34:26] [127.0.0.1][b4645ad2][ManagementConnection] New connection established.
+[07:34:27] [127.0.0.1][143235a0][ExtensionHostConnection] New connection established.
+[07:34:28] [127.0.0.1][143235a0][ExtensionHostConnection] <22007> Launched Extension Host Process.
+[07:35:07] Getting Manifest... ms-vscode.cmake-tools
+[07:35:34] [127.0.0.1][7627d501][ManagementConnection] New connection established.
+[07:35:35] [127.0.0.1][9cdd294d][ExtensionHostConnection] New connection established.
+[07:35:35] [127.0.0.1][9cdd294d][ExtensionHostConnection] <24706> Launched Extension Host Process.
+[07:36:48] Installing extension: ms-vscode.cmake-tools
+[07:36:50] Getting Manifest... twxs.cmake
+[07:36:57] Extracted extension to /root/.local/share/code-server/extensions/.b6edea25-8da2-4322-b497-b33874d05452: ms-vscode.cmake-tools
+[07:36:57] Renamed to /root/.local/share/code-server/extensions/ms-vscode.cmake-tools-1.19.51
+[07:36:57] Extracting completed. ms-vscode.cmake-tools
+[07:36:57] Extension installed successfully: ms-vscode.cmake-tools
+[2024-09-26T07:38:30.992Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:38:30.993Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:38:31.024Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:38:31.024Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:38:31.024Z] info    - Authentication is disabled 
+[2024-09-26T07:38:31.024Z] info    - Not serving HTTPS 
+[07:38:31] 
+
+
+
+
+[07:38:31] Extension host agent started.
+[07:38:34] [127.0.0.1][916a32d1][ManagementConnection] New connection established.
+[07:38:36] [127.0.0.1][4cc6922e][ExtensionHostConnection] New connection established.
+[07:38:36] [127.0.0.1][4cc6922e][ExtensionHostConnection] <27754> Launched Extension Host Process.
+[07:38:47] [127.0.0.1][916a32d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:38:47] [127.0.0.1][4cc6922e][ExtensionHostConnection] <27754> Extension Host Process exited with code: 0, signal: null.
+[07:38:48] [127.0.0.1][2e1ad916][ManagementConnection] New connection established.
+[07:38:50] [127.0.0.1][51551b6f][ExtensionHostConnection] New connection established.
+[07:38:50] [127.0.0.1][51551b6f][ExtensionHostConnection] <27802> Launched Extension Host Process.
+[07:39:26] [127.0.0.1][2e1ad916][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:39:26] [127.0.0.1][51551b6f][ExtensionHostConnection] <27802> Extension Host Process exited with code: 0, signal: null.
+[07:39:27] [127.0.0.1][c58d0543][ManagementConnection] New connection established.
+[07:39:29] [127.0.0.1][74256348][ExtensionHostConnection] New connection established.
+[07:39:29] [127.0.0.1][74256348][ExtensionHostConnection] <28213> Launched Extension Host Process.
+[07:40:04] [127.0.0.1][c58d0543][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:40:04] [127.0.0.1][74256348][ExtensionHostConnection] <28213> Extension Host Process exited with code: 0, signal: null.
+[07:40:05] [127.0.0.1][754c1da2][ManagementConnection] New connection established.
+[07:40:06] [127.0.0.1][4103b3a8][ExtensionHostConnection] New connection established.
+[07:40:06] [127.0.0.1][4103b3a8][ExtensionHostConnection] <28535> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 26 chars and 1 size events
+[07:43:42] [127.0.0.1][754c1da2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:43:42] [127.0.0.1][4103b3a8][ExtensionHostConnection] <28535> Extension Host Process exited with code: 0, signal: null.
+[07:43:43] [127.0.0.1][5152cf11][ManagementConnection] New connection established.
+[07:43:44] [127.0.0.1][fd1a3790][ExtensionHostConnection] New connection established.
+[07:43:44] [127.0.0.1][fd1a3790][ExtensionHostConnection] <30601> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 37 chars and 1 size events
+[2024-09-26T07:50:03.317Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T07:50:03.318Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T07:50:03.356Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T07:50:03.356Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T07:50:03.356Z] info    - Authentication is disabled 
+[2024-09-26T07:50:03.356Z] info    - Not serving HTTPS 
+[07:50:04] 
+
+
+
+
+[07:50:04] Extension host agent started.
+[07:50:06] [127.0.0.1][79d9a81b][ManagementConnection] New connection established.
+[07:50:08] [127.0.0.1][f6213e8b][ExtensionHostConnection] New connection established.
+[07:50:08] [127.0.0.1][f6213e8b][ExtensionHostConnection] <4110> Launched Extension Host Process.
+[2024-09-26T08:04:07.307Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T08:04:07.309Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T08:04:07.348Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T08:04:07.348Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T08:04:07.348Z] info    - Authentication is disabled 
+[2024-09-26T08:04:07.348Z] info    - Not serving HTTPS 
+[08:04:08] 
+
+
+
+
+[08:04:08] Extension host agent started.
+[08:04:11] [127.0.0.1][5ea8b19d][ManagementConnection] New connection established.
+[08:04:12] [127.0.0.1][1c5e3e14][ExtensionHostConnection] New connection established.
+[08:04:12] [127.0.0.1][1c5e3e14][ExtensionHostConnection] <12694> Launched Extension Host Process.
+[08:07:24] Uninstalling extension: ms-vscode.cpptools@1.22.4
+[08:07:24] Successfully uninstalled extension: ms-vscode.cpptools@1.22.4
+[08:07:43] Installing extension: ms-vscode.cpptools
+[08:08:00] Extracted extension to /root/.local/share/code-server/extensions/.148d118e-449d-4b74-b0fc-7e5299f4c341: ms-vscode.cpptools
+[08:08:00] Renamed to /root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6
+[08:08:00] Extracting completed. ms-vscode.cpptools
+[08:08:00] Extension installed successfully: ms-vscode.cpptools
+[08:09:38] [127.0.0.1][5ea8b19d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:09:38] [127.0.0.1][1c5e3e14][ExtensionHostConnection] <12694> Extension Host Process exited with code: 0, signal: null.
+[08:09:40] [127.0.0.1][dde442a2][ManagementConnection] New connection established.
+[08:09:41] [127.0.0.1][66e43e73][ExtensionHostConnection] New connection established.
+[08:09:42] [127.0.0.1][66e43e73][ExtensionHostConnection] <15349> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "3": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "3"
+[IPC Library: Pty Host]  INFO Persistent process "3": Replaying 1294 chars and 1 size events
+[2024-09-26T08:12:38.409Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T08:12:38.412Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T08:12:38.485Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T08:12:38.487Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T08:12:38.488Z] info    - Authentication is disabled 
+[2024-09-26T08:12:38.488Z] info    - Not serving HTTPS 
+[08:12:39] 
+
+
+
+
+[08:12:39] Extension host agent started.
+[08:12:41] Deleted from disk ms-vscode.cpptools /root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.4
+[08:12:43] [127.0.0.1][0da7fafc][ManagementConnection] New connection established.
+[08:12:45] [127.0.0.1][3b53dc77][ExtensionHostConnection] New connection established.
+[08:12:46] [127.0.0.1][3b53dc77][ExtensionHostConnection] <17939> Launched Extension Host Process.
+[08:16:56] Getting Manifest... franneck94.vscode-c-cpp-dev-extension-pack
+[08:17:00] Installing extension: franneck94.vscode-c-cpp-dev-extension-pack
+[08:17:56] Installing extension: franneck94.vscode-c-cpp-dev-extension-pack
+[08:17:59] Getting Manifest... jeff-hykin.better-cpp-syntax
+[08:18:02] Getting Manifest... cheshirekow.cmake-format
+[08:18:05] Getting Manifest... bbenoist.doxygen
+[08:18:09] Getting Manifest... cschlosser.doxdocgen
+[08:18:11] Getting Manifest... twxs.cmake
+[08:18:18] Getting Manifest... vadimcn.vscode-lldb
+[08:18:23] Getting Manifest... franneck94.c-cpp-runner
+[08:18:27] Getting Manifest... franneck94.vscode-c-cpp-config
+[08:18:30] Getting Manifest... 13xforever.language-x86-64-assembly
+[08:18:34] Installing extension: jeff-hykin.better-cpp-syntax franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: cheshirekow.cmake-format franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: bbenoist.doxygen franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: cschlosser.doxdocgen franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: franneck94.c-cpp-runner franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: franneck94.vscode-c-cpp-config franneck94.vscode-c-cpp-dev-extension-pack
+[08:18:34] Installing extension: 13xforever.language-x86-64-assembly franneck94.vscode-c-cpp-dev-extension-pack
+[08:19:07] Extracted extension to /root/.local/share/code-server/extensions/.c196dfd1-9ed8-490c-a0ae-c9965e516597: bbenoist.doxygen
+[08:19:07] Extracted extension to /root/.local/share/code-server/extensions/.61484a31-4664-4b7e-8017-fe88e1a87150: 13xforever.language-x86-64-assembly
+[08:19:07] Renamed to /root/.local/share/code-server/extensions/bbenoist.doxygen-1.0.0-universal
+[08:19:07] Renamed to /root/.local/share/code-server/extensions/13xforever.language-x86-64-assembly-3.1.4-universal
+[08:19:08] Extracting completed. bbenoist.doxygen
+[08:19:08] Extracting completed. 13xforever.language-x86-64-assembly
+[08:19:09] Extracted extension to /root/.local/share/code-server/extensions/.5b895f6d-06ca-418c-9024-d90f953b3dd3: cheshirekow.cmake-format
+[08:19:09] Extracted extension to /root/.local/share/code-server/extensions/.9906f735-6411-4c87-a630-11ce059b66b9: jeff-hykin.better-cpp-syntax
+[08:19:10] Renamed to /root/.local/share/code-server/extensions/cheshirekow.cmake-format-0.6.13-universal
+[08:19:10] Renamed to /root/.local/share/code-server/extensions/jeff-hykin.better-cpp-syntax-1.27.1-universal
+[08:19:10] Extracting completed. cheshirekow.cmake-format
+[08:19:10] Extracting completed. jeff-hykin.better-cpp-syntax
+[08:19:10] Extracted extension to /root/.local/share/code-server/extensions/.6d61501a-2252-4132-a72b-a93f24a76cf1: franneck94.vscode-c-cpp-config
+[08:19:11] Renamed to /root/.local/share/code-server/extensions/franneck94.vscode-c-cpp-config-2.2.0-universal
+[08:19:11] Extracting completed. franneck94.vscode-c-cpp-config
+[08:19:20] Extracted extension to /root/.local/share/code-server/extensions/.5e6f574c-63af-4c46-b80e-fa64ef30f0ce: franneck94.c-cpp-runner
+[08:19:20] Renamed to /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+[08:19:20] Extracting completed. franneck94.c-cpp-runner
+[08:19:34] Extracted extension to /root/.local/share/code-server/extensions/.d0d17ce6-3c37-4340-a47f-ed9ea524f0cb: cschlosser.doxdocgen
+[08:19:34] Renamed to /root/.local/share/code-server/extensions/cschlosser.doxdocgen-1.4.0-universal
+[08:19:35] Extracting completed. cschlosser.doxdocgen
+[08:19:37] Extracted extension to /root/.local/share/code-server/extensions/.2e28871f-09a6-4786-9e75-d10b632bcee0: franneck94.vscode-c-cpp-dev-extension-pack
+[08:19:37] Renamed to /root/.local/share/code-server/extensions/franneck94.vscode-c-cpp-dev-extension-pack-0.10.0
+[08:19:37] Extracting completed. franneck94.vscode-c-cpp-dev-extension-pack
+[08:19:37] Extension installed successfully: bbenoist.doxygen
+[08:19:37] Extension installed successfully: 13xforever.language-x86-64-assembly
+[08:19:37] Extension installed successfully: cheshirekow.cmake-format
+[08:19:37] Extension installed successfully: jeff-hykin.better-cpp-syntax
+[08:19:37] Extension installed successfully: franneck94.vscode-c-cpp-config
+[08:19:37] Extension installed successfully: franneck94.c-cpp-runner
+[08:19:37] Extension installed successfully: cschlosser.doxdocgen
+[08:19:37] Extension installed successfully: franneck94.vscode-c-cpp-dev-extension-pack
+[08:20:34] [127.0.0.1][0da7fafc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:20:35] [127.0.0.1][3b53dc77][ExtensionHostConnection] <17939> Extension Host Process exited with code: 0, signal: null.
+[08:20:36] [127.0.0.1][d22d6501][ManagementConnection] New connection established.
+[08:20:37] [127.0.0.1][7ee8c284][ExtensionHostConnection] New connection established.
+[08:20:37] [127.0.0.1][7ee8c284][ExtensionHostConnection] <22129> Launched Extension Host Process.
+[2024-09-26T08:31:19.568Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T08:31:19.569Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T08:31:19.621Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T08:31:19.622Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T08:31:19.622Z] info    - Authentication is disabled 
+[2024-09-26T08:31:19.622Z] info    - Not serving HTTPS 
+[08:31:20] 
+
+
+
+
+[08:31:20] Extension host agent started.
+[08:31:22] [127.0.0.1][d6af674b][ManagementConnection] New connection established.
+[08:31:24] [127.0.0.1][87d4b7b8][ExtensionHostConnection] New connection established.
+[08:31:24] [127.0.0.1][87d4b7b8][ExtensionHostConnection] <25531> Launched Extension Host Process.
+[08:32:36] [127.0.0.1][87d4b7b8][ExtensionHostConnection] <25531><stderr> /bin/sh: 1: /home/wzy/sycl_workspace/build-cuda-2022-09-debug/bin/clang++: not found
+
+[08:39:24] [127.0.0.1][d6af674b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:39:24] [127.0.0.1][87d4b7b8][ExtensionHostConnection] <25531> Extension Host Process exited with code: 0, signal: null.
+[08:39:26] [127.0.0.1][7dc50831][ManagementConnection] New connection established.
+[08:39:27] [127.0.0.1][60fc79e9][ExtensionHostConnection] New connection established.
+[08:39:27] [127.0.0.1][60fc79e9][ExtensionHostConnection] <29006> Launched Extension Host Process.
+[08:39:48] [127.0.0.1][7dc50831][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:39:48] [127.0.0.1][60fc79e9][ExtensionHostConnection] <29006> Extension Host Process exited with code: 0, signal: null.
+[08:39:49] [127.0.0.1][e6ad86e7][ManagementConnection] New connection established.
+[08:39:50] [127.0.0.1][e4c54ad7][ExtensionHostConnection] New connection established.
+[08:39:50] [127.0.0.1][e4c54ad7][ExtensionHostConnection] <29219> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 221 chars and 1 size events
+[2024-09-26T08:47:21.721Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T08:47:21.724Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T08:47:21.770Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T08:47:21.770Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T08:47:21.770Z] info    - Authentication is disabled 
+[2024-09-26T08:47:21.770Z] info    - Not serving HTTPS 
+[08:47:22] 
+
+
+
+
+[08:47:22] Extension host agent started.
+[08:47:25] [127.0.0.1][914f6e68][ManagementConnection] New connection established.
+[08:47:26] [127.0.0.1][ea1151d9][ExtensionHostConnection] New connection established.
+[08:47:26] [127.0.0.1][ea1151d9][ExtensionHostConnection] <32053> Launched Extension Host Process.
+[2024-09-26T08:52:50.833Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T08:52:50.835Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T08:52:50.887Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T08:52:50.887Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T08:52:50.887Z] info    - Authentication is disabled 
+[2024-09-26T08:52:50.887Z] info    - Not serving HTTPS 
+[08:52:51] 
+
+
+
+
+[08:52:51] Extension host agent started.
+[08:52:54] [127.0.0.1][2c9fe74a][ManagementConnection] New connection established.
+[08:52:55] [127.0.0.1][43238e1a][ExtensionHostConnection] New connection established.
+[08:52:55] [127.0.0.1][43238e1a][ExtensionHostConnection] <3165> Launched Extension Host Process.
+[2024-09-26T09:07:00.159Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T09:07:00.161Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T09:07:00.215Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T09:07:00.216Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T09:07:00.216Z] info    - Authentication is disabled 
+[2024-09-26T09:07:00.216Z] info    - Not serving HTTPS 
+[09:07:01] 
+
+
+
+
+[09:07:01] Extension host agent started.
+[09:07:03] [127.0.0.1][8c89037f][ManagementConnection] New connection established.
+[09:07:05] [127.0.0.1][fbe595ef][ExtensionHostConnection] New connection established.
+[09:07:05] [127.0.0.1][fbe595ef][ExtensionHostConnection] <12894> Launched Extension Host Process.
+[09:07:26] [127.0.0.1][8c89037f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:07:26] [127.0.0.1][fbe595ef][ExtensionHostConnection] <12894> Extension Host Process exited with code: 0, signal: null.
+[09:07:27] [127.0.0.1][ec2ed0b5][ManagementConnection] New connection established.
+[09:07:28] [127.0.0.1][6f314a7c][ExtensionHostConnection] New connection established.
+[09:07:29] [127.0.0.1][6f314a7c][ExtensionHostConnection] <13131> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 37 chars and 1 size events
+[2024-09-26T09:08:58.171Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T09:08:58.173Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T09:08:58.262Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T09:08:58.262Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T09:08:58.263Z] info    - Authentication is disabled 
+[2024-09-26T09:08:58.263Z] info    - Not serving HTTPS 
+[09:08:59] 
+
+
+
+
+[09:09:00] Extension host agent started.
+[09:09:03] [127.0.0.1][34c1a718][ManagementConnection] New connection established.
+[09:09:05] [127.0.0.1][3fce83cb][ExtensionHostConnection] New connection established.
+[09:09:05] [127.0.0.1][3fce83cb][ExtensionHostConnection] <19463> Launched Extension Host Process.
+[09:18:21] Uninstalling extension: franneck94.vscode-c-cpp-dev-extension-pack@0.10.0
+[09:18:21] Uninstalling extension: 13xforever.language-x86-64-assembly@3.1.4
+[09:18:21] Uninstalling extension: bbenoist.doxygen@1.0.0
+[09:18:21] Uninstalling extension: cheshirekow.cmake-format@0.6.13
+[09:18:21] Uninstalling extension: cschlosser.doxdocgen@1.4.0
+[09:18:21] Uninstalling extension: franneck94.c-cpp-runner@4.3.1
+[09:18:21] Uninstalling extension: franneck94.vscode-c-cpp-config@2.2.0
+[09:18:21] Uninstalling extension: jeff-hykin.better-cpp-syntax@1.27.1
+[09:18:21] Uninstalling extension: twxs.cmake@0.0.17
+[09:18:21] Uninstalling extension: vadimcn.vscode-lldb@1.10.0
+[09:18:22] Detected extension removed from another source 13xforever.language-x86-64-assembly
+[09:18:22] Detected extension removed from another source bbenoist.doxygen
+[09:18:22] Detected extension removed from another source cheshirekow.cmake-format
+[09:18:22] Detected extension removed from another source cschlosser.doxdocgen
+[09:18:22] Detected extension removed from another source franneck94.c-cpp-runner
+[09:18:22] Detected extension removed from another source franneck94.vscode-c-cpp-config
+[09:18:22] Detected extension removed from another source franneck94.vscode-c-cpp-dev-extension-pack
+[09:18:22] Detected extension removed from another source jeff-hykin.better-cpp-syntax
+[09:18:22] Detected extension removed from another source twxs.cmake
+[09:18:22] Detected extension removed from another source vadimcn.vscode-lldb
+[09:18:23] Successfully uninstalled extension: 13xforever.language-x86-64-assembly@3.1.4
+[09:18:23] Successfully uninstalled extension: franneck94.vscode-c-cpp-dev-extension-pack@0.10.0
+[09:18:23] Successfully uninstalled extension: bbenoist.doxygen@1.0.0
+[09:18:23] Successfully uninstalled extension: cheshirekow.cmake-format@0.6.13
+[09:18:24] Successfully uninstalled extension: cschlosser.doxdocgen@1.4.0
+[09:18:24] Successfully uninstalled extension: franneck94.c-cpp-runner@4.3.1
+[09:18:24] Successfully uninstalled extension: jeff-hykin.better-cpp-syntax@1.27.1
+[09:18:24] Successfully uninstalled extension: franneck94.vscode-c-cpp-config@2.2.0
+[09:18:25] Successfully uninstalled extension: twxs.cmake@0.0.17
+[09:18:25] Successfully uninstalled extension: vadimcn.vscode-lldb@1.10.0
+[09:18:26] [127.0.0.1][34c1a718][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:18:26] [127.0.0.1][3fce83cb][ExtensionHostConnection] <19463> Extension Host Process exited with code: 0, signal: null.
+[09:18:27] [127.0.0.1][3a980875][ManagementConnection] New connection established.
+[09:18:28] [127.0.0.1][8ddcce42][ExtensionHostConnection] New connection established.
+[09:18:28] [127.0.0.1][8ddcce42][ExtensionHostConnection] <22108> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "4": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "4"
+[IPC Library: Pty Host]  INFO Persistent process "4": Replaying 37 chars and 1 size events
+[09:18:53] [127.0.0.1][3a980875][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:18:54] [127.0.0.1][8ddcce42][ExtensionHostConnection] <22108> Extension Host Process exited with code: 0, signal: null.
+[09:18:55] [127.0.0.1][b3f0aa2c][ManagementConnection] New connection established.
+[09:18:55] [127.0.0.1][7370fb80][ExtensionHostConnection] New connection established.
+[09:18:55] [127.0.0.1][7370fb80][ExtensionHostConnection] <22401> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "4": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "4"
+[IPC Library: Pty Host]  INFO Persistent process "4": Replaying 37 chars and 1 size events
+[09:19:09] Uninstalling extension: ms-vscode.cmake-tools@1.19.51
+[09:24:57] Successfully uninstalled extension: ms-vscode.cmake-tools@1.19.51
+[09:29:40] Getting Manifest... vadimcn.vscode-lldb
+[09:29:45] Installing extension: vadimcn.vscode-lldb
+[09:29:46] Extracted extension to /root/.local/share/code-server/extensions/.a5c306fd-15d6-446b-83fe-d0ce2f5ac6f2: vadimcn.vscode-lldb
+[09:29:46] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[09:29:46] Extracting completed. vadimcn.vscode-lldb
+[09:29:46] Extension installed successfully: vadimcn.vscode-lldb
+[2024-09-26T09:32:53.713Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T09:32:53.715Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T09:32:53.752Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T09:32:53.753Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T09:32:53.753Z] info    - Authentication is disabled 
+[2024-09-26T09:32:53.753Z] info    - Not serving HTTPS 
+[09:32:54] 
+
+
+
+
+[09:32:54] Extension host agent started.
+[09:32:55] Deleted from disk franneck94.vscode-c-cpp-dev-extension-pack /root/.local/share/code-server/extensions/franneck94.vscode-c-cpp-dev-extension-pack-0.10.0
+[09:32:55] Deleted from disk 13xforever.language-x86-64-assembly /root/.local/share/code-server/extensions/13xforever.language-x86-64-assembly-3.1.4-universal
+[09:32:55] Deleted from disk cheshirekow.cmake-format /root/.local/share/code-server/extensions/cheshirekow.cmake-format-0.6.13-universal
+[09:32:55] Deleted from disk jeff-hykin.better-cpp-syntax /root/.local/share/code-server/extensions/jeff-hykin.better-cpp-syntax-1.27.1-universal
+[09:32:55] Deleted from disk bbenoist.doxygen /root/.local/share/code-server/extensions/bbenoist.doxygen-1.0.0-universal
+[09:32:55] Deleted from disk franneck94.vscode-c-cpp-config /root/.local/share/code-server/extensions/franneck94.vscode-c-cpp-config-2.2.0-universal
+[09:32:56] Deleted from disk franneck94.c-cpp-runner /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+[09:32:56] Deleted from disk twxs.cmake /root/.local/share/code-server/extensions/twxs.cmake-0.0.17
+[09:32:56] Deleted from disk ms-vscode.cmake-tools /root/.local/share/code-server/extensions/ms-vscode.cmake-tools-1.19.51
+[09:32:57] Deleted from disk cschlosser.doxdocgen /root/.local/share/code-server/extensions/cschlosser.doxdocgen-1.4.0-universal
+[09:32:57] [127.0.0.1][d90decd2][ManagementConnection] New connection established.
+[09:32:59] [127.0.0.1][bcee5892][ExtensionHostConnection] New connection established.
+[09:32:59] [127.0.0.1][bcee5892][ExtensionHostConnection] <1310> Launched Extension Host Process.
+[09:39:24] [127.0.0.1][d90decd2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:39:24] [127.0.0.1][bcee5892][ExtensionHostConnection] <1310> Extension Host Process exited with code: 0, signal: null.
+[09:39:25] [127.0.0.1][fb48ee58][ManagementConnection] New connection established.
+[09:39:26] [127.0.0.1][3736fb8d][ExtensionHostConnection] New connection established.
+[09:39:27] [127.0.0.1][3736fb8d][ExtensionHostConnection] <4712> Launched Extension Host Process.
+[2024-09-26T09:49:05.343Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T09:49:05.344Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T09:49:05.405Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T09:49:05.405Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T09:49:05.405Z] info    - Authentication is disabled 
+[2024-09-26T09:49:05.405Z] info    - Not serving HTTPS 
+[09:49:06] 
+
+
+
+
+[09:49:06] Extension host agent started.
+[09:49:07] Deleted from disk vadimcn.vscode-lldb /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[09:49:08] [127.0.0.1][fa0f9b36][ManagementConnection] New connection established.
+[09:49:09] [127.0.0.1][0fb344dd][ExtensionHostConnection] New connection established.
+[09:49:09] [127.0.0.1][0fb344dd][ExtensionHostConnection] <10773> Launched Extension Host Process.
+[09:49:26] Uninstalling extension: formulahendry.code-runner@0.12.2
+[09:49:26] Detected extension removed from another source formulahendry.code-runner
+[09:49:28] [127.0.0.1][fa0f9b36][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:49:28] [127.0.0.1][0fb344dd][ExtensionHostConnection] <10773> Extension Host Process exited with code: 0, signal: null.
+[09:49:28] Successfully uninstalled extension: formulahendry.code-runner@0.12.2
+[09:49:29] [127.0.0.1][c0b2a3f2][ManagementConnection] New connection established.
+[09:49:30] [127.0.0.1][d63c6608][ExtensionHostConnection] New connection established.
+[09:49:30] [127.0.0.1][d63c6608][ExtensionHostConnection] <11238> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 37 chars and 1 size events
+[2024-09-26T09:57:21.734Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T09:57:21.736Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T09:57:21.786Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T09:57:21.786Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T09:57:21.786Z] info    - Authentication is disabled 
+[2024-09-26T09:57:21.786Z] info    - Not serving HTTPS 
+[09:57:22] 
+
+
+
+
+[09:57:22] Extension host agent started.
+[09:57:23] Deleted from disk formulahendry.code-runner /root/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal
+[09:57:25] [127.0.0.1][dae5ce05][ManagementConnection] New connection established.
+[09:57:26] [127.0.0.1][66d084e4][ExtensionHostConnection] New connection established.
+[09:57:26] [127.0.0.1][66d084e4][ExtensionHostConnection] <17126> Launched Extension Host Process.
+[2024-09-26T11:03:08.573Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T11:03:08.576Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T11:03:08.630Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T11:03:08.630Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T11:03:08.631Z] info    - Authentication is disabled 
+[2024-09-26T11:03:08.631Z] info    - Not serving HTTPS 
+[11:03:09] 
+
+
+
+
+[11:03:09] Extension host agent started.
+[11:03:12] [127.0.0.1][84540ae7][ManagementConnection] New connection established.
+[11:03:13] [127.0.0.1][94363b76][ExtensionHostConnection] New connection established.
+[11:03:13] [127.0.0.1][94363b76][ExtensionHostConnection] <29909> Launched Extension Host Process.
+[2024-09-26T11:07:58.622Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T11:07:58.624Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T11:07:58.673Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T11:07:58.673Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T11:07:58.674Z] info    - Authentication is disabled 
+[2024-09-26T11:07:58.674Z] info    - Not serving HTTPS 
+[11:07:59] 
+
+
+
+
+[11:07:59] Extension host agent started.
+[11:08:02] [127.0.0.1][4d99619f][ManagementConnection] New connection established.
+[11:08:03] [127.0.0.1][7d65a979][ExtensionHostConnection] New connection established.
+[11:08:03] [127.0.0.1][7d65a979][ExtensionHostConnection] <31754> Launched Extension Host Process.
+[11:12:25] Getting Manifest... formulahendry.code-runner
+[11:12:27] Installing extension: formulahendry.code-runner
+[11:12:30] Extracted extension to /root/.local/share/code-server/extensions/.62bb44f6-1eb3-490c-a7a9-dd72b6626563: formulahendry.code-runner
+[11:12:30] Renamed to /root/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal
+[11:12:30] Extracting completed. formulahendry.code-runner
+[11:12:30] Extension installed successfully: formulahendry.code-runner
+[11:19:09] Uninstalling extension: formulahendry.code-runner@0.12.2
+[11:19:10] Detected extension removed from another source formulahendry.code-runner
+[11:19:12] [127.0.0.1][4d99619f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:19:13] [127.0.0.1][7d65a979][ExtensionHostConnection] <31754> Extension Host Process exited with code: 0, signal: null.
+[11:19:14] [127.0.0.1][56133bc6][ManagementConnection] New connection established.
+[11:19:14] Successfully uninstalled extension: formulahendry.code-runner@0.12.2
+[11:19:15] [127.0.0.1][f4b93f9e][ExtensionHostConnection] New connection established.
+[11:19:16] [127.0.0.1][f4b93f9e][ExtensionHostConnection] <3687> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "4": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "4"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 37 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "4": Replaying 337 chars and 1 size events
+[12:01:13] Getting Manifest... franneck94.c-cpp-runner
+[12:01:15] Installing extension: franneck94.c-cpp-runner
+[12:01:18] Getting Manifest... vadimcn.vscode-lldb
+[12:01:22] Installing extension: vadimcn.vscode-lldb franneck94.c-cpp-runner
+[12:01:22] Extracted extension to /root/.local/share/code-server/extensions/.e955bd0a-7d5c-4229-9a5f-490632a93bee: vadimcn.vscode-lldb
+[12:01:22] Renamed to /root/.local/share/code-server/extensions/vadimcn.vscode-lldb-1.10.0-universal
+[12:01:22] Extracting completed. vadimcn.vscode-lldb
+[12:01:23] Extracted extension to /root/.local/share/code-server/extensions/.f4774a3b-e389-4300-a49c-08cdc9f143d0: franneck94.c-cpp-runner
+[12:01:24] Renamed to /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+[12:01:24] Extracting completed. franneck94.c-cpp-runner
+[12:01:24] Extension installed successfully: vadimcn.vscode-lldb
+[12:01:24] Extension installed successfully: franneck94.c-cpp-runner
+[2024-09-26T12:11:57.115Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T12:11:57.117Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T12:11:57.175Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T12:11:57.175Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T12:11:57.176Z] info    - Authentication is disabled 
+[2024-09-26T12:11:57.176Z] info    - Not serving HTTPS 
+[12:11:58] 
+
+
+
+
+[12:11:58] Extension host agent started.
+[12:11:59] Deleted from disk formulahendry.code-runner /root/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal
+[12:12:00] [127.0.0.1][8a1668e0][ManagementConnection] New connection established.
+[12:12:01] [127.0.0.1][98b0ef8d][ExtensionHostConnection] New connection established.
+[12:12:01] [127.0.0.1][98b0ef8d][ExtensionHostConnection] <17225> Launched Extension Host Process.
+[2024-09-26T12:18:18.709Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T12:18:18.711Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T12:18:18.762Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T12:18:18.762Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T12:18:18.762Z] info    - Authentication is disabled 
+[2024-09-26T12:18:18.762Z] info    - Not serving HTTPS 
+[12:18:19] 
+
+
+
+
+[12:18:19] Extension host agent started.
+[12:18:22] [127.0.0.1][b086215d][ManagementConnection] New connection established.
+[12:18:23] [127.0.0.1][f54009ad][ExtensionHostConnection] New connection established.
+[12:18:23] [127.0.0.1][f54009ad][ExtensionHostConnection] <19801> Launched Extension Host Process.
+[13:05:34] [127.0.0.1][b086215d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:05:34] [127.0.0.1][f54009ad][ExtensionHostConnection] <19801> Extension Host Process exited with code: 0, signal: null.
+[13:05:36] [127.0.0.1][497d5111][ManagementConnection] New connection established.
+[13:05:37] [127.0.0.1][af8bc106][ExtensionHostConnection] New connection established.
+[13:05:37] [127.0.0.1][af8bc106][ExtensionHostConnection] <3726> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 37 chars and 1 size events
+[13:07:25] [127.0.0.1][497d5111][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:07:25] [127.0.0.1][af8bc106][ExtensionHostConnection] <3726> Extension Host Process exited with code: 0, signal: null.
+[13:07:26] [127.0.0.1][32d1c192][ManagementConnection] New connection established.
+[13:07:27] [127.0.0.1][cac3f7d3][ExtensionHostConnection] New connection established.
+[13:07:27] [127.0.0.1][cac3f7d3][ExtensionHostConnection] <4503> Launched Extension Host Process.
+[13:08:05] [127.0.0.1][32d1c192][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:08:06] [127.0.0.1][cac3f7d3][ExtensionHostConnection] <4503> Extension Host Process exited with code: 0, signal: null.
+[13:08:07] [127.0.0.1][3e7db3de][ManagementConnection] New connection established.
+[13:08:08] [127.0.0.1][587a511c][ExtensionHostConnection] New connection established.
+[13:08:08] [127.0.0.1][587a511c][ExtensionHostConnection] <4901> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 37 chars and 1 size events
+[2024-09-26T13:26:54.480Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-26T13:26:54.482Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-26T13:26:54.529Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-26T13:26:54.529Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-26T13:26:54.529Z] info    - Authentication is disabled 
+[2024-09-26T13:26:54.529Z] info    - Not serving HTTPS 
+[13:26:55] 
+
+
+
+
+[13:26:55] Extension host agent started.
+[13:26:58] [127.0.0.1][f59d84ce][ManagementConnection] New connection established.
+[13:26:59] [127.0.0.1][603c04b9][ExtensionHostConnection] New connection established.
+[13:26:59] [127.0.0.1][603c04b9][ExtensionHostConnection] <7804> Launched Extension Host Process.
+[2024-09-29T13:56:05.106Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-29T13:56:05.108Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-29T13:56:05.150Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-29T13:56:05.151Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-29T13:56:05.151Z] info    - Authentication is disabled 
+[2024-09-29T13:56:05.151Z] info    - Not serving HTTPS 
+[13:56:06] 
+
+
+
+
+[13:56:06] Extension host agent started.
+[13:56:08] [127.0.0.1][3ba8ca04][ManagementConnection] New connection established.
+[13:56:10] [127.0.0.1][43ea9ede][ExtensionHostConnection] New connection established.
+[13:56:10] [127.0.0.1][43ea9ede][ExtensionHostConnection] <20243> Launched Extension Host Process.
+[14:02:16] [127.0.0.1][c3716416][ManagementConnection] New connection established.
+[14:02:16] [127.0.0.1][a32a23fa][ManagementConnection] New connection established.
+[14:02:18] [127.0.0.1][b8499efa][ExtensionHostConnection] New connection established.
+[14:02:18] [127.0.0.1][b8499efa][ExtensionHostConnection] <23935> Launched Extension Host Process.
+[14:02:18] [127.0.0.1][7625735e][ExtensionHostConnection] New connection established.
+[14:02:18] [127.0.0.1][7625735e][ExtensionHostConnection] <23942> Launched Extension Host Process.
+[2024-09-29T16:09:46.128Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-29T16:09:46.131Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-29T16:09:46.182Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-29T16:09:46.182Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-29T16:09:46.182Z] info    - Authentication is disabled 
+[2024-09-29T16:09:46.182Z] info    - Not serving HTTPS 
+[16:09:47] 
+
+
+
+
+[16:09:47] Extension host agent started.
+[16:09:49] [127.0.0.1][c0ccb966][ManagementConnection] New connection established.
+[16:09:50] [127.0.0.1][b1538e51][ExtensionHostConnection] New connection established.
+[16:09:50] [127.0.0.1][b1538e51][ExtensionHostConnection] <26490> Launched Extension Host Process.
+[2024-09-29T16:15:46.715Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-29T16:15:46.718Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-29T16:15:46.766Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-29T16:15:46.766Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-29T16:15:46.766Z] info    - Authentication is disabled 
+[2024-09-29T16:15:46.767Z] info    - Not serving HTTPS 
+[16:15:47] 
+
+
+
+
+[16:15:47] Extension host agent started.
+[16:15:50] [127.0.0.1][9695b5df][ManagementConnection] New connection established.
+[16:15:51] [127.0.0.1][1ed34830][ExtensionHostConnection] New connection established.
+[16:15:51] [127.0.0.1][1ed34830][ExtensionHostConnection] <12795> Launched Extension Host Process.
+[2024-09-30T09:13:40.772Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-30T09:13:40.775Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-30T09:13:40.823Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-30T09:13:40.824Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-30T09:13:40.824Z] info    - Authentication is disabled 
+[2024-09-30T09:13:40.824Z] info    - Not serving HTTPS 
+[09:13:42] 
+
+
+
+
+[09:13:42] Extension host agent started.
+[09:13:44] [127.0.0.1][6ba9785c][ManagementConnection] New connection established.
+[09:13:46] [127.0.0.1][1179911b][ExtensionHostConnection] New connection established.
+[09:13:46] [127.0.0.1][1179911b][ExtensionHostConnection] <18324> Launched Extension Host Process.
+[2024-09-30T10:08:52.267Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-09-30T10:08:52.269Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-09-30T10:08:52.330Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-09-30T10:08:52.330Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-09-30T10:08:52.330Z] info    - Authentication is disabled 
+[2024-09-30T10:08:52.330Z] info    - Not serving HTTPS 
+[10:08:53] 
+
+
+
+
+[10:08:53] Extension host agent started.
+[10:08:55] [127.0.0.1][64d21533][ManagementConnection] New connection established.
+[10:08:56] [127.0.0.1][5370157d][ExtensionHostConnection] New connection established.
+[10:08:56] [127.0.0.1][5370157d][ExtensionHostConnection] <3286> Launched Extension Host Process.
+[2024-10-03T03:35:27.349Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T03:35:27.352Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T03:35:27.405Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T03:35:27.405Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T03:35:27.405Z] info    - Authentication is disabled 
+[2024-10-03T03:35:27.405Z] info    - Not serving HTTPS 
+[03:35:28] 
+
+
+
+
+[03:35:28] Extension host agent started.
+[03:35:31] [127.0.0.1][e722231f][ManagementConnection] New connection established.
+[03:35:32] [127.0.0.1][9822e5c1][ExtensionHostConnection] New connection established.
+[03:35:32] [127.0.0.1][9822e5c1][ExtensionHostConnection] <25590> Launched Extension Host Process.
+[2024-10-03T03:50:08.771Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T03:50:08.773Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T03:50:08.815Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T03:50:08.815Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T03:50:08.816Z] info    - Authentication is disabled 
+[2024-10-03T03:50:08.816Z] info    - Not serving HTTPS 
+[03:50:09] 
+
+
+
+
+[03:50:09] Extension host agent started.
+[03:50:12] [127.0.0.1][a4460294][ManagementConnection] New connection established.
+[03:50:13] [127.0.0.1][2b0d2e7f][ExtensionHostConnection] New connection established.
+[03:50:13] [127.0.0.1][2b0d2e7f][ExtensionHostConnection] <30502> Launched Extension Host Process.
+[2024-10-03T03:56:50.347Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T03:56:50.349Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T03:56:50.389Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T03:56:50.389Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T03:56:50.389Z] info    - Authentication is disabled 
+[2024-10-03T03:56:50.389Z] info    - Not serving HTTPS 
+[03:56:51] 
+
+
+
+
+[03:56:51] Extension host agent started.
+[03:56:53] [127.0.0.1][580e8f17][ManagementConnection] New connection established.
+[03:56:54] [127.0.0.1][a2100af2][ExtensionHostConnection] New connection established.
+[03:56:54] [127.0.0.1][a2100af2][ExtensionHostConnection] <4745> Launched Extension Host Process.
+[2024-10-03T04:08:04.999Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T04:08:05.001Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T04:08:05.044Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T04:08:05.044Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T04:08:05.044Z] info    - Authentication is disabled 
+[2024-10-03T04:08:05.044Z] info    - Not serving HTTPS 
+[04:08:05] 
+
+
+
+
+[04:08:06] Extension host agent started.
+[04:08:08] [127.0.0.1][80d6efda][ManagementConnection] New connection established.
+[04:08:10] [127.0.0.1][070a58f5][ExtensionHostConnection] New connection established.
+[04:08:10] [127.0.0.1][070a58f5][ExtensionHostConnection] <8671> Launched Extension Host Process.
+[05:16:49] Uninstalling extension: franneck94.c-cpp-runner@4.3.1
+[05:16:49] Successfully uninstalled extension: franneck94.c-cpp-runner@4.3.1
+[05:20:24] [127.0.0.1][80d6efda][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:20:24] [127.0.0.1][070a58f5][ExtensionHostConnection] <8671> Extension Host Process exited with code: 0, signal: null.
+[05:20:25] [127.0.0.1][4ab85396][ManagementConnection] New connection established.
+[05:20:26] [127.0.0.1][c87a5867][ExtensionHostConnection] New connection established.
+[05:20:26] [127.0.0.1][c87a5867][ExtensionHostConnection] <14545> Launched Extension Host Process.
+[05:21:19] [127.0.0.1][4ab85396][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:21:19] [127.0.0.1][c87a5867][ExtensionHostConnection] <14545> Extension Host Process exited with code: 0, signal: null.
+[05:21:20] [127.0.0.1][fe830c07][ManagementConnection] New connection established.
+[05:21:21] [127.0.0.1][d203545a][ExtensionHostConnection] New connection established.
+[05:21:21] [127.0.0.1][d203545a][ExtensionHostConnection] <14922> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 195 chars and 1 size events
+[05:27:38] Getting Manifest... redhat.java
+[2024-10-03T05:27:44.925Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T05:27:44.928Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T05:27:44.986Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T05:27:44.986Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T05:27:44.986Z] info    - Authentication is disabled 
+[2024-10-03T05:27:44.986Z] info    - Not serving HTTPS 
+[05:27:45] 
+
+
+
+
+[05:27:45] Extension host agent started.
+[05:27:46] Deleted from disk franneck94.c-cpp-runner /root/.local/share/code-server/extensions/franneck94.c-cpp-runner-4.3.1-universal
+[05:27:48] [127.0.0.1][cbb082a4][ManagementConnection] New connection established.
+[05:27:49] [127.0.0.1][35ed82f4][ExtensionHostConnection] New connection established.
+[05:27:49] [127.0.0.1][35ed82f4][ExtensionHostConnection] <16599> Launched Extension Host Process.
+[05:28:43] Getting Manifest... redhat.java
+[05:28:47] Installing extension: redhat.java
+[2024-10-03T05:49:17.155Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T05:49:17.156Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T05:49:17.211Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T05:49:17.211Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T05:49:17.211Z] info    - Authentication is disabled 
+[2024-10-03T05:49:17.211Z] info    - Not serving HTTPS 
+[05:49:18] 
+
+
+
+
+[05:49:18] Extension host agent started.
+[05:49:20] [127.0.0.1][eba7e054][ManagementConnection] New connection established.
+[05:49:22] [127.0.0.1][808eedf0][ExtensionHostConnection] New connection established.
+[05:49:22] [127.0.0.1][808eedf0][ExtensionHostConnection] <27323> Launched Extension Host Process.
+[2024-10-03T05:56:34.030Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T05:56:34.032Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T05:56:34.081Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T05:56:34.081Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T05:56:34.081Z] info    - Authentication is disabled 
+[2024-10-03T05:56:34.081Z] info    - Not serving HTTPS 
+[05:56:35] 
+
+
+
+
+[05:56:35] Extension host agent started.
+[05:56:37] [127.0.0.1][60b34432][ManagementConnection] New connection established.
+[05:56:39] [127.0.0.1][8a4585b6][ExtensionHostConnection] New connection established.
+[05:56:39] [127.0.0.1][8a4585b6][ExtensionHostConnection] <29063> Launched Extension Host Process.
+[06:14:02] [127.0.0.1][60b34432][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:14:02] [127.0.0.1][8a4585b6][ExtensionHostConnection] <29063> Extension Host Process exited with code: 0, signal: null.
+[06:14:04] [127.0.0.1][8a237de3][ManagementConnection] New connection established.
+[06:14:05] [127.0.0.1][706a38cf][ExtensionHostConnection] New connection established.
+[06:14:05] [127.0.0.1][706a38cf][ExtensionHostConnection] <4756> Launched Extension Host Process.
+[06:15:25] [127.0.0.1][8a237de3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:15:26] [127.0.0.1][da9523cf][ManagementConnection] New connection established.
+[06:15:27] [127.0.0.1][5a0b5533][ExtensionHostConnection] New connection established.
+[06:15:27] [127.0.0.1][5a0b5533][ExtensionHostConnection] <5260> Launched Extension Host Process.
+[06:15:30] [127.0.0.1][706a38cf][ExtensionHostConnection] <4756> Extension Host Process exited with code: 0, signal: null.
+[2024-10-03T09:06:24.884Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T09:06:24.886Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T09:06:24.919Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T09:06:24.919Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T09:06:24.919Z] info    - Authentication is disabled 
+[2024-10-03T09:06:24.919Z] info    - Not serving HTTPS 
+[09:06:26] 
+
+
+
+
+[09:06:26] Extension host agent started.
+[2024-10-03T09:10:26.414Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T09:10:26.416Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T09:10:26.468Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T09:10:26.469Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T09:10:26.469Z] info    - Authentication is disabled 
+[2024-10-03T09:10:26.469Z] info    - Not serving HTTPS 
+[09:10:27] 
+
+
+
+
+[09:10:27] Extension host agent started.
+[09:10:29] [127.0.0.1][f41d1655][ManagementConnection] New connection established.
+[09:10:31] [127.0.0.1][716f6948][ExtensionHostConnection] New connection established.
+[09:10:31] [127.0.0.1][716f6948][ExtensionHostConnection] <31069> Launched Extension Host Process.
+[09:11:46] [127.0.0.1][f41d1655][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:11:46] [127.0.0.1][716f6948][ExtensionHostConnection] <31069> Extension Host Process exited with code: 0, signal: null.
+[09:11:47] [127.0.0.1][7b51ca46][ManagementConnection] New connection established.
+[09:11:49] [127.0.0.1][dc274109][ExtensionHostConnection] New connection established.
+[09:11:49] [127.0.0.1][dc274109][ExtensionHostConnection] <31469> Launched Extension Host Process.
+[10:36:56] Getting Manifest... redhat.java
+[10:38:52] [127.0.0.1][7b51ca46][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:38:52] [127.0.0.1][dc274109][ExtensionHostConnection] <31469> Extension Host Process exited with code: 0, signal: null.
+[10:38:54] [127.0.0.1][c960b0b9][ManagementConnection] New connection established.
+[10:38:55] [127.0.0.1][5583d9ea][ExtensionHostConnection] New connection established.
+[10:38:55] [127.0.0.1][5583d9ea][ExtensionHostConnection] <27563> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 26 chars and 1 size events
+[10:42:13] Getting Manifest... formulahendry.code-runner
+[2024-10-03T10:48:43.251Z] info  code-server 4.9.1 f7989a4dfcf21085e52157a01924d79d708bcc05
+[2024-10-03T10:48:43.252Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-10-03T10:48:43.279Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-10-03T10:48:43.279Z] info  HTTP server listening on http://0.0.0.0:20000/ 
+[2024-10-03T10:48:43.280Z] info    - Authentication is disabled 
+[2024-10-03T10:48:43.280Z] info    - Not serving HTTPS 
+[10:48:49] 
+
+
+
+
+[10:48:49] Extension host agent started.
+[10:48:51] [127.0.0.1][65e49923][ManagementConnection] New connection established.
+[10:48:52] [127.0.0.1][ddcee546][ExtensionHostConnection] New connection established.
+[10:48:52] [127.0.0.1][ddcee546][ExtensionHostConnection] <31167> Launched Extension Host Process.
+[10:49:13] Getting Manifest... formulahendry.code-runner

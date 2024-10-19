@@ -141,3 +141,2040 @@ SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses 
     at listOnTimeout (node:internal/timers:557:17)
     at processTimers (node:internal/timers:500:7)
 [07:10:17] Failed to uninstall extension: ms-vscode.cpptools@1.22.4 Extension 'C/C++' is not installed.
+[07:39:06] No ptyHost heartbeat after 6 seconds
+[07:39:06] Error while installing the extension: twxs.cmake
+[07:39:06] Failed to install extension. twxs.cmake
+[07:39:06] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.36b851d0-3ed4-49e2-aa59-06ac02340c4f' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059) {
+  code: 'Download'
+}
+rejected promise not handled within 1 second: Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.36b851d0-3ed4-49e2-aa59-06ac02340c4f' (Error: aborted)
+stack trace: Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.36b851d0-3ed4-49e2-aa59-06ac02340c4f' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059)
+[07:39:07] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.36b851d0-3ed4-49e2-aa59-06ac02340c4f' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059) {
+  code: 'Download'
+}
+[07:39:33] No ptyHost heartbeat after 6 seconds
+[07:39:51] No ptyHost heartbeat after 6 seconds
+[07:41:06] No ptyHost heartbeat after 6 seconds
+[07:51:00] No ptyHost heartbeat after 6 seconds
+[07:54:04] No ptyHost heartbeat after 6 seconds
+[2024-09-22T08:01:38.604Z] error child:14662 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-22T08:01:38.604Z] error child:14662 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:01:38] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:04:06] No ptyHost heartbeat after 6 seconds
+[11:47:31] No ptyHost heartbeat after 6 seconds
+[11:49:23] No ptyHost heartbeat after 6 seconds
+[11:51:56] No ptyHost heartbeat after 6 seconds
+[11:53:09] No ptyHost heartbeat after 6 seconds
+[2024-09-22T11:55:51.559Z] error child:22419 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-22T11:55:51.559Z] error child:22419 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[11:55:51] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[12:26:59] No ptyHost heartbeat after 6 seconds
+[01:57:15] No ptyHost heartbeat after 6 seconds
+[02:10:04] No ptyHost heartbeat after 6 seconds
+[02:11:57] No ptyHost heartbeat after 6 seconds
+[2024-09-23T03:14:07.752Z] error child:15960 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-23T03:14:07.752Z] error child:15960 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:14:07] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:28:16] No ptyHost heartbeat after 6 seconds
+[2024-09-23T03:39:24.961Z] error child:27525 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-23T03:39:24.962Z] error child:27525 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:39:24] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:41:32] No ptyHost heartbeat after 6 seconds
+[08:29:21] No ptyHost heartbeat after 6 seconds
+[13:53:40] No ptyHost heartbeat after 6 seconds
+[00:45:14] No ptyHost heartbeat after 6 seconds
+[00:45:16] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[00:46:06] No ptyHost heartbeat after 6 seconds
+[00:47:03] RequestStore#acceptReply was called without receiving a matching request 17
+[00:47:03] RequestStore#acceptReply was called without receiving a matching request 18
+[2024-09-24T02:11:15.582Z] error child:1584 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-24T02:11:15.583Z] error child:1584 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[02:11:15] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-25T01:16:20.246Z] error child:26111 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-25T01:16:20.247Z] error child:26111 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:16:20] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:25:34] No ptyHost heartbeat after 6 seconds
+[01:29:11] No ptyHost heartbeat after 6 seconds
+[01:30:37] RequestStore#acceptReply was called without receiving a matching request 51
+[01:30:37] RequestStore#acceptReply was called without receiving a matching request 52
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 49
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 50
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 51
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 52
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 53
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 54
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 55
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 56
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 53
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 54
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 55
+[01:30:39] RequestStore#acceptReply was called without receiving a matching request 56
+[01:30:40] RequestStore#acceptReply was called without receiving a matching request 57
+[01:30:40] RequestStore#acceptReply was called without receiving a matching request 57
+[01:30:40] RequestStore#acceptReply was called without receiving a matching request 58
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 58
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 59
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 60
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 59
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 61
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 60
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 62
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 63
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 61
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 62
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 63
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 64
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 65
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 64
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 66
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 65
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 67
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 66
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 68
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 69
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 67
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 68
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 69
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 70
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 70
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 71
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 72
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 73
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 74
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 75
+[01:30:42] RequestStore#acceptReply was called without receiving a matching request 76
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 71
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 77
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 72
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 73
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 74
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 75
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 76
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 78
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 77
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 79
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 80
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 78
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 81
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 82
+[01:30:43] RequestStore#acceptReply was called without receiving a matching request 79
+[01:30:44] RequestStore#acceptReply was called without receiving a matching request 80
+[01:30:44] RequestStore#acceptReply was called without receiving a matching request 81
+[01:30:44] RequestStore#acceptReply was called without receiving a matching request 82
+[01:30:45] RequestStore#acceptReply was called without receiving a matching request 83
+[01:30:45] RequestStore#acceptReply was called without receiving a matching request 83
+[01:30:45] RequestStore#acceptReply was called without receiving a matching request 84
+[01:30:45] RequestStore#acceptReply was called without receiving a matching request 85
+[01:30:45] RequestStore#acceptReply was called without receiving a matching request 84
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 85
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 86
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 87
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 86
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 87
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 88
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 88
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 89
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 89
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 90
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 90
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 91
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 92
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 93
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 91
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 92
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 93
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 94
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 94
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 95
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 96
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 95
+[01:30:46] RequestStore#acceptReply was called without receiving a matching request 96
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 97
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 97
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 98
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 98
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 99
+[01:30:50] RequestStore#acceptReply was called without receiving a matching request 100
+[01:30:51] RequestStore#acceptReply was called without receiving a matching request 101
+[01:30:51] RequestStore#acceptReply was called without receiving a matching request 99
+[01:30:51] RequestStore#acceptReply was called without receiving a matching request 100
+[01:30:52] RequestStore#acceptReply was called without receiving a matching request 101
+[01:30:54] RequestStore#acceptReply was called without receiving a matching request 102
+[01:30:54] RequestStore#acceptReply was called without receiving a matching request 102
+[01:30:58] No ptyHost heartbeat after 6 seconds
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 103
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 103
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 104
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 105
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 106
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 107
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 108
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 109
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 104
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 105
+[01:31:00] RequestStore#acceptReply was called without receiving a matching request 106
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 107
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 108
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 109
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 110
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 111
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 112
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 113
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 114
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 115
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 116
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 117
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 118
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 119
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 120
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 121
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 122
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 123
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 124
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 125
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 126
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 127
+[01:31:01] RequestStore#acceptReply was called without receiving a matching request 128
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 129
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 130
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 131
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 132
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 133
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 134
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 135
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 136
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 137
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 138
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 139
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 140
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 141
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 142
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 143
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 144
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 145
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 146
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 147
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 148
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 149
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 150
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 151
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 152
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 153
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 154
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 155
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 156
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 157
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 158
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 159
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 160
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 161
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 162
+[01:31:02] RequestStore#acceptReply was called without receiving a matching request 163
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 164
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 165
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 166
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 167
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 168
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 169
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 170
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 171
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 172
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 173
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 174
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 175
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 176
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 177
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 178
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 179
+[01:31:03] RequestStore#acceptReply was called without receiving a matching request 180
+[01:31:05] RequestStore#acceptReply was called without receiving a matching request 181
+[01:31:05] RequestStore#acceptReply was called without receiving a matching request 182
+[01:31:05] RequestStore#acceptReply was called without receiving a matching request 183
+[01:31:05] RequestStore#acceptReply was called without receiving a matching request 184
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 110
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 111
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 112
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 113
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 114
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 115
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 116
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 117
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 118
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 119
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 120
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 121
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 122
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 123
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 124
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 125
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 126
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 127
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 128
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 129
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 130
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 131
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 132
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 133
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 134
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 135
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 136
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 137
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 138
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 139
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 140
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 141
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 142
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 143
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 144
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 145
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 146
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 147
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 148
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 149
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 150
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 151
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 152
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 153
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 154
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 155
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 156
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 157
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 158
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 159
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 160
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 161
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 162
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 163
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 164
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 165
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 166
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 167
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 168
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 169
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 170
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 171
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 172
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 173
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 174
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 175
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 176
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 177
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 178
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 179
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 180
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 181
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 182
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 183
+[01:31:08] RequestStore#acceptReply was called without receiving a matching request 184
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 185
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 186
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 187
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 188
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 189
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 190
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 191
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 185
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 186
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 187
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 188
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 189
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 190
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 191
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 192
+[01:31:09] RequestStore#acceptReply was called without receiving a matching request 192
+[01:31:55] No ptyHost heartbeat after 6 seconds
+[01:32:04] RequestStore#acceptReply was called without receiving a matching request 193
+[01:32:04] RequestStore#acceptReply was called without receiving a matching request 194
+[01:32:04] RequestStore#acceptReply was called without receiving a matching request 195
+[01:32:04] RequestStore#acceptReply was called without receiving a matching request 196
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 197
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 198
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 199
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 200
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 193
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 194
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 195
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 196
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 197
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 198
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 199
+[01:32:05] RequestStore#acceptReply was called without receiving a matching request 200
+[2024-09-25T01:34:08.991Z] error child:5380 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-25T01:34:08.992Z] error child:5380 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:34:08] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:35:38] No ptyHost heartbeat after 6 seconds
+[01:35:58] No ptyHost heartbeat after 6 seconds
+[01:36:10] No ptyHost heartbeat after 6 seconds
+[01:36:53] No ptyHost heartbeat after 6 seconds
+[01:37:19] No ptyHost heartbeat after 6 seconds
+[01:38:17] No ptyHost heartbeat after 6 seconds
+[01:40:19] No ptyHost heartbeat after 6 seconds
+[2024-09-25T01:40:37.439Z] error child:8992 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-25T01:40:37.440Z] error child:8992 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:40:37] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[02:01:42] No ptyHost heartbeat after 6 seconds
+[2024-09-25T02:14:24.730Z] error child:21454 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-25T02:14:24.731Z] error child:21454 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[02:14:24] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T07:10:04.563Z] error child:9905 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:10:04.564Z] error child:9905 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:10:04] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T07:10:07.239Z] error Failed to get latest version [38;2;140;140;140m{"error":"getaddrinfo EAI_AGAIN api.github.com"}[0m
+[07:20:43] No ptyHost heartbeat after 6 seconds
+[2024-09-26T07:22:30.629Z] error child:16416 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:22:30.632Z] error child:16416 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:22:30] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:23:54] No ptyHost heartbeat after 6 seconds
+[07:23:54] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:93:2467)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:23:59] No ptyHost heartbeat after 12 seconds
+[2024-09-26T07:24:14.510Z] error child:18220 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:24:14.510Z] error child:18220 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:24:14] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:24:27] No ptyHost heartbeat after 6 seconds
+[07:25:14] No ptyHost heartbeat after 6 seconds
+[2024-09-26T07:27:40.201Z] error child:19548 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:27:40.201Z] error child:19548 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:27:40] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:29:25] No ptyHost heartbeat after 6 seconds
+[2024-09-26T07:31:34.246Z] error child:20987 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:31:34.246Z] error child:20987 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:31:34] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:34:33] RequestStore#acceptReply was called without receiving a matching request 41
+[07:34:33] RequestStore#acceptReply was called without receiving a matching request 42
+[07:34:34] RequestStore#acceptReply was called without receiving a matching request 43
+[07:34:34] RequestStore#acceptReply was called without receiving a matching request 44
+[07:34:34] RequestStore#acceptReply was called without receiving a matching request 45
+[07:34:34] RequestStore#acceptReply was called without receiving a matching request 46
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 47
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 48
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 49
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 50
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 51
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 52
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 53
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 54
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 55
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 56
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 57
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 58
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 59
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 60
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 61
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 62
+[07:34:36] RequestStore#acceptReply was called without receiving a matching request 63
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 64
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 65
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 66
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 67
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 68
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 69
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 70
+[07:34:37] RequestStore#acceptReply was called without receiving a matching request 71
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 72
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 73
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 74
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 75
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 76
+[07:34:38] RequestStore#acceptReply was called without receiving a matching request 77
+[07:34:39] RequestStore#acceptReply was called without receiving a matching request 78
+[07:34:39] RequestStore#acceptReply was called without receiving a matching request 79
+[07:34:39] RequestStore#acceptReply was called without receiving a matching request 80
+[07:34:40] RequestStore#acceptReply was called without receiving a matching request 81
+[07:34:40] RequestStore#acceptReply was called without receiving a matching request 82
+[07:34:40] RequestStore#acceptReply was called without receiving a matching request 83
+[07:34:40] RequestStore#acceptReply was called without receiving a matching request 84
+[07:34:40] RequestStore#acceptReply was called without receiving a matching request 85
+[07:34:41] RequestStore#acceptReply was called without receiving a matching request 86
+[07:34:41] RequestStore#acceptReply was called without receiving a matching request 87
+[07:34:41] RequestStore#acceptReply was called without receiving a matching request 88
+[07:35:10] Failed to install extension. sr-team.cmake-tools-build-wrapper
+[07:35:10] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[07:35:30] Failed to install extension. ms-vscode.cmake-tools
+[07:35:30] Error: aborted
+    at connResetException (node:internal/errors:691:14)
+    at TLSSocket.socketCloseListener (node:_http_client:407:19)
+    at TLSSocket.emit (node:events:402:35)
+    at node:net:687:12
+    at TCP.done (node:_tls_wrap:580:7) {
+  code: 'ECONNRESET'
+}
+[07:35:30] Failed to install extension. ms-vscode.cmake-tools
+[07:35:30] Error: aborted
+    at connResetException (node:internal/errors:691:14)
+    at TLSSocket.socketCloseListener (node:_http_client:407:19)
+    at TLSSocket.emit (node:events:402:35)
+    at node:net:687:12
+    at TCP.done (node:_tls_wrap:580:7) {
+  code: 'ECONNRESET'
+}
+[07:35:30] No ptyHost heartbeat after 6 seconds
+[07:36:20] No ptyHost heartbeat after 6 seconds
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 89
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 90
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 91
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 92
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 93
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 94
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 95
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 96
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 97
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 98
+[07:36:58] RequestStore#acceptReply was called without receiving a matching request 99
+[07:36:59] RequestStore#acceptReply was called without receiving a matching request 100
+[07:36:59] RequestStore#acceptReply was called without receiving a matching request 101
+[07:36:59] RequestStore#acceptReply was called without receiving a matching request 102
+[07:36:59] RequestStore#acceptReply was called without receiving a matching request 103
+[07:36:59] RequestStore#acceptReply was called without receiving a matching request 104
+[2024-09-26T07:38:31.881Z] error child:27630 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:38:31.881Z] error child:27630 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:38:31] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:39:02] No ptyHost heartbeat after 6 seconds
+[07:39:55] No ptyHost heartbeat after 6 seconds
+[07:42:02] No ptyHost heartbeat after 6 seconds
+[07:42:33] No ptyHost heartbeat after 6 seconds
+[07:44:41] No ptyHost heartbeat after 6 seconds
+[07:45:22] No ptyHost heartbeat after 6 seconds
+[07:46:31] No ptyHost heartbeat after 6 seconds
+[07:46:49] No ptyHost heartbeat after 6 seconds
+[07:49:01] No ptyHost heartbeat after 6 seconds
+[2024-09-26T07:50:04.390Z] error child:3972 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T07:50:04.391Z] error child:3972 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:50:04] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[07:53:47] No ptyHost heartbeat after 6 seconds
+[07:54:58] No ptyHost heartbeat after 6 seconds
+[2024-09-26T08:04:08.541Z] error child:12509 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T08:04:08.542Z] error child:12509 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:04:08] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:06:45] No ptyHost heartbeat after 6 seconds
+[08:09:08] No ptyHost heartbeat after 6 seconds
+[08:10:49] No ptyHost heartbeat after 6 seconds
+[2024-09-26T08:12:39.580Z] error child:17803 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T08:12:39.580Z] error child:17803 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:12:39] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:13:06] No ptyHost heartbeat after 6 seconds
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/bootstrap.js:1:398)
+    at process.emit (node:events:402:35)
+[08:13:54] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:157:7911)
+    at process.emit (node:events:402:35)
+[08:15:37] No ptyHost heartbeat after 6 seconds
+[08:16:23] No ptyHost heartbeat after 6 seconds
+[08:16:35] No ptyHost heartbeat after 6 seconds
+[08:17:04] Error while preparing to install dependencies and extension packs of the extension: franneck94.vscode-c-cpp-dev-extension-pack
+[08:17:04] Failed to install extension. franneck94.vscode-c-cpp-dev-extension-pack
+[08:17:04] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[08:17:19] No ptyHost heartbeat after 6 seconds
+[08:20:29] No ptyHost heartbeat after 6 seconds
+[08:26:02] No ptyHost heartbeat after 6 seconds
+[2024-09-26T08:31:20.538Z] error child:25427 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T08:31:20.539Z] error child:25427 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:31:20] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:35:25] No ptyHost heartbeat after 6 seconds
+[08:44:03] No ptyHost heartbeat after 6 seconds
+[08:44:47] No ptyHost heartbeat after 6 seconds
+[2024-09-26T08:47:22.855Z] error child:31935 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T08:47:22.856Z] error child:31935 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:47:22] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T08:52:51.979Z] error child:2980 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T08:52:51.980Z] error child:2980 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[08:52:51] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T09:07:01.196Z] error child:12729 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T09:07:01.196Z] error child:12729 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:07:01] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T09:09:00.051Z] error child:18965 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T09:09:00.051Z] error child:18965 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:09:00] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:09:11] No ptyHost heartbeat after 6 seconds
+[09:21:49] No ptyHost heartbeat after 6 seconds
+[09:24:26] No ptyHost heartbeat after 6 seconds
+[09:28:08] No ptyHost heartbeat after 6 seconds
+[2024-09-26T09:32:54.695Z] error child:1030 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T09:32:54.696Z] error child:1030 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:32:54] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:45:26] No ptyHost heartbeat after 6 seconds
+IPC "File Watcher" crashed with exit code null and signal SIGSEGV
+[09:46:15] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2024-09-26T09:49:06.489Z] error child:10648 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T09:49:06.490Z] error child:10648 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:49:06] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:55:07] No ptyHost heartbeat after 6 seconds
+[2024-09-26T09:57:22.859Z] error child:17003 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T09:57:22.860Z] error child:17003 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:57:22] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[10:00:49] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/keytar/lib/keytar.js
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/bootstrap-amd.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/util.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/cli.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/entry.js
+[10:03:52] No ptyHost heartbeat after 6 seconds
+[10:04:52] No ptyHost heartbeat after 6 seconds
+[2024-09-26T11:03:09.834Z] error child:29792 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T11:03:09.835Z] error child:29792 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[11:03:09] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-26T11:07:59.812Z] error child:31646 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T11:07:59.812Z] error child:31646 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[11:07:59] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[11:26:18] No ptyHost heartbeat after 6 seconds
+[2024-09-26T12:11:58.246Z] error child:17115 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T12:11:58.247Z] error child:17115 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[12:11:58] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[12:17:02] No ptyHost heartbeat after 6 seconds
+[2024-09-26T12:18:19.789Z] error child:19627 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T12:18:19.790Z] error child:19627 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[12:18:19] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[12:34:24] No ptyHost heartbeat after 6 seconds
+[12:35:57] No ptyHost heartbeat after 6 seconds
+[2024-09-26T13:26:55.640Z] error child:7688 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-26T13:26:55.641Z] error child:7688 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[13:26:55] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-09-29T13:56:06.441Z] error child:20105 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-29T13:56:06.442Z] error child:20105 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[13:56:06] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[14:00:58] No ptyHost heartbeat after 6 seconds
+[14:02:23] RequestStore#acceptReply was called without receiving a matching request 41
+[14:02:23] RequestStore#acceptReply was called without receiving a matching request 41
+[14:02:27] RequestStore#acceptReply was called without receiving a matching request 42
+[14:02:27] RequestStore#acceptReply was called without receiving a matching request 42
+[14:02:27] RequestStore#acceptReply was called without receiving a matching request 43
+[14:02:27] RequestStore#acceptReply was called without receiving a matching request 43
+[14:02:28] RequestStore#acceptReply was called without receiving a matching request 44
+[14:02:28] RequestStore#acceptReply was called without receiving a matching request 44
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 45
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 46
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 47
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 48
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 45
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 46
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 47
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 48
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 49
+[14:02:29] RequestStore#acceptReply was called without receiving a matching request 50
+[14:02:30] RequestStore#acceptReply was called without receiving a matching request 49
+[14:02:30] RequestStore#acceptReply was called without receiving a matching request 50
+[14:02:41] No ptyHost heartbeat after 6 seconds
+[14:02:44] RequestStore#acceptReply was called without receiving a matching request 51
+[14:02:51] No ptyHost heartbeat after 6 seconds
+[14:02:51] RequestStore#acceptReply was called without receiving a matching request 52
+[14:02:52] RequestStore#acceptReply was called without receiving a matching request 51
+[14:02:52] RequestStore#acceptReply was called without receiving a matching request 52
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 53
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 54
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 55
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 56
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 57
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 58
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 53
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 54
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 55
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 56
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 57
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 58
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 59
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 60
+[14:02:54] RequestStore#acceptReply was called without receiving a matching request 61
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 59
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 62
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 63
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 64
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 65
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 60
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 66
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 61
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 67
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 62
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 63
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 64
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 68
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 65
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 66
+[14:02:55] RequestStore#acceptReply was called without receiving a matching request 67
+[14:02:56] RequestStore#acceptReply was called without receiving a matching request 68
+[14:02:57] RequestStore#acceptReply was called without receiving a matching request 69
+[14:02:57] RequestStore#acceptReply was called without receiving a matching request 70
+[14:02:58] RequestStore#acceptReply was called without receiving a matching request 71
+[14:02:58] RequestStore#acceptReply was called without receiving a matching request 69
+[14:02:59] RequestStore#acceptReply was called without receiving a matching request 72
+[14:02:59] RequestStore#acceptReply was called without receiving a matching request 70
+[14:02:59] RequestStore#acceptReply was called without receiving a matching request 71
+[14:02:59] RequestStore#acceptReply was called without receiving a matching request 72
+[14:03:00] RequestStore#acceptReply was called without receiving a matching request 73
+[14:03:00] RequestStore#acceptReply was called without receiving a matching request 74
+[14:03:00] RequestStore#acceptReply was called without receiving a matching request 75
+[14:03:00] RequestStore#acceptReply was called without receiving a matching request 76
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 77
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 78
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 79
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 80
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 81
+[14:03:01] RequestStore#acceptReply was called without receiving a matching request 82
+[14:03:03] RequestStore#acceptReply was called without receiving a matching request 83
+[14:03:03] RequestStore#acceptReply was called without receiving a matching request 84
+[14:03:03] RequestStore#acceptReply was called without receiving a matching request 85
+[14:03:06] RequestStore#acceptReply was called without receiving a matching request 86
+[14:03:06] RequestStore#acceptReply was called without receiving a matching request 87
+[14:03:06] RequestStore#acceptReply was called without receiving a matching request 88
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 73
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 74
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 75
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 76
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 77
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 78
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 79
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 80
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 81
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 82
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 83
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 84
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 85
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 86
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 87
+[14:03:17] RequestStore#acceptReply was called without receiving a matching request 88
+[14:05:02] RequestStore#acceptReply was called without receiving a matching request 89
+[14:05:02] RequestStore#acceptReply was called without receiving a matching request 89
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 90
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 91
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 90
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 91
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 92
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 92
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 93
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 93
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 94
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 94
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 95
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 95
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 96
+[14:05:03] RequestStore#acceptReply was called without receiving a matching request 96
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 97
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 98
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 97
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 98
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 99
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 99
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 100
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 100
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 101
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 101
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 102
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 102
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 103
+[14:05:29] RequestStore#acceptReply was called without receiving a matching request 103
+[14:05:30] RequestStore#acceptReply was called without receiving a matching request 104
+[14:05:30] RequestStore#acceptReply was called without receiving a matching request 104
+[14:21:15] No ptyHost heartbeat after 6 seconds
+[14:23:25] No ptyHost heartbeat after 6 seconds
+[14:29:31] No ptyHost heartbeat after 6 seconds
+[14:50:27] No ptyHost heartbeat after 6 seconds
+[2024-09-29T16:09:47.164Z] error child:26383 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-29T16:09:47.165Z] error child:26383 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[16:09:47] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[16:12:46] No ptyHost heartbeat after 6 seconds
+[16:13:26] No ptyHost heartbeat after 6 seconds
+[2024-09-29T16:15:47.898Z] error child:12652 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-29T16:15:47.899Z] error child:12652 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[16:15:47] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[01:58:23] No ptyHost heartbeat after 6 seconds
+[02:10:53] No ptyHost heartbeat after 6 seconds
+[2024-09-30T09:13:42.130Z] error child:17987 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-30T09:13:42.131Z] error child:17987 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:13:42] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:39:00] No ptyHost heartbeat after 6 seconds
+[09:43:19] No ptyHost heartbeat after 6 seconds
+[10:01:33] No ptyHost heartbeat after 6 seconds
+[10:02:43] No ptyHost heartbeat after 6 seconds
+[10:03:44] No ptyHost heartbeat after 6 seconds
+[10:05:17] No ptyHost heartbeat after 6 seconds
+[10:05:50] No ptyHost heartbeat after 6 seconds
+[10:06:12] No ptyHost heartbeat after 6 seconds
+[10:06:28] No ptyHost heartbeat after 6 seconds
+[10:06:45] No ptyHost heartbeat after 6 seconds
+[10:07:06] No ptyHost heartbeat after 6 seconds
+[10:07:19] No ptyHost heartbeat after 6 seconds
+[10:07:53] No ptyHost heartbeat after 6 seconds
+[2024-09-30T10:08:53.388Z] error child:3110 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-09-30T10:08:53.389Z] error child:3110 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[10:08:53] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[10:10:46] No ptyHost heartbeat after 6 seconds
+[10:11:24] No ptyHost heartbeat after 6 seconds
+[10:11:38] No ptyHost heartbeat after 6 seconds
+[10:11:53] No ptyHost heartbeat after 6 seconds
+[10:12:16] No ptyHost heartbeat after 6 seconds
+[10:13:00] No ptyHost heartbeat after 6 seconds
+[10:14:04] No ptyHost heartbeat after 6 seconds
+[10:16:00] No ptyHost heartbeat after 6 seconds
+[11:31:31] No ptyHost heartbeat after 6 seconds
+[2024-10-03T03:35:28.621Z] error child:25449 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T03:35:28.621Z] error child:25449 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:35:28] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-10-03T03:35:31.618Z] error Failed to get latest version [38;2;140;140;140m{"error":"getaddrinfo EAI_AGAIN api.github.com"}[0m
+[2024-10-03T03:50:09.949Z] error child:30371 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T03:50:09.950Z] error child:30371 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:50:09] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-10-03T03:56:51.332Z] error child:4633 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T03:56:51.332Z] error child:4633 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[03:56:51] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[04:06:13] No ptyHost heartbeat after 6 seconds
+[2024-10-03T04:08:06.086Z] error child:8544 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T04:08:06.087Z] error child:8544 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[04:08:06] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[04:12:21] No ptyHost heartbeat after 6 seconds
+[05:15:06] No ptyHost heartbeat after 6 seconds
+[05:16:39] No ptyHost heartbeat after 6 seconds
+[05:18:38] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/keytar/lib/keytar.js
+- /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/bootstrap-amd.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/util.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/cli.js
+- /opt/code-server-4.9.1-linux-arm64/out/node/entry.js
+[05:27:31] No ptyHost heartbeat after 6 seconds
+[2024-10-03T05:27:45.969Z] error child:16480 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T05:27:45.970Z] error child:16480 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[05:27:45] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[05:29:51] Error while installing the extension: redhat.java
+[05:29:51] Failed to install extension. redhat.java
+[05:29:51] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059) {
+  code: 'Download'
+}
+rejected promise not handled within 1 second: Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+stack trace: Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059)
+[05:29:53] Download: Unable to write file '/root/.local/share/code-server/CachedExtensionVSIXs/.78a30947-67b4-4513-800f-8cc76505dec2' (Error: aborted)
+    at Sn.download (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:90:3606)
+    at async j.doRun (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:149:92059) {
+  code: 'Download'
+}
+[05:30:09] No ptyHost heartbeat after 6 seconds
+[05:35:21] No ptyHost heartbeat after 6 seconds
+[05:39:30] No ptyHost heartbeat after 6 seconds
+[2024-10-03T05:49:18.542Z] error child:27198 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T05:49:18.542Z] error child:27198 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[05:49:18] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2024-10-03T05:56:35.388Z] error child:28949 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T05:56:35.389Z] error child:28949 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[05:56:35] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/apex/'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/apex/'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/apex/'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/apex/'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/dev/'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/dev/'
+}
+[06:14:05] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:05] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/dev'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/dev'
+}
+[06:14:06] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:06] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[06:14:06] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:06] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[06:14:06] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:06] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[06:14:07] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:07] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[06:14:07] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /dev)
+[06:14:07] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/dev'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/dev'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/dev'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/dev'
+}
+[06:50:30] No ptyHost heartbeat after 6 seconds
+[2024-10-03T09:06:26.148Z] error child:26184 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T09:06:26.149Z] error child:26184 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:06:26] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:09:55] No ptyHost heartbeat after 6 seconds
+[2024-10-03T09:10:27.504Z] error child:30943 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T09:10:27.505Z] error child:30943 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[09:10:27] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+File not found: /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[09:14:17] No ptyHost heartbeat after 6 seconds
+[10:33:46] No ptyHost heartbeat after 6 seconds
+[10:34:24] No ptyHost heartbeat after 6 seconds
+[10:36:13] Failed to install extension. redhat.java
+[10:36:13] Error: getaddrinfo EAI_AGAIN open-vsx.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'open-vsx.org'
+}
+[10:37:41] Failed to install extension. redhat.java
+[10:37:41] Error: getaddrinfo EAI_AGAIN open-vsx.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'open-vsx.org'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/apex/'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/apex/'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/apex/'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/apex/'
+}
+[2024-10-03T10:48:49.302Z] error child:30920 Uncaught exception: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+[2024-10-03T10:48:49.302Z] error child:30920 Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[10:48:49] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)

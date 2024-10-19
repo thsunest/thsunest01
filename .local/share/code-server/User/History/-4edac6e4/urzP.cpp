@@ -1,0 +1,12 @@
+#include "LinkList.h"
+void Del(LinkList &L){
+    LNode *p = L->next;
+    int data = |p->data|;
+    int flag = 0;
+    while(p != NULL){
+        
+    }
+}
+int main(){
+    LinkList A = List_RearInsert(A);
+}

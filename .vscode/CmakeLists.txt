@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 2.8.12)
+ 
+set(CMAKE_C_COMPILER "/home/wzy/sycl_workspace/build-cuda-2022-09-debug/bin/clang")
+set(CMAKE_CXX_COMPILER "/home/wzy/sycl_workspace/build-cuda-2022-09-debug/bin/clang++")
+set(CMAKE_CXX_STANDARD 17)
+ 
+project(hello-sycl)
+ 
+set(DPCPP_HOME "/home/wzy/sycl_workspace")
+set(DPCPP_SYCL_HOME "${DPCPP_HOME}/build-cuda-2022-09-debug")
+ 
+include_directories("${DPCPP_SYCL_HOME}/include/sycl")
+include_directories("${DPCPP_SYCL_HOME}/include")
+ 
+message(STATUS "dpcpp_home : ${DPCPP_HOME}")
+message(STATUS "dpcpp_cuda_sycl_home : ${DPCPP_SYCL_HOME}")
+ 
+ 
+message(STATUS "find library path : ${DPCPP_SYCL_HOME}/lib")
+set(CMAKE_BUILD_RPATH "${DPCPP_SYCL_HOME}/lib;${CMAKE_BUILD_RPATH}")
+message(STATUS "cmake build rpath : ${CMAKE_BUILD_RPATH}")
+ 
+ 
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS "-fsycl -fsycl-targets=nvptx64-nvidia-cuda")
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb -std=c++17")
+# set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall -std=c++17")
+ 
+ 
+link_directories("${DPCPP_SYCL_HOME}/lib")
+ 
+aux_source_directory(. DIR_SRCS)
+add_executable(hello-sycl ${DIR_SRCS})
+target_include_directories(hello-sycl PRIVATE "${DPCPP_SYCL_HOME}/include/sycl")
+target_include_directories(hello-sycl PRIVATE "${DPCPP_SYCL_HOME}/include")
+target_link_libraries(hello-sycl PRIVATE sycl)
+ 

@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.automationProfile.linux": {
+
+    
+    },
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.configureSettings": {
+    
+    }
+}

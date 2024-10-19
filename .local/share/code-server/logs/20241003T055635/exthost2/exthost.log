@@ -1,0 +1,18 @@
+2024-10-03 06:14:11.479 [info] Extension host with pid 4756 started
+2024-10-03 06:14:11.531 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/69be9c61/vscode.lock': Lock acquired.
+2024-10-03 06:14:11.607 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-03 06:14:12.672 [error] No bundle location found for extension vscode.git-base
+2024-10-03 06:14:12.697 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-03 06:14:12.698 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-03 06:14:15.817 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 06:14:15.818 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 06:14:15.819 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 06:14:15.820 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 06:14:15.820 [info] Eager extensions activated
+2024-10-03 06:14:16.869 [error] Error: EACCES: permission denied, scandir '/dev'
+2024-10-03 06:15:12.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1901
+2024-10-03 06:15:15.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1901
+2024-10-03 06:15:20.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1901
+2024-10-03 06:15:25.368 [info] Extension host terminating: received terminate message from renderer
+2024-10-03 06:15:25.369 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/69be9c61/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-03 06:15:25.396 [info] Extension host with pid 4756 exiting with code 0

@@ -1,0 +1,59 @@
+2024-10-03 05:21:25.094 [info] Extension host with pid 14922 started
+2024-10-03 05:21:25.137 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-7c26b8b8/vscode.lock': Lock acquired.
+2024-10-03 05:21:25.175 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:21:25.176 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:21:25.177 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:21:25.177 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:21:25.178 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-03 05:21:25.199 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: true, activationEvent: 'workspaceContains:/.vscode/c_cpp_properties.json'
+2024-10-03 05:21:26.117 [error] Activating extension ms-vscode.cpptools failed due to an error:
+2024-10-03 05:21:26.117 [error] TypeError: this._appender.logEvent is not a function
+	at E.logEvent (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:38992)
+	at E.logUsage (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:39093)
+	at TelemetryReporter.internalSendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28581:34)
+	at TelemetryReporter.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28592:14)
+	at ExperimentationTelemetry.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91124:27)
+	at ExperimentationTelemetry.postEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91143:14)
+	at ExperimentationService.PostEventToTelemetry (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68910:24)
+	at ExperimentationService.getTreatmentVariable (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68877:14)
+	at Object.isExperimentEnabled (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91175:47)
+	at async Object.activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:81062:38)
+	at async activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:114259:9)
+	at async w._activate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2024-10-03 05:21:26.620 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 05:21:26.633 [error] No bundle location found for extension vscode.configuration-editing
+2024-10-03 05:21:26.633 [error] No bundle location found for extension vscode.extension-editing
+2024-10-03 05:21:26.633 [error] No bundle location found for extension vscode.json-language-features
+2024-10-03 05:21:26.633 [error] No bundle location found for extension vscode.npm
+2024-10-03 05:21:26.633 [error] No bundle location found for extension vscode.git-base
+2024-10-03 05:21:26.860 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-03 05:21:26.860 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-03 05:21:28.030 [error] Activating extension vscode.npm failed due to an error:
+2024-10-03 05:21:28.030 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 05:21:28.532 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:21:28.533 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:21:28.534 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:21:28.534 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:21:28.535 [info] Eager extensions activated
+2024-10-03 05:21:30.522 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:21:31.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:21:41.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:21:48.488 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:21:55.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:22.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:29.455 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:36.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:43.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:49.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:22:56.589 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:23:03.217 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:23:10.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:24:04.544 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:24:20.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:24:21.972 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)

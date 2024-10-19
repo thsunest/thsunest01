@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+typedef struct LNode{
+    int data;
+    struct LNode *next;
+}LNode,*LinkList;
+void ListPrint(LinkList L){
+    LNode *p = L;
+    while(p != NULL){
+        cout << p->data;
+    } 
+}
+LinkList List_RearInsert(LinkList &L){
+    LNode *s;
+    int x;
+    LNode *r = L;
+    cin >> x;
+    while(x != 9999){
+        s = (LNode*)malloc(sizeof(LNode));
+        s->data = x;
+        r->next = s;
+        r = s;
+        cin >> x;
+    }
+    return L;
+
+}

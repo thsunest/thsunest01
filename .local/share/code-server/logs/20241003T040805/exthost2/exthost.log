@@ -1,0 +1,128 @@
+2024-10-03 05:20:34.265 [info] Extension host with pid 14545 started
+2024-10-03 05:20:34.314 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Lock acquired.
+2024-10-03 05:20:34.367 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 05:20:34.368 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 05:20:34.369 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-03 05:20:34.374 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:20:34.375 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-03 05:20:34.376 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-03 05:20:34.395 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: true, activationEvent: 'workspaceContains:/.vscode/c_cpp_properties.json'
+2024-10-03 05:20:36.708 [error] Activating extension ms-vscode.cpptools failed due to an error:
+2024-10-03 05:20:36.708 [error] TypeError: this._appender.logEvent is not a function
+	at E.logEvent (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:38992)
+	at E.logUsage (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:88:39093)
+	at TelemetryReporter.internalSendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28581:34)
+	at TelemetryReporter.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:28592:14)
+	at ExperimentationTelemetry.sendTelemetryEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91124:27)
+	at ExperimentationTelemetry.postEvent (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91143:14)
+	at ExperimentationService.PostEventToTelemetry (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68910:24)
+	at ExperimentationService.getTreatmentVariable (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:68877:14)
+	at Object.isExperimentEnabled (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:91175:47)
+	at async Object.activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:81062:38)
+	at async activate (/root/.local/share/code-server/extensions/ms-vscode.cpptools-1.22.6/dist/src/main.js:114259:9)
+	at async w._activate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2024-10-03 05:20:36.812 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-03 05:20:36.812 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-03 05:20:38.143 [error] Activating extension vscode.npm failed due to an error:
+2024-10-03 05:20:38.143 [error] Error: spawn /opt/code-server-4.9.1-linux-arm64/lib/vscode/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg ENOENT
+    at P (http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2167:6689)
+    at http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:4428
+    at async http://127.0.0.1:20000/stable-6261075646f055b99068d3688932416f2346dd3b/static/out/vs/workbench/workbench.web.main.js:2177:2528
+2024-10-03 05:20:39.076 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:20:39.076 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:20:39.078 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:20:39.078 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-03 05:20:39.079 [info] Eager extensions activated
+2024-10-03 05:20:41.412 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.412 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.412 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.412 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.412 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.413 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:41.414 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5546
+2024-10-03 05:20:42.441 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.442 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.442 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.443 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.443 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.443 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.443 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.443 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.444 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.444 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.444 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.445 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:42.446 [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/thsunest01/CMakeLists.txt' is in submodule 'thsunest01'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+2024-10-03 05:20:43.942 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:20:44.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5546
+2024-10-03 05:20:47.299 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:20:50.465 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5546
+2024-10-03 05:20:52.015 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:21:00.120 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:21:04.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5547
+2024-10-03 05:21:08.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:21:11.598 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2024-10-03 05:21:16.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2024-10-03 05:21:19.453 [info] Extension host terminating: received terminate message from renderer
+2024-10-03 05:21:19.454 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-31e48dea/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-03 05:21:19.489 [info] Extension host with pid 14545 exiting with code 0

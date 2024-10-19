@@ -1,0 +1,40 @@
+2024-10-03 09:10:27.418 [info] 
+
+
+
+
+2024-10-03 09:10:27.491 [info] Extension host agent started.
+2024-10-03 09:10:27.509 [error] Error: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_interface_addresses returned Unknown system error 13 (Unknown system error 13)
+    at networkInterfaces (node:os:259:16)
+    at I (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:11561)
+    at b (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13153)
+    at async /opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:71:13010
+    at Timeout._onTimeout (/opt/code-server-4.9.1-linux-arm64/lib/vscode/out/vs/server/node/server.main.js:8:12)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+2024-10-03 09:10:29.970 [info] [127.0.0.1][f41d1655][ManagementConnection] New connection established.
+2024-10-03 09:10:31.207 [info] [127.0.0.1][716f6948][ExtensionHostConnection] New connection established.
+2024-10-03 09:10:31.267 [info] [127.0.0.1][716f6948][ExtensionHostConnection] <31069> Launched Extension Host Process.
+2024-10-03 09:11:46.007 [info] [127.0.0.1][f41d1655][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 09:11:46.082 [info] [127.0.0.1][716f6948][ExtensionHostConnection] <31069> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 09:11:47.635 [info] [127.0.0.1][7b51ca46][ManagementConnection] New connection established.
+2024-10-03 09:11:49.073 [info] [127.0.0.1][dc274109][ExtensionHostConnection] New connection established.
+2024-10-03 09:11:49.177 [info] [127.0.0.1][dc274109][ExtensionHostConnection] <31469> Launched Extension Host Process.
+2024-10-03 09:14:17.077 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 10:33:46.802 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 10:34:24.128 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-03 10:36:13.322 [error] Failed to install extension. redhat.java
+2024-10-03 10:36:13.353 [error] Error: getaddrinfo EAI_AGAIN open-vsx.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2024-10-03 10:36:56.189 [info] Getting Manifest... redhat.java
+2024-10-03 10:37:41.907 [error] Failed to install extension. redhat.java
+2024-10-03 10:37:41.908 [error] Error: getaddrinfo EAI_AGAIN open-vsx.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2024-10-03 10:38:52.742 [info] [127.0.0.1][7b51ca46][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 10:38:52.827 [info] [127.0.0.1][dc274109][ExtensionHostConnection] <31469> Extension Host Process exited with code: 0, signal: null.
+2024-10-03 10:38:54.288 [info] [127.0.0.1][c960b0b9][ManagementConnection] New connection established.
+2024-10-03 10:38:55.382 [info] [127.0.0.1][5583d9ea][ExtensionHostConnection] New connection established.
+2024-10-03 10:38:55.419 [info] [127.0.0.1][5583d9ea][ExtensionHostConnection] <27563> Launched Extension Host Process.
+2024-10-03 10:42:13.628 [info] Getting Manifest... formulahendry.code-runner
