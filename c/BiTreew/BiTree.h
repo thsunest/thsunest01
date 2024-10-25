@@ -9,16 +9,20 @@ typedef struct TreeNode{
     int data;
     struct TreeNode *left;
     struct TreeNode *right;
-} TreeNode;
+}TreeNode,*Btree;
+typedef struct BiTNode{
+    int data;
+    struct BiTNode *lchild,*rchild;
+}BiTNode,*BiTree;
 //创建二叉树结点
 TreeNode *createNode(int value){
     if(value == -1){
         return NULL;
     }
-    TreeNode *newNode = (TreeNode*)malloc(sizeof(TreeNode));
+    BiTNode newNode = (BiTNode*)malloc(sizeof(BiTNode));
     newNode->data = value;
-    newNode->right = NULL;
-    newNode->left = NULL;
+    newNode->rchild = NULL;
+    newNode->lchild = NULL;
     return newNode;
 }
 //辅助遍历链式队列结点定义

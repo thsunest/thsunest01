@@ -8,10 +8,17 @@ typedef struct{
 void visit(int data){
     cout << data;
 }
+void swap(TreeNode &T){
+        if(T){
+        swap(T->left);
+        swap(T->right);
+        temp = T->right;
+        T->right = T->left;
+        T->left = temp;
+    }
+}
 void PostOrder(TreeNode T){
-    TreeNode *p = T;
-    TreeNode *r = NULL;
-    while(p ||)
+
 }
 int main(){
     int arr[] = {1,2,3,4,5,5,6,7};
@@ -25,6 +32,6 @@ int main(){
     root->left->right = createNode(5);
     root->right->left = createNode(6);
     root->right->right = createNode(7);
-    printTree(root,0,0);
+    printTree(root,1,0);
 
 }
