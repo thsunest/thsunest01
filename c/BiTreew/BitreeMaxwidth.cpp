@@ -1,9 +1,6 @@
 #include<iostream>
 #define MAX 255
 using namespace std;
-
-
-
 //二叉树结构
 typedef struct BiTNode{
     struct BiTNode *lchild;
@@ -31,7 +28,6 @@ typedef struct Stack{
 }Stack;
 //创建空队列
 Queue* createQueue(){
-
     Queue *q = (Queue *)malloc(sizeof(Queue));
     q->front = q->rear = NULL; //前后指针一致的时候，队列为空
     return q;
@@ -42,19 +38,27 @@ Stack* createStack(){
     stack->top = NULL;
     return stack;
 }
+//入栈
 void push(Stack *stack,BiTNode *treeNode){
     StackNode *newNode = (StackNode*)malloc(sizeof(StackNode));
     newNode->treeNode = treeNode;
     newNode->next = stack->top;
     stack->top = newNode;
 }
+//出栈
 void pop(Stack *stack,BiTNode *&node){
     if(stack->top == NULL) return;
     StackNode *temp = stack->top;
     BiTNode *treeNode = temp->treeNode;
     stack->top = stack->top->next;
     free(temp);
+    node = treeNode;
 }
+//获取栈顶元素
+void GetTop(Stack *S,BiTNode *&node){
+    node = S->top->treeNode;
+}
+//判断栈是否为空
 bool isEmptyStack(Stack *stack){
     return stack->top == NULL;
 }
@@ -131,6 +135,62 @@ void postOrder(BiTree T){
     postOrder(T->rchild);
     visit(T);
 }
+//先序遍历非递归算法
+void preOder2(BiTree T){
+    Stack *S = createStack();
+    BiTNode *p = T;
+    while(p || !isEmptyStack(S)){
+        if(p){
+            visit(p);
+            push(S,p);
+            p = p->lchild;
+        }
+        else{
+            pop(S,p);
+            p = p->rchild;
+        }
+    }
+}
+//中旬遍历非递归算法
+void inOrder2(BiTree T){
+    Stack *S = createStack();
+    BiTNode *p = T;
+    while(p || !isEmptyStack(S)){
+        if(p){
+            push(S,p);
+            p = p->lchild;
+        }
+        else{
+            pop(S,p);
+            visit(p);
+            p = p->rchild;
+        }
+    }
+}
+//后序遍历非递归算法
+void postOrder2(BiTree T){
+    Stack *S = createStack();
+    BiTNode *p = T;
+    BiTNode *r = NULL; //记录结点是否被访问过
+    while(p || !isEmptyStack(S)){
+        if(p){
+            push(S,p);
+            p = p->lchild; //向左压栈
+        }
+        else{
+            GetTop(S,p);
+            if(p->rchild&&p->rchild != r)
+                p = p->rchild; //转向右
+            else{
+            pop(S,p);
+            visit(p);
+            r = p;
+            p = NULL; //节点访问完后重置p指针
+            }
+        }
+    }
+}
+//
 //求树高
 int treeHeight(BiTree T){
     if(T == NULL) return 0;
@@ -208,19 +268,88 @@ void ReverseLevelOrder(BiTree T){
         visit(p);
     }
 }
+//判断是否为二叉排序树（BST），中序遍历，保证 左<=根<=右
+bool isbst = true;
+int temp = 0;
+void isBST(BiTree T){
+    if(T == NULL) return;
+    isBST(T->lchild);
+    if(T->data >= temp) //判断当前访问的根结点是否小于前继结点
+    temp = T->data;
+    else isbst = false;
+    isBST(T->rchild);
+}
+//判断二叉树是否平衡，后序遍历，左右子树高度之差不小于1
+bool isblance = true;
+int isBlance(BiTree T){
+    if(T == NULL)  return 0;
+    int left = isBlance(T->lchild);
+    int right = isBlance(T->rchild);
+    if(left - right > 1) isblance = false;
+    if(left - right < -1) isblance = false;
+    return (left > right ? left + 1 : right +1);
+
+
+}
+void  printTree(BiTNode *root,int space,int direction){//root,0,1
+    if(!root)
+    return;
+
+    space += 5;
+    printTree(root->rchild,space,1);
+    //printf("\n");
+    for(int i = 5;i < space - 2;i++){
+        printf(" ");
+    }
+    if (direction == 1) { // 右子树
+        printf("┌───");
+    } else if (direction == -1) { // 左子树
+        printf("└───");
+    }
+    printf("%d\n",root->data);
+    printTree(root->lchild,space,-1);
+
+}
+
 int main(){
-    BiTree T = createNode(1);
+    /*BiTree T = createNode(1);
     T->lchild = createNode(2);
     T->lchild->lchild = createNode(4);
     T->lchild->rchild = createNode(5);
     T->rchild = createNode(3);
     T->rchild->lchild = createNode(6);
     T->rchild->rchild = createNode(7);
+    */
+    BiTree T = createNode(4);
+    T->lchild = createNode(2);
+    T->lchild->lchild = createNode(1);
+    T->lchild->rchild = createNode(3);
+    T->rchild = createNode(6);
+    T->rchild->lchild = createNode(5);
+    T->rchild->rchild = createNode(7);
+    T->rchild->rchild->rchild = createNode(7);
+    T->rchild->rchild->rchild->rchild = createNode(7);
+    
+
     //levelOrder(T);
     //preOrder(T);
     //inOrder(T);
     //postOrder(T);
     // isComplete(T);
     // cout << iscomplete << endl;
-    ReverseLevelOrder(T);
+    //printTree(T,1,0);
+    //levelOrder(T);
+    //ReverseLevelOrder(T);
+    //treeWidth(T,1);
+
+    //cout << getWidth(T) << endl;
+    //inOrder(T);
+    //inOrder2(T);
+    //postOrder(T);
+    //postOrder2(T);
+    // isBST(T);
+    // cout<< isbst <<endl;
+    printTree(T,1,0);
+    isBlance(T);
+    cout<< isblance << endl;
 } 

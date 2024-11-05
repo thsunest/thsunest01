@@ -311,7 +311,7 @@ LinkList Del_X(LinkList &L,int x){
     }
     return L;
 }
-//删除链表中
+//删除链表中指定范围的值
 LinkList Del_From(LinkList &L,int a,int b){
     LNode *p = L->next;
     LNode *pre = L;
@@ -329,6 +329,7 @@ LinkList Del_From(LinkList &L,int a,int b){
     }
     return L;
 }
+//逆转链表
 LinkList Reverse(LinkList L){
     LNode *pre = L;
     LNode *current = L->next;

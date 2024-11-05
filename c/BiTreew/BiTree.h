@@ -1,97 +1,111 @@
-#include<stdio.h>
 #include<iostream>
-#include<string.h>
-#include<stdlib.h>
-
+#define MAX 255
 using namespace std;
-//二叉树结点结构体
-typedef struct TreeNode{
-    int data;
-    struct TreeNode *left;
-    struct TreeNode *right;
-}TreeNode,*Btree;
+//二叉树结构
 typedef struct BiTNode{
+    struct BiTNode *lchild;
+    struct BiTNode *rchild;
     int data;
-    struct BiTNode *lchild,*rchild;
 }BiTNode,*BiTree;
-//创建二叉树结点
-TreeNode *createNode(int value){
-    if(value == -1){
-        return NULL;
-    }
-    BiTNode newNode = (BiTNode*)malloc(sizeof(BiTNode));
-    newNode->data = value;
-    newNode->rchild = NULL;
-    newNode->lchild = NULL;
-    return newNode;
-}
-//辅助遍历链式队列结点定义
+
+//定义辅助队列结点结构
 typedef struct QueueNode{
-    TreeNode *treeNode;
+    BiTNode *treeNode;
     struct QueueNode *next;
 }QueueNode;
-//链式遍历队列结构
+//辅助队列
 typedef struct Queue{
-    QueueNode *front;
-    QueueNode *rear;
+    QueueNode *rear,*front;
 }Queue;
-void enQueue(Queue * queue,TreeNode * treeNode){
-    QueueNode * newQueueNode = (QueueNode *)malloc(sizeof(QueueNode));
-    newQueueNode->treeNode = treeNode;
-    newQueueNode->next = NULL;
-    if(queue->rear == NULL){
-        queue->front = queue->rear = newQueueNode;
-    }
-    else{
-        queue->rear->next = newQueueNode;
-        queue->rear = newQueueNode;
-    }
+//定义辅助栈结点
+typedef struct StackNode{
+    BiTNode *treeNode;
+    struct StackNode *next;
+}StackNode;
+//定义辅助栈结构
+typedef struct Stack{
+    StackNode *top;
+}Stack;
+//创建空队列
+Queue* createQueue(){
+    Queue *q = (Queue *)malloc(sizeof(Queue));
+    q->front = q->rear = NULL; //前后指针一致的时候，队列为空
+    return q;
 }
-TreeNode* dequeue(Queue* queue) {
-    if (queue->front == NULL) {
-        return NULL;
-    }
-    QueueNode* temp = queue->front;
-    TreeNode* node = temp->treeNode;
-    queue->front = queue->front->next;
-    if (queue->front == NULL) {
-        queue->rear = NULL;
-    }
+//创建栈
+Stack* createStack(){
+    Stack *stack = (Stack *)malloc(sizeof(Stack));
+    stack->top = NULL;
+    return stack;
+}
+//入栈
+void push(Stack *stack,BiTNode *treeNode){
+    StackNode *newNode = (StackNode*)malloc(sizeof(StackNode));
+    newNode->treeNode = treeNode;
+    newNode->next = stack->top;
+    stack->top = newNode;
+}
+//出栈
+void pop(Stack *stack,BiTNode *&node){
+    if(stack->top == NULL) return;
+    StackNode *temp = stack->top;
+    BiTNode *treeNode = temp->treeNode;
+    stack->top = stack->top->next;
     free(temp);
-    return node;
+    node = treeNode;
+}
+//获取栈顶元素
+void GetTop(Stack *S,BiTNode *&node){
+    node = S->top->treeNode;
+}
+//判断栈是否为空
+bool isEmptyStack(Stack *stack){
+    return stack->top == NULL;
+}
+//入队
+
+void enQueue(Queue *q,BiTNode *node){
+    QueueNode *temp = (QueueNode *)malloc(sizeof(QueueNode));
+    temp->treeNode = node; //新队列结点初始化
+    temp->next = NULL;
+    if(q->rear == NULL){
+        q->front = q->rear = temp;
+        return;
+    }
+    q->rear->next = temp;
+    q->rear = temp;
+}
+//出队
+void deQueue(Queue *q,BiTNode *&node){
+    if(q->front == NULL) return; //队列为空，直接返回
+    QueueNode *temp = q->front;
+    node = temp->treeNode;
+    q->front = q->front->next;
+    if(q->front ==NULL) q->rear = NULL; //出队后队列为空，尾指针置空
+    free(temp);
+}
+//判断队列是否为空
+int isEmpty(Queue *q){
+    return q->front == NULL;
 }
 
-int isQueueEmpty(Queue* queue) {
-    return queue->front == NULL;
+//创建二叉树结点
+BiTNode *createNode(int data){
+    BiTNode *newNode =(BiTNode *)malloc(sizeof(BiTNode));
+    newNode->data = data;
+    newNode->lchild = NULL;
+    newNode->rchild = NULL;
+    return newNode;
 }
-TreeNode *insertNode(TreeNode *root,int value){
-    if(!root){
-    return createNode(value);
-    }
-    if(value < root->data){
-        root->left = insertNode(root->left,value);
-    }
-    else if(value > root->data){
-        root->right = insertNode(root->right,value);
-    }
-    return root;
+void visit(BiTNode *node){
+    cout << node->data << endl;
 }
-
-//获取二叉树的树高
-int getHeight(TreeNode *root){
-    if(!root)
-    return 0;
-    int rightHeight = getHeight(root->right);
-    int leftHeight = getHeight(root->left);
-    return (rightHeight > leftHeight ? rightHeight :leftHeight) + 1;
-}
-//二叉树递归打印
-void  printTree(TreeNode *root,int space,int direction){
+void  printTree(BiTNode *root,int space,int direction){//root,0,1
     if(!root)
     return;
 
     space += 5;
-    printTree(root->right,space,1);
+    printTree(root->rchild,space,1);
     //printf("\n");
     for(int i = 5;i < space - 2;i++){
         printf(" ");
@@ -102,8 +116,5 @@ void  printTree(TreeNode *root,int space,int direction){
         printf("└───");
     }
     printf("%d\n",root->data);
-    printTree(root->left,space,-1);
-
+    printTree(root->lchild,space,-1);
 }
-
-
