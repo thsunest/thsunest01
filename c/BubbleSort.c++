@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
-void swap(int &x,int &y){
-    int temp;
-    temp = x;
-    x = y;
-    y = temp;
-}
+#include<algorithm>
+#include<iostream>
+using namespace std;
+//交换
+void swap(int &x,int &y){int t;t = x;x = y;y = t;}
+
+
 void BubbleSort(int A[],int n){
     for(int i = 0;i < n;i++){
     bool flag = false;
