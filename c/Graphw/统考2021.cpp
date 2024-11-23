@@ -1,14 +1,17 @@
+/*求EL路径
+度为奇数的顶点，且个数为不大于2的偶数时
+存在EL路径
+*/
 #include"MGraph"
-#include<iostream>
 int IsExistEL(MGraph G){
     int d = 0;
     int cout = 0;
     for(int i= 0;i < MAXV;i++){
         d = MGraph_D(G,i);
-        if(d % 2 == 1)
+        if(d % 2 == 1) //如果为奇数，则计数
         cout++;
     }
-    if(cout % 2 == 0&& cout <=2)
+    if(cout % 2 == 0&& cout <=2)//个数为偶数，且不大于二
     return 1;
     else return 0;
 }

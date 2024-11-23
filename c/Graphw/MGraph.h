@@ -54,4 +54,25 @@ void deQueue(Queue *q,int &value){
     }
     value = item;
 }
+// 求顶点的岀度
+int MGraphOutD(MGraph G,int vex){
+    int d = 0;
+    for(int i = 0;i <MAXV;i++){
+        if(G.edge[vex][i] != 0){
+            d++;
+        }
+    }
+    return d;
+}
+// 求顶点的入度
+int MGraphInD(MGraph G,int vex){
+    int d = 0;
+    for(int i = 0;i < MAXV;i++){
+        if(G.edge[i][vex] != 0){
+            d++;
+        }
+    }
+    return d;
+}
+
 

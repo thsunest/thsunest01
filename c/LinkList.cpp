@@ -74,7 +74,7 @@ bool ListInsert(LinkList &L,int e,int i){
     p->next = s;
     return true;
 }
-//删除节点
+//删除节点，并返回被删除结点的值
 bool ListDel(LinkList &L,int i,int &value){
     LNode *p = L;
     int j = 0;

@@ -1,5 +1,9 @@
+/*求K顶点
+K顶点：岀度大于入度的顶点成为K顶点
+输出K顶点
+返回K顶点的个数
+*/
 #include"MGraph.h"
-#include<iostream>
 int printVertices(MGraph G){
     int k_num = 0;
     for(int i = 0;i < MAXV; i++){

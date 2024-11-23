@@ -1,4 +1,5 @@
 #include<iostream>
+#include"LinkListw/LinkList.h"
 using namespace std;
 /*int partition(int A[],int low,int high){
     int pivot = A[low]; //以第一个元素为枢轴元素
@@ -18,17 +19,18 @@ void QucikSort(int A[],int low,int high){
     QucikSort(A,pivot + 1,high);
 }
 */
+//快速排序只适用于顺序表
 void swap(int &a,int &b){int t = a;a = b;b = t;};
 void Qsort(int A[],int L,int R){
     if(L >= R) return;
     int mid = A[L];
     int i = L;int j = R;
     while(i < j){
-        while(i < j && A[j] >= mid) j--;
+        while(i < j && A[j] >= mid) j--; //记忆AJ
         while(i < j && A[i] <= mid) i++;
         if(i < j) swap(A[i],A[j]);
     }
-    A[L] = A[i];
+    A[L] = A[i];// 记忆 ALiimid
     A[i] = mid;
     Qsort(A,L,i - 1);
     Qsort(A,i + 1,R); 

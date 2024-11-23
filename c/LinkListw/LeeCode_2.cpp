@@ -1,56 +1,59 @@
-#include "LinkList.h"
-#include <iostream>
-using namespace std;
-LinkList add(LinkList &A,LinkList &B){
-    LNode *q = A;
-    LNode *p = B;
-    int length_A = 0;
-    int length_B = 0;
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+    struct ListNode *p = l1;
+    struct ListNode *q = l2;
+    int length1 = 0;
+    int length2 = 0;
+    int flag = 0; //进位信号
+    while(p){    //求表长
+        length1++;
+        p = p->next;
+    }
     while(q){
-        length_A++;
+        length2++;
         q = q->next;
     }
-    while(p){
-        length_B++;
-        p = p->next;
-
+    struct ListNode* Q;
+    struct ListNode* P;
+    struct ListNode* F;      
+    
+    if(length1 > length2){
+        F = q = Q = l1;
+        P = l2;
     }
-    int flag = 0; //进位标志
-    if(length_A > length_B){ //处理不等长链表
-        q = A;
-        p = B;
-    }else{
-        q = B;
-        p = A;
+    else{
+        F = q = Q = l2;
+        P = l1;
+    }//比较两个链表的长度，较长的作为主链表Q  
+    while(Q){
+        Q->val = Q->val + P->val;
+        if(Q && Q->val >= 10){Q->val-=10; flag++;}
+        if(P->next){P = P->next;}
+        Q = Q->next;
+        if(Q && flag != 0){
+            Q->val++;
+            flag--;
+            if(Q->val >= 10){Q->val -=10;flag++;}
+        }
     }
-    while(q){
-        if(p) q->data += p->data; //按位相加
-        if(q->data >= 10){  //逢十进一
-        q->data -= 10;
-        flag = 1;
-        }
-        q = q->next; //指针移动处理下一个结点
-        if(p) p = p->next;
-        if(flag != 0){
-            q->data++;
-            flag = 0; //本位进位完成
-            if(q->data >= 10){ //进位再产生进位
-                q->data -= 10;
-                flag = 1;       //生成下一位进位标志
-            }
-        }
-        if(p == NULL || flag != 0){
-            if(q) q->data++;
-            flag = 0;
-        }
-
-
+    if(flag != 0){
+        struct ListNode* newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
+        
+        newNode->val++;
+        Q = newNode;
     }
-    return length_A > length_B ? A : B;
-
+    printf(Q->val);
+    
+    return q;
+   
+    
 }
-int main(){
-    LNode *node1 = (LNode *)malloc(sizeof(LNode));
     LNode *node2 = (LNode *)malloc(sizeof(LNode));
     LNode *node3 = (LNode *)malloc(sizeof(LNode));
     node1->data = 9;

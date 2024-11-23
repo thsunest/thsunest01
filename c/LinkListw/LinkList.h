@@ -40,3 +40,32 @@ void TestPrint(LinkList L){
     Line();
     ListPrint(L);
 }
+//创建结点
+LNode* createNode(int data){
+    LNode * newNode = (LNode *)malloc(sizeof(LNode));
+    newNode->data = data;
+    newNode->next = NULL;
+    if(!newNode)
+    exit(1);
+}
+//创建带头结点的单链表
+LNode * createHead(){
+    LNode * head = (LNode *)malloc(sizeof(LNode));
+    if(!head){
+        exit(1);
+    }
+    head->data = 0;
+    head->next = NULL;
+    return head;
+}
+//后插法
+void append(LNode *head,int data){
+    int i = data;
+    LNode *newNode = createNode(i);
+    LNode *current = head;
+    while(current->next){
+        current = current->next;
+
+    }
+    current->next = newNode;
+}
