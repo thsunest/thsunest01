@@ -327,8 +327,8 @@ int main(){
     T->rchild = createNode(6);
     T->rchild->lchild = createNode(5);
     T->rchild->rchild = createNode(7);
-    T->rchild->rchild->rchild = createNode(7);
-    T->rchild->rchild->rchild->rchild = createNode(7);
+   //8 T->rchild->rchild->rchild = createNode(7);
+   // T->rchild->rchild->rchild->rchild = createNode(7);
     
 
     //levelOrder(T);

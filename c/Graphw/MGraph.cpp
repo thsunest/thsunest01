@@ -106,6 +106,21 @@ void BFS_MinDistence(MGraph G,int u){
         
     }
 }
+//判断无向图是否连通
+int isConnected (MGraph G){
+    int visited[G.vexnum];
+    for(int i = 0;i < G.vexnum;i++){
+        visited[i] = 0;
+    }
+    BFS(G,0);
+    for(int i = 0;i < G.vexnum;i++){
+        if(visited[i] == 0)
+        return 0;
+        else
+        return 1;
+    }
+
+}
 int main(){
     MGraph *G = createGraph(5);
     //无向图，邻接矩阵
@@ -142,5 +157,6 @@ int main(){
     // DFS(*G,1);
     // cout << IsExistEL(*G) <<endl;
     BFS(*G,2);
+    cout << isConnected(*G) << endl;
     return 0;
 }

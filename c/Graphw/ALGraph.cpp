@@ -13,9 +13,9 @@ void init(){
     }
 }
 //有向图 头插法 添加边
-void addEdge(int src,int dest){
+void addEdge(int src,int dest){//src顶点编号,
     VNode newNode = (VNode *)malloc(sizeof(VNode));
-    newNode->data = dest;
+    newNode->data = dest; //dest为权值
     newNode->next = adjList[src];
     adjList[src] = newnode;
 }
